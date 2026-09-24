@@ -1,0 +1,1006 @@
+[
+  {
+    "num": 1,
+    "slug": "dobrodosli",
+    "title": "Dobrodošli — kako je kurs organizovan",
+    "shortDesc": "Šta ćeš naučiti i kako da ideš kroz lekcije.",
+    "intro": [
+      "Dobrodošao u \"Nauči AI\". Ako nikad u životu nisi koristio veštačku inteligenciju, ili si probao jednom-dvaput i nisi bio siguran šta dalje, ovaj kurs je napravljen tačno za tebe. Ne treba ti nikakvo predznanje iz tehnologije, programiranja ili informatike. Jedino što ti treba je spremnost da probaš stvari dok učiš, jer se AI najbolje uči radeći, a ne samo gledajući ili čitajući. Mnogi ljudi odustanu od učenja o AI već posle prvog utiska da je to nešto komplikovano, namenjeno programerima i \"pametnjakovićima\". To jednostavno nije tačno, i upravo je uklanjanje tog straha prvi zadatak ovog kursa."
+    ],
+    "diagram": "/diagrams/lekcija_01.png",
+    "diagramAlt": "vremenska linija sa sedam tačaka koje predstavljaju sedam modula kursa, od \"Osnove\" do \"Automatizacija\"",
+    "sections": [
+      {
+        "heading": "Kome je namenjen ovaj kurs",
+        "paragraphs": [
+          "Ovaj kurs je napravljen za potpune početnike. Ako si vlasnik malog biznisa, zaposlen, student, freelancer ili neko ko jednostavno želi da razume o čemu svi pričaju kada pomenu AI, ovde ćeš dobiti jasan i praktičan put od apsolutne nule do samostalne, svakodnevne upotrebe.",
+          "Možda si vlasnik male radnje i čuo si da ti AI može napisati opise proizvoda za sajt. Možda si zaposlen u kancelariji i svaki dan gubiš pola sata na pisanje istih mejlova iznova. Možda si student kome AI može pomoći da brže i lakše razume gradivo. Ili nemaš nijedan konkretan razlog, samo ne želiš da ostaneš \"onaj koji ne zna ni osnovno o AI\" dok o tome svi oko tebe pričaju. Bez obzira na razlog, kurs je napravljen tako da posle svake lekcije dobiješ nešto opipljivo, ne samo teoriju koju ćeš zaboraviti za nedelju dana.",
+          "Nećemo trošiti vreme na tehnički žargon, akademsku teoriju ili istoriju veštačke inteligencije. Fokus je na jednoj stvari: da posle svake lekcije umeš da uradiš nešto konkretno, u realnom životu, uz pomoć AI."
+        ]
+      },
+      {
+        "heading": "Kako je kurs organizovan",
+        "paragraphs": [
+          "Kurs je podeljen u sedam manjih celina (modula), a svaki modul se sastoji od nekoliko lekcija koje se nadovezuju jedna na drugu.",
+          "Prvo prolaziš kroz apsolutne osnove: šta je AI, kako da napraviš nalog i vodiš svoj prvi razgovor. Zatim učiš kako da postavljaš pitanja tako da dobijaš korisne odgovore, i primenjuješ to na male, svakodnevne zadatke. Kada savladaš osnove, kurs te uvodi u napredniji, ali i dalje jednostavan svet AI alata: prostore za rad koji pamte tvoj kontekst, gotove male aplikacije koje AI pravi za tebe, AI pomoćnika koji radi zadatke u pozadini dok se ti baviš nečim drugim, i na kraju automatizaciju i alate koje AI pravi za tebe bez ijedne linije koda.",
+          "Svaki sledeći modul se oslanja na prethodni, tako da ne moraš da brineš da li \"preskačeš\" nešto bitno, dovoljno je da ideš redom, lekciju po lekciju.",
+          "Svaka lekcija ima isti oblik: kratko i jasno objašnjenje, konkretan primer koji možeš odmah da isprobaš, i praktičnu vežbu na kraju. Vežbe nisu obavezne u smislu ocenjivanja, ali su najvažniji deo kursa. Ono što probaš svojim rukama pamtiš, ono što samo pročitaš zaboraviš za nedelju dana. Zato je svaka lekcija namerno kratka i usmerena na jednu ideju, umesto da te zatrpa sa deset stvari odjednom koje ćeš do sutra pomešati."
+        ]
+      },
+      {
+        "heading": "Koji alat koristimo u kursu",
+        "paragraphs": [
+          "Kroz ceo kurs koristićemo Claude, jedan od vodećih AI asistenata koji pravi kompanija Anthropic. Postoji više dobrih AI alata na tržištu (ChatGPT, Gemini i drugi), i mnogo onoga što naučiš ovde važi za sve njih podjednako, jer se svi zasnivaju na sličnim principima. Kroz kurs ćemo ponekad napraviti i poređenje, kada je korisno da znaš po čemu se alati razlikuju. Ali biramo jedan alat kao vodilju kako se ne bi izgubio u skakanju između različitih interfejsa dok savladavaš osnove.",
+          "Ovaj izbor nije slučajan: Claude trenutno prednjači po kvalitetu razumevanja konteksta i po tome koliko je jednostavan za apsolutnog početnika, što je za ovaj kurs najvažnije. Kad god postoji razlika koja je bitna baš za tebe kao početnika, na primer kako izgleda isti zadatak u ChatGPT-u, to ćemo eksplicitno pomenuti, kako ne bi stekao utisak da je znanje iz ovog kursa \"zaključano\" samo za jedan alat."
+        ]
+      },
+      {
+        "heading": "Šta ti je potrebno da počneš",
+        "paragraphs": [
+          "Za veći deo kursa dovoljan je besplatan nalog i internet konekcija. Za par naprednijih lekcija (poglavlja o Cowork-u, Claude Code-u i Skillovima) biće ti potreban plaćeni plan i desktop aplikacija, o čemu ćemo pričati kada za to dođe vreme, uz jasno objašnjenje šta tačno dobijaš za tu cenu i da li ti uopšte treba u tom trenutku.",
+          "Ne treba ti ni najnoviji telefon ni moćan računar. Sve što radiš u prvih osam lekcija radiće podjednako dobro na jeftinom laptopu, starijem telefonu ili tablet uređaju, dokle god imaš internet konekciju. Jedino što ti stvarno treba je desetak minuta mira bez ometanja kada budeš radio vežbe, jer se najviše nauči kada zaista probaš, a ne kada samo čitaš uz upola pažnje dok radiš nešto drugo."
+        ]
+      }
+    ],
+    "exercise": [
+      "Pre nego što pređeš na sledeću lekciju, otvori svesku, beležnicu u telefonu ili prazan dokument i zapiši jednu rečenicu: \"AI bih želeo da mi pomogne oko ___.\" Može biti bilo šta: pisanje mejlova, organizacija dana, učenje novog jezika, pokretanje malog biznisa. Ne mora biti savršeno formulisano. Ova rečenica će ti kroz kurs služiti kao tvoj lični kompas: kad god zapneš ili ti nešto zvuči apstraktno, vrati se na nju i zapitaj se \"kako ovo što učim može da mi pomogne baš oko toga.\"",
+      "Ako ti ništa odmah ne pada na pamet, evo par primera koji mogu da ti pokrenu misli: \"AI bih želeo da mi pomogne oko pisanja mejlova za posao\", \"AI bih želeo da mi pomogne da smislim šta da skuvam svake nedelje\", \"AI bih želeo da mi pomogne da pokrenem svoj mali biznis\". Zapiši svoju rečenicu na mesto gde ćeš je lako pronaći, jer ćemo se na nju vraćati nekoliko puta tokom kursa, posebno na kraju svakog modula, da proveriš koliko si se približio tom cilju."
+    ]
+  },
+  {
+    "num": 2,
+    "slug": "sta-je-ai-objasnjeno-jednostavnim-jezikom",
+    "title": "Šta je AI, objašnjeno jednostavnim jezikom",
+    "shortDesc": "Osnovni pojmovi bez žargona.",
+    "intro": [
+      "Reč \"veštačka inteligencija\" zvuči ogromno i pomalo zastrašujuće, kao nešto iz naučnofantastičnog filma. U praksi, ono s čim ćeš raditi u ovom kursu je mnogo prizemnije i mnogo korisnije od robota koji razmišlja kao čovek. Hajde da to raščlanimo bez žargona."
+    ],
+    "diagram": "/diagrams/lekcija_02.png",
+    "diagramAlt": "tri koncentrična kruga koji prikazuju veštačku inteligenciju, mašinsko učenje i velike jezičke modele, jedan unutar drugog",
+    "sections": [
+      {
+        "heading": "Najjednostavnije objašnjenje",
+        "paragraphs": [
+          "AI asistent kakav je Claude je program koji je \"pročitao\" ogromnu količinu teksta sa interneta, knjiga i drugih izvora, i na osnovu toga naučio obrasce u jeziku: kako ljudi pišu, objašnjavaju, argumentuju, sastavljaju kod, pišu pesme, rešavaju probleme. Kada mu postaviš pitanje, on ne \"zna\" odgovor kao što ga zna enciklopedija, nego generiše odgovor reč po reč, birajući svaki put najverovatniji sledeći deo teksta na osnovu svega što je naučio i na osnovu onoga što si mu do tada rekao u razgovoru.",
+          "Zamisli izuzetno načitanog sagovornika koji je pročitao ogromnu biblioteku, ali ne pamti ništa lično o tebi osim onoga što mu kažeš u tom razgovoru, i koji ponekad, kad nešto ne zna sa sigurnošću, može da izmisli odgovor koji zvuči ubedljivo, ali nije tačan. O tom fenomenu ćemo detaljno pričati u lekciji 7, jer je ključno da ga razumeš pre nego što počneš da se oslanjaš na AI za bilo šta važno."
+        ]
+      },
+      {
+        "heading": "Primer iz prakse",
+        "paragraphs": [
+          "Zamisli da otkucaš na telefonu \"Vidimo se\" i telefon ti ponudi da nastaviš sa \"sutra\" ili \"kasnije\", jer je naučio iz tvoje prepiske koje reči obično koristiš posle \"Vidimo se\". AI asistent radi suštinski istu stvar, samo mnogo moćniju verziju toga: umesto da predviđa samo sledeću reč na osnovu par prethodnih poruka, predviđa čitave pasuse, uzimajući u obzir hiljade mogućih pravaca u kojima rečenica može da ide, i bira onaj koji najbolje odgovara kontekstu koji si mu dao. Zato dva slična pitanja o istoj temi mogu dati vrlo različite odgovore, u zavisnosti od toga šta si tačno napisao i šta se dešavalo ranije u razgovoru."
+        ]
+      },
+      {
+        "heading": "Modeli koji \"razumeju\" jezik",
+        "paragraphs": [
+          "Ono što danas nazivamo AI asistentima (Claude, ChatGPT i slični) tehnički se zovu veliki jezički modeli (large language models, skraćeno LLM). Ne moraš pamtiti ovaj termin, ali ćeš ga sretati kad budeš čitao o AI, pa je dobro da znaš šta znači: to je model koji je treniran da razume i generiše ljudski jezik, i koji uz tekst danas sve više razume i slike, dokumente, pa čak i da izvršava zadatke umesto tebe (o čemu detaljno govorimo u lekcijama o Cowork-u i agentima).",
+          "Na primer, kada Claude-u pošalješ fotografiju računa iz prodavnice i pitaš \"Koliko sam potrošio na namirnice\", on ne samo da \"vidi\" sliku nego razume tekst na njoj, prepoznaje brojeve i sabira ih, iako mu nisi ništa rekao u pisanom obliku. Ova sposobnost da kombinuje tekst, slike i zadatke u jednom razgovoru je ono što danas razdvaja moderne AI asistente od starijih čet-botova od pre par godina, koji su umeli da odgovaraju samo unapred pripremljenim, ograničenim rečenicama."
+        ]
+      },
+      {
+        "heading": "Šta AI ume, a šta ne ume",
+        "paragraphs": [
+          "AI danas dobro ume da: objašnjava komplikovane teme jednostavnim jezikom, sažima duge tekstove, piše i doteruje tekstove svih vrsta, prevodi između jezika, analizira podatke koje mu daš, piše i ispravlja programski kod, i sve više — samostalno obavlja višekoračne zadatke kada mu daš pristup tvojim fajlovima i alatima.",
+          "AI i dalje ne ume pouzdano da: bude potpuno tačan o svakoj sitnoj činjenici (pogotovo novijim događajima ili veoma specifičnim podacima), razume kontekst koji mu nisi eksplicitno dao, ili donosi odluke koje traže lično poznavanje tebe, tvog posla i tvojih vrednosti bolje nego što ti to sam znaš. AI je alat, ne zamena za tvoje rasuđivanje.",
+          "Da bi ti bilo konkretnije, evo kako to izgleda u praksi: ako ga zamoliš da ti napiše plan treninga za mesec dana, dobićeš koristan, razuman plan za par sekundi. Ali ako ga pitaš \"Da li je bolje da uzmem stan A ili stan B\", a pri tom mu nisi rekao skoro ništa o svom budžetu, prioritetima i životnoj situaciji, dobićeš uopšten odgovor koji zvuči pametno, ali ti stvarno ne pomaže da odlučiš. AI je odličan kada mu daš dovoljno informacija da radi sa njima, a mnogo slabiji kada očekuješ da pogodi ono što nisi rekao."
+        ]
+      },
+      {
+        "heading": "Zašto je ovo važno da znaš pre nego što počneš",
+        "paragraphs": [
+          "Kad shvatiš da AI radi tako što predviđa najverovatniji sledeći deo odgovora na osnovu onoga što mu kažeš, postaje ti jasno zašto je način na koji postavljaš pitanje toliko važan. Nejasno pitanje daje nejasan, generički odgovor. Konkretno, detaljno objašnjen zahtev daje mnogo bolji rezultat. Ovome je posvećena cela lekcija 5.",
+          "Ovo znanje menja i način na koji ćeš ubuduće čitati vesti i priče o AI. Kada čuješ da je neki AI model \"pogrešio\" ili \"izmislio\" nešto, sada znaš tačno zašto se to dešava, i to ti pomaže da ostaneš kritičan korisnik, a ne neko ko slepo veruje svakom odgovoru samo zato što je napisan samouvereno i tečno."
+        ]
+      }
+    ],
+    "exercise": [
+      "Otvori Claude (ili bilo koji AI četbot koji trenutno imaš) i postavi mu direktno pitanje: \"Objasni mi svojim rečima, u tri rečenice, kako ti zapravo generišeš odgovor kada ti postavim pitanje.\" Pročitaj odgovor i uporedi ga sa onim što si upravo pročitao u ovoj lekciji. Cilj vežbe nije da testiraš AI, nego da se navikneš da direktno pitaš alat o njemu samom kad god ti nešto nije jasno. Ovo je navika koja će ti koristiti kroz ceo kurs.",
+      "Kao dodatak, postavi mu i drugo pitanje: \"Daj mi primer situacije u kojoj bi mogao da napraviš grešku ili da izmisliš odgovor.\" Ovo te unapred priprema za temu kojom se detaljno bavimo u lekciji 7, i pomaže ti da od prvog dana gradiš zdravu dozu opreza prema odgovorima koje dobijaš, bez obzira koliko ubedljivo zvuče."
+    ]
+  },
+  {
+    "num": 3,
+    "slug": "tvoj-prvi-ai-nalog",
+    "title": "Tvoj prvi AI nalog",
+    "shortDesc": "Registracija i podešavanje osnovnog AI alata.",
+    "intro": [
+      "U ovoj lekciji pravimo nalog kod Claude-a, korak po korak. Cela stvar traje manje od pet minuta, i ne brini ako nisi tehnički tip osobe, ovo je jednostavnije od otvaranja naloga na bilo kojoj društvenoj mreži."
+    ],
+    "diagram": "/diagrams/lekcija_03.png",
+    "diagramAlt": "vertikalna vremenska linija sa četiri koraka registracije: unos mejla, potvrda koda, izbor plana, prvi ekran aplikacije",
+    "sections": [
+      {
+        "heading": "Zašto baš Claude",
+        "paragraphs": [
+          "Kroz kurs koristimo Claude jer trenutno spada u sam vrh AI asistenata po kvalitetu pisanja, rasuđivanja i, što je posebno važno za dalje lekcije, po tome koliko duboko je integrisan u alate koje verovatno već koristiš (Gmail, Google Drive, Kalendar i slično) i koliko dobro obavlja duže, samostalne zadatke. U lekciji 8 ćemo detaljno uporediti Claude sa ChatGPT-om na par konkretnih primera, tako da ćeš tačno znati po čemu se razlikuju.",
+          "Osim kvaliteta pisanja i rasuđivanja, važna razlika je i u tome kako Claude pristupa osetljivim temama i tačnosti: manje je sklon da \"ulepšava\" odgovore samo da bi zvučao samouvereno, i češće će ti reći kada nije siguran u nešto, što je, kao što smo videli u lekciji 2, izuzetno korisna osobina za početnika koji tek uči kome i koliko da veruje."
+        ]
+      },
+      {
+        "heading": "Koraci za registraciju",
+        "paragraphs": [
+          "Prvi korak je da na svom telefonu ili računaru otvoriš internet pregledač i odeš na claude.ai. Tamo klikneš na dugme za registraciju (obično piše \"Sign up\" ili \"Get started\") i registruješ se pomoću svoje email adrese ili Google naloga, šta god ti je brže. Dobićeš kod za potvrdu na mejl ili SMS, uneseš ga, i nalog je gotov. Nema kartice, nema plaćanja, nema ugovora — besplatan plan je zaista besplatan i dovoljan je za sve u prvoj polovini ovog kursa.",
+          "Ako ti se učini da ti kod za potvrdu ne stiže odmah, sačekaj minut-dva i proveri fasciklu za nepoželjnu poštu (spam) na svom mejlu, jer se ponekad prva poruka od novog sajta tamo slučajno svrsta. Ako registruješ nalog preko Google naloga, proces je i brži, jer preskačeš unos i potvrdu mejla, i odmah dobijaš pristup."
+        ]
+      },
+      {
+        "heading": "Planovi — koji ti treba i kada",
+        "paragraphs": [
+          "Besplatan plan ti daje ograničen ali sasvim solidan broj poruka dnevno, pristup osnovnim funkcijama i dovoljno je da naučiš i vežbaš sve iz prvih lekcija ovog kursa. Kada u kursu stignemo do naprednijih tema (Cowork, Claude Code, Skillovi), objasnićemo ti tačno zašto ti tada treba plaćeni plan i šta konkretno dobijaš, kako ne bi platio za nešto što ti u tom trenutku ne treba.",
+          "Konkretno, besplatan plan ti obično daje dovoljno poruka dnevno za nekoliko ozbiljnih razgovora, što je više nego dovoljno za sve vežbe u lekcijama 1 do 8. Ako u jednom danu potrošiš dnevni limit, dobićeš obaveštenje kada ti se ograničenje obnavlja (obično posle par sati), tako da nikad nisi trajno \"zaključan\" iz naloga, samo privremeno usporen.",
+          "Kao orijentacija za kasnije: Pro plan košta oko 20 dolara mesečno i uklanja većinu ograničenja iz besplatnog plana, dok Max plan (koji kreće od oko 100 dolara mesečno) daje mnogo veći obim korišćenja i namenjen je ljudima koji AI koriste intenzivno, po ceo dan, za posao."
+        ]
+      },
+      {
+        "heading": "Desktop aplikacija naspram pregledača",
+        "paragraphs": [
+          "Claude možeš koristiti direktno u pregledaču na bilo kom računaru, ili preuzeti desktop aplikaciju sa claude.ai/download za Mac ili Windows. Za sada, dok prolaziš kroz osnovne lekcije, pregledač je sasvim dovoljan. Desktop aplikacija postaje neophodna tek kada stignemo do lekcija o Cowork-u, jer neke napredne funkcije (o kojima ćemo pričati kasnije) rade isključivo u njoj, ne u pregledaču ili na telefonu.",
+          "Ako ipak želiš da odmah instaliraš desktop aplikaciju, ništa strašno, može ti samo koristiti kao mesto gde ćeš kasnije, u naprednijim lekcijama, raditi bez dodatnog podešavanja. Za sada koristi ono što ti je najzgodnije: ako najviše vremena provodiš na telefonu, sasvim je u redu da prve vežbe radiš u mobilnoj aplikaciji ili u pregledaču na telefonu."
+        ]
+      }
+    ],
+    "exercise": [
+      "Napravi nalog na claude.ai ako ga još nemaš. Kada uđeš unutra, klikni na ikonicu svog profila u gornjem desnom uglu i pronađi podešavanja (Settings). Samo prošetaj kroz meni dva minuta, ne menjaj ništa, samo se upoznaj sa tim gde šta stoji. U jednoj od narednih lekcija ćemo se vratiti tačno na ovo mesto da podesimo par važnih stvari.",
+      "Dok šetaš kroz podešavanja, primeti posebno dva mesta: opciju za izbor jezika i teme (svetla ili tamna pozadina), i pregled trenutnog plana i broja iskorišćenih poruka. Ne moraš ništa da menjaš, samo zapamti gde se ta dva mesta nalaze, jer ćemo ih pomenuti ponovo kasnije u kursu."
+    ]
+  },
+  {
+    "num": 4,
+    "slug": "tvoj-prvi-razgovor-sa-ai",
+    "title": "Tvoj prvi razgovor sa AI",
+    "shortDesc": "Osnovna komunikacija i šta možeš da pitaš.",
+    "intro": [
+      "Sada kada imaš nalog, vreme je za tvoj prvi pravi razgovor. Ovo je trenutak kada teorija prestaje i počinje stvarno korišćenje, i mnogi ljudi se iznenade koliko je ceo proces neformalan i lišen pritiska."
+    ],
+    "diagram": "/diagrams/lekcija_04.png",
+    "diagramAlt": "dva govorna oblačića jedan ispod drugog koji prikazuju kako Claude pamti prethodnu poruku u istom razgovoru",
+    "sections": [
+      {
+        "heading": "Kako izgleda interfejs",
+        "paragraphs": [
+          "Kada otvoriš Claude, dočekaće te prazno polje za kucanje na dnu ekrana i prazan prostor iznad njega gde će se pojavljivati razgovor. Sa leve strane obično imaš listu tvojih prethodnih razgovora, tako da se uvek možeš vratiti na nešto što si ranije pitao. Svaki novi razgovor počinje čist, bez pamćenja prethodnih razgovora (osim ako ne koristiš Projekte, o čemu učimo u lekciji 9).",
+          "Iznad polja za kucanje često ćeš videti i dugmiće za dodatne opcije, na primer prikačivanje fajla ili slike, ili izbor određenog modela ako nalog to nudi. Za sada ih ne moraš dirati, dovoljno je da znaš da postoje, jer ćemo ih koristiti kasnije kad nam zatrebaju za konkretne zadatke poput analize dokumenta ili slike."
+        ]
+      },
+      {
+        "heading": "Tvoja prva poruka",
+        "paragraphs": [
+          "Ne postoji pogrešan način da počneš. Najbolji način da savladaš strah od \"praznog papira\" je da jednostavno napišeš nešto obično, kao da pišeš poruku pametnom prijatelju. Na primer: \"Zdravo, ja sam potpuni početnik u korišćenju AI. Možeš li mi objasniti u par rečenica šta sve mogu da te pitam ili tražim od tebe?\" Claude će ti odgovoriti prirodnim jezikom, bez formalnosti, i to je tačno kako izgleda normalna komunikacija sa njim.",
+          "Ako ti ni ovaj primer ne odgovara, evo još jednog jednostavnog starta: \"Zdravo, imam pitanje o [tvoja tema], ali ne znam ni odakle da počnem da pitam. Možeš li mi postaviti par pitanja da bismo zajedno došli do onoga što mi treba?\" Ovakav pristup, gde tražiš od AI da ti pomogne da formulišeš pitanje, je iznenađujuće koristan trik za trenutke kad si totalno zbunjen odakle da kreneš."
+        ]
+      },
+      {
+        "heading": "Razgovor se nastavlja, ne počinje iznova",
+        "paragraphs": [
+          "Ono što je ključno da razumeš: unutar istog razgovora, Claude pamti sve što si ranije rekao. To znači da ako mu prvo kažeš \"Pišem knjigu o kuvanju za početnike\" a zatim, pet poruka kasnije, kažeš \"Napiši mi uvod za treće poglavlje\", on će znati kontekst i povezati te dve informacije. Zbog toga nije potrebno da svaki put ponavljaš ceo kontekst iz početka, dovoljno je da ga daš jednom u razgovoru.",
+          "Kada zatvoriš taj razgovor i otvoriš novi, taj kontekst nestaje. Novi razgovor je prazna stranica. Ovo će ti postati mnogo jasnije kroz vežbu, i kasnije, kada naučiš za Projekte, videćeš i kako da rešiš ovo ograničenje kada ti zaista treba da AI \"pamti\" tvoj kontekst kroz više razgovora.",
+          "Ovo pamćenje unutar razgovora ima i praktičnu granicu: što je razgovor duži, veća je šansa da Claude \"izgubi iz vida\" neku sitnicu iz samog početka, posebno ako je razgovor jako dugačak ili si u međuvremenu promenio temu nekoliko puta. Ako primetiš da odgovor ne uzima u obzir nešto što si ranije rekao, najbrže rešenje je da to jednostavno podsetiš u novoj poruci, umesto da pretpostavljaš da je \"zaboravio zauvek\"."
+        ]
+      },
+      {
+        "heading": "Šta možeš da pitaš",
+        "paragraphs": [
+          "Doslovno bilo šta iz svakodnevnog života: objašnjenja pojmova koje ne razumeš, pomoć oko pisanja poruke ili mejla, ideje za poklon, plan obroka za nedelju, objašnjenje nekog dokumenta koji si nalepio u razgovor, pomoć da smisliš odgovor na neprijatnu poruku, prevod teksta, pa čak i da ti bude sagovornik dok razmišljaš naglas o nekoj odluci. U sledećoj lekciji učimo kako da ta pitanja formulišemo da dobijemo mnogo bolje odgovore.",
+          "Dobra vežba za početak je da razmišljaš o AI kao o kolegi koji je uvek dostupan, nikad se ne ljuti na \"glupa pitanja\" i nema problem da isto objasni na tri različita načina dok ti ne bude jasno. Jedino na šta treba da paziš je da mu ne šalješ zaista poverljive podatke (brojeve kartica, lozinke, tuđe lične podatke) osim ako je to zaista neophodno i osim ako razumeš podešavanja privatnosti naloga, o čemu će biti reči kasnije u kursu."
+        ]
+      }
+    ],
+    "exercise": [
+      "Otvori nov razgovor i uradi sledeće, redom, u istom razgovoru: prvo mu reci nešto o sebi u jednoj rečenici (posao, hobi, ili šta trenutno radiš). Zatim mu postavi pitanje vezano za tu temu, ne pominjući ponovo taj kontekst. Na primer, ako si rekao \"Ja sam nastavnik u osnovnoj školi\", pitaj ga \"Daj mi tri ideje za igru koja bi deci pomogla da lakše zapamte tablicu množenja\", ne pominjući ponovo da si nastavnik. Primeti kako je odgovor prilagođen kontekstu koji si dao ranije u razgovoru. Ovo je najbolji način da osetiš kako Claude \"pamti\" tok razgovora.",
+      "Kao treći korak, probaj i suprotno: otvori potpuno nov razgovor i postavi mu isto pitanje o tablici množenja, ne pominjući ovog puta da si nastavnik. Uporedi ta dva odgovora jedan pored drugog. Ova razlika ti najbolje pokazuje zašto je kontekst, o kom smo pričali, toliko važan za kvalitet odgovora koji dobijaš."
+    ]
+  },
+  {
+    "num": 5,
+    "slug": "kako-da-postavljas-dobra-pitanja",
+    "title": "Kako da postavljaš dobra pitanja (osnove promptovanja)",
+    "shortDesc": "Formulisanje jasnih uputstava za bolje odgovore.",
+    "intro": [
+      "Ovo je verovatno najvažnija lekcija u celom kursu. Kvalitet odgovora koji dobijaš od AI je direktno povezan sa kvalitetom pitanja koje mu postaviš. Termin za to je \"promptovanje\" (od engleske reči prompt, što znači podsticaj ili uputstvo), a dobra vest je da ne treba nikakva posebna veština da bi se to naučilo, samo par jednostavnih navika."
+    ],
+    "diagram": "/diagrams/lekcija_05.png",
+    "diagramAlt": "dve kolone jedna pored druge, \"Loš zahtev\" naspram \"Dobar zahtev\", sa po četiri obeležene stavke: kontekst, zadatak, format, ograničenje",
+    "sections": [
+      {
+        "heading": "Zašto je ovo bitno",
+        "paragraphs": [
+          "Setimo se lekcije 2: AI generiše odgovor na osnovu onoga što mu daš. Ako mu daš malo informacija, on mora da pogađa šta zapravo želiš, i taj odgovor će biti generički, prosečan, često neupotrebljiv bez dodatnih izmena. Ako mu daš jasan, konkretan zahtev, on ima mnogo manje prostora za pogađanje i mnogo veću šansu da odgovor bude tačno ono što ti treba, iz prvog pokušaja.",
+          "Zamisli da zamoliš prijatelja \"Skuvaj mi nešto za večeru\" i onda odeš iz kuće. Kad se vratiš, možda te dočeka nešto sasvim drugo od onoga što si zamišljao, jer prijatelj nije imao dovoljno informacija da pogodi tvoj ukus, koliko ljudi dolazi ili koliko vremena ima na raspolaganju. Isto se dešava sa AI: što mu daš manje smernica, veća je šansa da \"pogodi\" pogrešno, ne zato što je nesposoban, nego zato što jednostavno nema od čega drugog da polazi."
+        ]
+      },
+      {
+        "heading": "Četiri stvari koje svaki dobar zahtev sadrži",
+        "paragraphs": [
+          "Prva stvar je kontekst: ko si, u kojoj situaciji si, za koga je ovo namenjeno. Umesto \"Napiši mi mejl\", reci \"Napiši mi mejl klijentu kome kasnim sa isporukom tri dana, treba da zvuči izvinjavajuće ali profesionalno, ne previše dramatično.\" Što više relevantnog konteksta daš na početku, manje vremena kasnije gubiš na ispravke i doterivanje.",
+          "Druga stvar je konkretan zadatak, izražen glagolom radnje: napiši, sažmi, uporedi, objasni, ispravi, organizuj, smisli. Izbegavaj neodređene formulacije poput \"pomozi mi oko\" ili \"šta misliš o\", jer takve formulacije ostavljaju previše prostora AI da sam odluči šta zapravo očekuješ.",
+          "Treća stvar je format odgovora koji želiš. Ako ti treba lista, reci \"u obliku liste od pet stavki\". Ako ti treba tabela, reci to. Ako želiš kratak odgovor od tri rečenice, to isto napiši. Ako ti odgovor treba za usmeno izlaganje, a ne za pisani tekst, reci i to, jer se pisani i govorni stil dosta razlikuju. AI ne zna kako zamišljaš gotov rezultat dok mu ne kažeš.",
+          "Četvrta stvar je ograničenje ili poseban zahtev, ako postoji: dužina, ton, jezik, šta obavezno da uključi ili čega obavezno da se kloni. Na primer: \"Piši na srpskom, izbegavaj stručne termine, drži se do 100 reči.\" Ovakva ograničenja su posebno korisna kada AI ima naviku da piše duže ili formalnije nego što ti treba."
+        ]
+      },
+      {
+        "heading": "Primer: loše naspram dobro",
+        "paragraphs": [
+          "Loš zahtev: \"Napiši mi opis za Instagram.\"",
+          "Dobar zahtev: \"Napiši mi opis za Instagram objavu o otvaranju moje male pekare u Nišu. Ton neka bude topao i domaći, ne previše formalan. Dodaj poziv ljudima da dođu na otvaranje ovog vikenda. Maksimalno 60 reči, i dodaj 3-4 relevantna heštega na kraju.\"",
+          "Razlika u kvalitetu odgovora između ova dva zahteva je ogromna, a razlika u trudu da ih napišeš je samo par sekundi kucanja.",
+          "Evo i drugog primera, ovog puta za pisani zahtev umesto objave na društvenim mrežama:",
+          "Loš zahtev: \"Napiši mi mejl za otkazivanje sastanka.\"",
+          "Dobar zahtev: \"Napiši mi kratak, ljubazan mejl kolegi kojim otkazujem sastanak zakazan za sutra u 10h zbog bolesti. Predloži da se sastanak pomeri za sledeću nedelju, bez tačnog datuma jer još ne znam kada ću biti dostupan. Ton neka bude profesionalan, ali topao, najviše četiri rečenice.\"",
+          "Kao i u prvom primeru, razlika u trudu je minimalna, a razlika u upotrebljivosti odgovora je ogromna. Ako primetiš da ti se ovakav zadatak ponavlja, možeš čak sačuvati jedan dobar zahtev kao šablon i samo menjati detalje sledeći put."
+        ]
+      },
+      {
+        "heading": "Razgovor se doteruje, ne počinje iznova",
+        "paragraphs": [
+          "Ne moraš da smisliš savršen zahtev iz prve. Najbolji pristup je da napišeš početni zahtev, pogledaš odgovor, i onda kažeš šta treba da se promeni: \"Skrati na pola\", \"Učini ton opuštenijim\", \"Dodaj i primer\", \"Ovo mi zvuči previše formalno, piši kao da pričaš sa prijateljem.\" AI pamti prethodni odgovor u istom razgovoru i samo ga doteruje, ne počinje iznova. Ova sposobnost doteravanja kroz razgovor je jedna od najkorisnijih stvari kod AI asistenata, i trebalo bi da je koristiš mnogo češće nego što bi pomislio. Ne troši vreme pokušavajući da smisliš savršen prompt iz prve, bolje je da brzo dobiješ prvu verziju pa je usavršavaš u dva-tri koraka.",
+          "Dobra praksa je da posle prvog odgovora sebi postaviš pitanje \"Šta konkretno mi ovde smeta?\" pre nego što napišeš instrukciju za doterivanje. Umesto nejasnog \"Nije baš to\", pokušaj da precizno kažeš šta te smeta: \"Predugačko je\", \"Previše je formalno\", \"Fali mi konkretan primer\", \"Ovaj deo je suvišan\". Što je tvoja povratna informacija konkretnija, brže dolaziš do finalne verzije koju možeš stvarno da upotrebiš."
+        ]
+      }
+    ],
+    "exercise": [
+      "Uzmi rečenicu koju si zapisao u lekciji 1 (\"AI bih želeo da mi pomogne oko ___\") i pretvori je u konkretan zahtev koristeći sve četiri stavke iz ove lekcije: kontekst, zadatak, format i ograničenje. Postavi taj zahtev Claude-u. Pogledaj odgovor, i onda mu daj bar jednu instrukciju za doterivanje (\"skrati\", \"promeni ton\", \"dodaj primer\" ili slično). Uporedi prvi i drugi odgovor.",
+      "Na kraju, zapiši za sebe (u istu svesku iz lekcije 1) koja od četiri stavke, kontekst, zadatak, format ili ograničenje, ti je najčešće falila u zahtevima koje si do sada postavljao AI. To je stavka na koju treba svesno da obraćaš pažnju u narednim lekcijama, dok ti ne postane automatska navika."
+    ]
+  },
+  {
+    "num": 6,
+    "slug": "ai-kao-pomocnik-u-svakodnevnim-zadacima",
+    "title": "AI kao pomoćnik u svakodnevnim zadacima",
+    "shortDesc": "Pisanje, sažimanje i organizacija.",
+    "intro": [
+      "Sada kada znaš osnove promptovanja, vreme je da AI počneš da koristiš za stvari koje ti stvarno oduzimaju vreme svaki dan. Ova lekcija je zbirka konkretnih, odmah primenljivih primera podeljenih po oblastima, i vredi da joj se vraćaš svaki put kad ti zatreba podsetnik šta sve možeš da tražiš."
+    ],
+    "diagram": "/diagrams/lekcija_06.png",
+    "diagramAlt": "mreža od pet ikonica raspoređenih oko centralne ikonice AI, svaka označena jednom oblašću: pisanje, sažimanje, planiranje, učenje, ideje",
+    "sections": [
+      {
+        "heading": "Pisanje i doterivanje teksta",
+        "paragraphs": [
+          "AI je izuzetno dobar u pisanju svih vrsta tekstova: mejlova, poruka, objava za društvene mreže, čestitki, prijava za posao, žalbi, zahvalnica. Umesto da buljiš u prazan ekran, možeš da mu daš osnovnu ideju u par reči, čak i haotično nabacanu, i tražiš da to pretvori u sređen tekst. Isto tako, možeš mu dati tekst koji si ti napisao i tražiti da ga doteraš, skratiš, učiniš profesionalnijim ili, obrnuto, opuštenijim.",
+          "Primer: \"Evo grubog nacrta mejla koji sam napisao šefu da tražim slobodan dan. Doteraj ga da zvuči profesionalno, ali ne previše ukočeno, i skrati na najviše pet rečenica.\" Zatim nalepiš svoj tekst ispod.",
+          "Ovo važi i za teže situacije, kao što je pisanje žalbe kompaniji zbog lošeg proizvoda, gde ti AI može pomoći da ostaneš jasan i odlučan, a da pritom ne zvučiš agresivno, što je kombinacija koju je iznenađujuće teško postići kada si sam ljut ili frustriran dok pišeš."
+        ]
+      },
+      {
+        "heading": "Sažimanje dugih tekstova",
+        "paragraphs": [
+          "Kad dobiješ dug dokument, ugovor, članak ili izveštaj koji nemaš vremena da pročitaš u celosti, nalepi ga u razgovor i zamoli za sažetak. Možeš tražiti opšti sažetak (\"U pet rečenica mi reci o čemu se radi\") ili ciljani sažetak (\"Izvuci mi samo delove koji se tiču cene i rokova plaćanja\"). Ovo je posebno korisno za duge ugovore, uslove korišćenja ili izveštaje sa posla.",
+          "Vredi znati i da možeš tražiti sažetak u obliku koji ti najviše odgovara: obična lista tačaka za brzo skeniranje, tabela ako upoređuješ više opcija iz teksta, ili čak \"objasni mi ovo kao da nemam pojma o pravnim terminima\" ako je dokument pun stručnog žargona."
+        ]
+      },
+      {
+        "heading": "Organizacija i planiranje",
+        "paragraphs": [
+          "AI ti može pomoći da napraviš plan puta, nedeljni jelovnik, raspored učenja za ispit, ili listu koraka za neki projekat koji te muči jer ne znaš odakle da počneš. Daj mu cilj i ograničenja (vreme, budžet, broj ljudi) i traži konkretan plan korak po korak."
+        ]
+      },
+      {
+        "heading": "Učenje novih stvari",
+        "paragraphs": [
+          "Ako ne razumeš neki pojam, iz bilo koje oblasti, AI ti ga može objasniti onoliko jednostavno ili detaljno koliko ti treba, i to prilagođeno tvom nivou znanja. Možeš čak i reći \"Objasni mi ovo kao da imam 12 godina\" ili \"Objasni mi ovo kao inženjeru\", i dobićeš potpuno drugačije, prilagođene odgovore.",
+          "Ova mogućnost je posebno korisna kada učiš nešto za posao ili školu na brzinu, pred rok: možeš tražiti da ti Claude prvo objasni temu jednostavnim rečima, a zatim postepeno dodaje složenije detalje, tako da gradiš razumevanje sloj po sloj umesto da se odmah izgubiš."
+        ]
+      },
+      {
+        "heading": "Brainstorming i ideje",
+        "paragraphs": [
+          "Kada ti treba deset ideja za naziv firme, temu za rođendan, poklon za nekoga koga je teško obradovati, ili naslov za tekst koji pišeš, AI je odličan sagovornik za brzo generisanje opcija iz kojih onda ti biraš i doteruješ ono što ti se najviše dopada. Njegova prednost nije u tome da smisli savršenu ideju umesto tebe, nego da ti brzo da širok izbor sirovog materijala od kog kreneš.",
+          "Kada dobiješ listu ideja, ne moraš da se zaustaviš na prvoj rundi. Slobodno reci \"Daj mi još deset, ali ovog puta smešnije\" ili \"Ove mi se ne dopadaju, probaj potpuno drugačiji pravac\", jer se AI nikad ne umori i nikad ne shvata lično kad odbaciš njegove predloge, za razliku od kolege kog bi možda bilo neprijatno pitati po peti put istu stvar."
+        ]
+      },
+      {
+        "heading": "Primer iz prakse",
+        "paragraphs": [
+          "Zamisli da planiraš rođendansku proslavu za dvadesetoro dece sa budžetom od 15.000 dinara. Umesto da sve smišljaš sam od nule, tražiš od Claude-a kompletan plan sa idejama za hranu, igre, dekoraciju i raspored aktivnosti po satima, koristeći formulu iz lekcije 5: kontekst, zadatak, format i ograničenje. Kada dobiješ prvi plan, odmah ga doteruješ: \"Sala mi je manja nego što sam mislio, smanji broj igara koje traže puno prostora\" ili \"Pola dece ima alergiju na orašaste plodove, prilagodi predlog za hranu.\" Ovakvo iterativno doterivanje plana je mnogo brže i manje stresno nego da sve sam smišljaš i menjaš ručno."
+        ]
+      }
+    ],
+    "exercise": [
+      "Izaberi tri različita zadatka iz svog svakodnevnog života, po jedan iz svake od kategorija gore (pisanje, sažimanje, organizacija). Za svaki napiši po jedan zahtev koristeći formulu iz lekcije 5 (kontekst, zadatak, format, ograničenje) i vidi rezultat. Zapamti barem jedan od ova tri primera, jer je to zadatak koji ćeš verovatno stvarno koristiti već ove nedelje.",
+      "Ako ti ostane vremena, uzmi jedan od preostala dva primera i uradi i njega. Cilj ove lekcije nije da samo pročitaš spisak mogućnosti, nego da posle nje imaš bar jedan zadatak koji si stvarno rešio i koji ti je uštedeo vreme, jer je to najbolji dokaz samom sebi da AI zaista vredi truda oko učenja."
+    ]
+  },
+  {
+    "num": 7,
+    "slug": "prvi-samostalni-zadatak",
+    "title": "Prvi samostalni zadatak — i na šta da paziš",
+    "shortDesc": "Radiš prvi zadatak sam/a, uz oprez od halucinacija AI.",
+    "intro": [
+      "Vreme je da uradiš nešto samostalno, bez uputstava korak po korak, i da naučiš na šta treba da obratiš pažnju dok to radiš."
+    ],
+    "diagram": "/diagrams/lekcija_07.png",
+    "diagramAlt": "znak upozorenja pored liste od četiri stavke koje najčešće izazivaju AI halucinacije: brojevi, imena i naslovi, datumi, pravni i medicinski detalji",
+    "sections": [
+      {
+        "heading": "Tvoj prvi samostalan zadatak",
+        "paragraphs": [
+          "Izaberi jedan pravi, konkretan zadatak iz svog života koji trenutno moraš da uradiš, ne izmišljenu vežbu. Možda treba da napišeš opis proizvoda za svoju radnju, pripremiš pitanja za razgovor za posao, sastaviš plan treninga za nedelju dana, ili napišeš tekst za pozivnicu. Otvori Claude i, koristeći sve što si naučio do sada (kontekst, jasan zadatak, format, ograničenja), reši taj zadatak od početka do kraja, uključujući i doterivanje odgovora kroz dva-tri kruga razgovora dok ne budeš zadovoljan rezultatom.",
+          "Nemoj birati previše ambiciozan zadatak za prvi put, kao što je pisanje čitavog poslovnog plana ili pravnog ugovora. Bolje je da izabereš nešto srednje veličine, što možeš da završiš u jednom sedenju od petnaestak minuta, jer je cilj da osetiš ceo ciklus od početka do kraja, ne da se izgubiš u dugom projektu već na prvom pokušaju samostalnog rada.",
+          "Cilj ove vežbe nije brzina, nego da osetiš ceo proces: od prvog, možda nesavršenog zahteva, preko doterivanja, do finalnog rezultata koji zaista možeš da upotrebiš. Ovo je najbolji način da AI prestane da ti deluje kao \"eksperiment\" i postane alat koji ti stvarno rešava probleme."
+        ]
+      },
+      {
+        "heading": "Halucinacije: kada AI izmišlja odgovor koji zvuči tačno",
+        "paragraphs": [
+          "Sada kada si video koliko AI može da bude koristan, moramo da pričamo o njegovoj najvećoj mani. Kada AI ne zna tačan odgovor sa sigurnošću, on ponekad, umesto da kaže \"ne znam\", generiše odgovor koji zvuči potpuno ubedljivo i profesionalno, ali je pogrešan ili izmišljen. Ovaj fenomen se naziva halucinacija, i dešava se posebno često kod: preciznih brojeva i statistika, imena i naslova knjiga ili članaka koji možda ne postoje, datuma i događaja, i pravnih ili medicinskih detalja.",
+          "Ovo se ne dešava zato što je AI \"loš\" ili \"greši\" u smislu u kom čovek greši, nego zato što, kao što smo objasnili u lekciji 2, on generiše najverovatniji sledeći deo teksta, a ne proverava činjenice u nekoj bazi podataka pre nego što ti odgovori (osim ako izričito ne koristi pretragu interneta, o čemu možeš i sam da ga pitaš da li je to uradio).",
+          "Konkretan primer kako to izgleda u praksi: ako pitaš AI da ti navede naslov i godinu izdanja neke manje poznate knjige, on može sa punim samopouzdanjem da navede naslov koji zvuči uverljivo, čak i uverljivo ime autora, a da knjiga sa tim tačnim naslovom uopšte ne postoji, ili postoji ali ju je napisao neko drugi. Ovo se ne dešava zato što AI \"laže\" u ljudskom smislu namere da prevari, nego zato što je njegov zadatak da proizvede tekst koji najviše liči na to kako bi tačan odgovor izgledao, a ne da pretražuje bazu podataka i proverava da li nešto zaista postoji."
+        ]
+      },
+      {
+        "heading": "Kako se zaštititi od halucinacija",
+        "paragraphs": [
+          "Pravilo je jednostavno: za sve što je bitno, posebno brojeve, imena, citate, pravne i medicinske informacije, uvek proveri iz nezavisnog izvora pre nego što na to osloniš odluku ili je proslediš dalje. AI je odličan za nacrt, ideju, prvi korak, objašnjenje koncepta, ali nije zamena za proveru činjenica kada su posledice greške ozbiljne.",
+          "Takođe je korisno da direktno pitaš Claude \"Koliko si siguran u ovu informaciju?\" ili \"Da li postoji šansa da ovo nije tačno?\" Dobri AI modeli su danas mnogo bolji u priznavanju neizvesnosti kada ih na to direktno pitaš, nego kada samo ćutke prihvatiš prvi odgovor.",
+          "Dobra praksa je i da za bilo koju brojku ili činjenicu koju planiraš da javno podeliš ili na osnovu koje planiraš da doneseš odluku sa finansijskim ili pravnim posledicama, tražiš od AI da ti kaže i odakle bi ta informacija trebalo da potiče, ili da je sam proveriš pretragom. Ako AI kaže \"Prema podacima iz [izvor]\", to ne znači automatski da je tačno, ali ti bar daje trag koji možeš da proveriš."
+        ]
+      },
+      {
+        "heading": "Druga ograničenja na koja treba da paziš",
+        "paragraphs": [
+          "Osim halucinacija, dobro je da znaš i sledeće: AI nema pristup informacijama posle određenog datuma (svaki model ima \"datum saznanja\" posle kog ne zna šta se dešavalo, osim ako ne koristi pretragu interneta uživo); AI ne poznaje tebe lično, tvoju porodicu, tvoje kolege ili tvoj poslovni kontekst osim onoga što mu kažeš; i AI nije zamena za stručnjaka kada je u pitanju ozbiljna pravna, finansijska ili medicinska odluka, čak i kada zvuči veoma ubedljivo.",
+          "Na primer, ako pitaš Claude \"Ko je trenutno na nekoj važnoj funkciji\" ili \"Koja je najnovija verzija nekog softvera\", a ne dozvoliš mu da pretraži internet, odgovor može biti zastareo, jer se oslanja na ono što je znao u trenutku kada je treniran, ne na ono što se desilo juče ili prošle nedelje. Zato je uvek dobro da za pitanja o skorašnjim dešavanjima eksplicitno tražiš da koristi pretragu, ili da sam proveriš koliko je informacija koju ti daje sveža."
+        ]
+      }
+    ],
+    "exercise": [
+      "Postavi Claude-u pitanje za koje sumnjaš da možda ne zna tačan odgovor sa sigurnošću, na primer neku veoma specifičnu statistiku ili manje poznatu činjenicu iz oblasti koju dobro poznaješ. Pogledaj odgovor, a zatim proveri tačnost te informacije putem pretrage na internetu. Ovo ti daje osećaj, iz prve ruke, gde su granice pouzdanosti AI odgovora.",
+      "Kada dobiješ odgovor, direktno pitaj i \"Koliko si siguran u ovo, od jedan do deset?\" i uporedi taj broj sa onim što si pronašao na internetu. Ovo ti pomaže da vremenom razviješ osećaj za to kada je AI zaista siguran, a kada samo zvuči sigurno. Zapiši za sebe jednu rečenicu o tome šta si naučio iz ove vežbe, jer je ovo znanje jedno od najvažnijih u celom kursu, i vratićemo mu se više puta."
+    ]
+  },
+  {
+    "num": 8,
+    "slug": "pet-stvari-koje-claude-radi-drugacije-od-obicnog-cetbota",
+    "title": "Pet stvari koje Claude radi drugačije od običnog četbota",
+    "shortDesc": "Pregled naprednijih mogućnosti.",
+    "intro": [
+      "Do sada si koristio Claude kao \"pametnog sagovornika\" u četu: pitaš, on odgovara. To je samo mali deo onoga što Claude ume. U ovoj lekciji dobijaš pregled pet mogućnosti koje AI podižu sa nivoa \"razgovor\" na nivo \"stvarni radni alat\". Svaku od njih ćemo detaljno obraditi u narednim lekcijama, a ovde je cilj da dobiješ jasnu mapu šta te čeka i zašto je vredno da nastaviš kurs."
+    ],
+    "diagram": "/diagrams/lekcija_08.png",
+    "diagramAlt": "pet stepenika koji se penju naviše, svaki obeležen jednim od pet naprednih alata, od \"razgovor\" do \"automatizacija\"",
+    "sections": [
+      {
+        "heading": "1. Projekti — trajan radni prostor sa memorijom",
+        "paragraphs": [
+          "Umesto da svaki put iznova objašnjavaš ko si, kojim se poslom baviš i kakav ti je stil, možeš napraviti Projekat: prostor u kom čuvaš dokumente, uputstva i kontekst koji Claude automatski koristi u svakom razgovoru unutar tog prostora. Na primer, ako vodiš malu radnju, možeš napraviti Projekat \"Moja radnja\" u koji staviš informacije o proizvodima, tonu komunikacije i tipičnim pitanjima kupaca, i onda svaki put kad ti treba odgovor kupcu, otvoriš taj Projekat umesto da iznova objašnjavaš o kakvom se biznisu radi. Detaljno u lekciji 9."
+        ]
+      },
+      {
+        "heading": "2. Artifacts — gotovi proizvodi, ne samo tekst",
+        "paragraphs": [
+          "Kada tražiš nešto što nije obično pisanje teksta, recimo interaktivni kalkulator, jednostavnu veb stranicu ili vizuelni prikaz podataka, Claude to može napraviti kao poseban, samostalan rezultat koji vidiš i koristiš direktno u razgovoru, umesto da ti samo objašnjava kako bi to teoretski izgledalo. Na primer, možeš tražiti \"Napravi mi jednostavan kalkulator za popust od 20 posto\" i dobićeš pravu, funkcionalnu mini-aplikaciju u kojoj ukucaš cenu i odmah vidiš rezultat, umesto da ti Claude samo objasni matematičku formulu. Detaljno u lekciji 10."
+        ]
+      },
+      {
+        "heading": "3. Cowork — AI koji radi zadatke umesto da samo odgovara na pitanja",
+        "paragraphs": [
+          "Ovo je najveća promena u načinu razmišljanja o AI. Umesto da vodiš razgovor korak po korak, dodeljuješ ceo zadatak (na primer \"sredi mi ovaj folder sa fajlovima\" ili \"napravi mi izveštaj od ovih dokumenata\") i Claude radi samostalno, u pozadini, dok se ti baviš nečim drugim. Zamisli da imaš folder sa sto fotografija sa proslave i želiš da ih preimenuješ po datumu i izdvojiš samo one na kojima ima ljudi. Umesto da to radiš ručno sat vremena, kažeš Claude-u zadatak jednom, i on ga obavlja u pozadini dok ti radiš nešto drugo. Ovome su posvećene lekcije 11 i 12."
+        ]
+      },
+      {
+        "heading": "4. Konektori — pristup tvojim pravim alatima",
+        "paragraphs": [
+          "Claude se može povezati sa tvojim Gmail nalogom, Google Kalendarom, Google Drive-om i drugim alatima koje već koristiš, tako da ne moraš ručno da kopiraš i lepiš informacije. Kada je povezan, može da pročita tvoje mejlove, proveri kalendar ili pretraži tvoje fajlove direktno, i na osnovu toga uradi zadatak koji si tražio. Na primer, mogao bi reći \"Pogledaj moj kalendar za sledeću nedelju i predloži mi kad imam slobodan termin od sat vremena za sastanak\", i Claude bi, uz povezan Google Kalendar, stvarno pogledao tvoje termine i dao ti konkretan odgovor, ne uopšten savet."
+        ]
+      },
+      {
+        "heading": "5. Skillovi — naučiš AI tvoj tačan način rada, jednom, zauvek",
+        "paragraphs": [
+          "Ako neki zadatak radiš uvek na isti način (na primer, uvek pišeš mejlove u istom tonu, ili uvek praviš izveštaje po istom šablonu), možeš to jednom sačuvati kao \"Skill\" i Claude će od tada automatski primenjivati taj tvoj način rada, bez da mu svaki put iznova objašnjavaš. Na primer, ako uvek pišeš izveštaje sa istom strukturom (uvod, tri glavne tačke, zaključak), možeš to sačuvati kao Skill jednom, i od tada svaki put kad kažeš \"Napravi mi izveštaj o ovoj temi\", Claude će automatski ispoštovati baš tu strukturu, bez da mu je ponovo objašnjavaš. Detaljno u lekcijama 15 i 16."
+        ]
+      },
+      {
+        "heading": "Zašto je ovo dobro da znaš, čak i ako ti neke od ovih stvari trenutno ne trebaju",
+        "paragraphs": [
+          "Ne moraš odmah da koristiš sve ovo. Poenta ove lekcije je da znaš da postoji, tako da kad naiđeš na situaciju gde ti čisti razgovor nije dovoljan (na primer, imaš gomilu fajlova za sređivanje ili radiš isti zadatak po deseti put), znaš tačno koji alat da posegneš umesto da se mučiš u običnom četu.",
+          "Zamisli ovih pet mogućnosti kao alate u kutiji sa alatom: ne koristiš svaki dan čekić i šrafciger, ali kad ti zatreba baš taj alat, dobro je da znaš da postoji i da ga imaš, umesto da pokušavaš da zakucaš ekser kamenom jer nisi znao da čekić postoji."
+        ]
+      }
+    ],
+    "exercise": [
+      "Pogledaj listu od pet stavki iznad i, pored svake, napiši jednu rečenicu o tome da li već sada vidiš konkretnu situaciju iz svog života gde bi ti ta funkcija bila korisna. Ne moraš ništa da uradiš sa tim odgovorima sada, samo ih zapiši. Vratićeš im se kroz sledeće lekcije.",
+      "Za svaku od pet stavki pokušaj i da dodaš konkretan primer iz svog života, po uzoru na primere iz ove lekcije. Što konkretnije zamisliš situaciju, lakše ćeš prepoznati pravi trenutak da tu funkciju iskoristiš kada za nju stignemo u kasnijim lekcijama."
+    ]
+  },
+  {
+    "num": 9,
+    "slug": "claude-projekti",
+    "title": "Claude Projekti — sve na jednom mestu",
+    "shortDesc": "Sve na jednom mestu.",
+    "intro": [
+      "U lekciji 4 si naučio da svaki novi razgovor sa Claude-om počinje \"praznu stranicu\", bez sećanja na prethodne razgovore. To je sasvim u redu za brza, jednokratna pitanja, ali postaje nezgodno kada radiš nešto duže ili kada uvek radiš iste vrste zadataka i svaki put moraš iznova da objašnjavaš isti kontekst: ko si, čime se baviš, kako želiš da ti Claude odgovara, koje podatke već ima. Zamisli da svaki put kad odeš kod frizera moraš iznova da objašnjavaš kako ti kosa raste i koju frizuru voliš, umesto da frizer to jednostavno zapamti. Tačno taj problem rešavaju Projekti."
+    ],
+    "diagram": "/diagrams/lekcija_09.png",
+    "diagramAlt": "fascikla u sredini iz koje strelice vode ka tri manja razgovora, sa natpisom da svaki razgovor \"vidi\" isti sadržaj fascikle",
+    "sections": [
+      {
+        "heading": "Šta je Projekat",
+        "paragraphs": [
+          "Projekat je poseban, trajan prostor unutar Claude-a u kom možeš da sačuvaš dokumente, uputstva i kontekst koji se automatski koriste u svakom razgovoru koji vodiš unutar tog prostora. Zamisli ga kao fasciklu koja, pored fajlova, ima i \"memoriju\": jednom kada nešto staviš unutra, Claude to zna u svakom sledećem razgovoru u tom Projektu, bez da mu ponovo objašnjavaš.",
+          "Svaki Projekat ima dva glavna dela. Prvi je polje za uputstva (Instructions), gde jednom napišeš ko si, čime se baviš i kako želiš da ti Claude pomaže, i to važi za svaki razgovor koji kasnije otvoriš u tom Projektu. Drugi je prostor za dokumente (Project knowledge), gde otpremaš fajlove koje Claude treba da poznaje, recimo cenovnik, prethodne tekstove, tabele sa podacima ili priručnik za tvoju firmu. Razgovori koje vodiš unutar Projekta ostaju odvojeni jedan od drugog (razgovor o cenovniku ne meša se sa razgovorom o objavi za Instagram), ali oba imaju pristup istim uputstvima i dokumentima."
+        ]
+      },
+      {
+        "heading": "Kada ti Projekat treba",
+        "paragraphs": [
+          "Projekat ima smisla kad god radiš nešto što traje duže od jednog razgovora ili kad imaš stalan kontekst koji se ponavlja. Nekoliko primera: vodiš mali biznis i želiš prostor gde Claude zna tvoj brend, ton komunikacije i tipične kupce; pišeš knjigu ili duži tekst i želiš da Claude zna celu strukturu i prethodna poglavlja; učiš za ispit iz određenog predmeta i želiš da mu daš celu literaturu jednom; radiš na ličnom projektu (renoviranje stana, planiranje svadbe, pokretanje strane hrane) gde ima mnogo pokretnih delova koje ne želiš svaki put iznova da objašnjavaš.",
+          "Dobar test da li ti Projekat treba jeste jednostavno pitanje: da li bih ovu istu informaciju morao da nalepim ili ispričam Claude-u više puta u narednim nedeljama? Ako je odgovor da, taj kontekst pripada Projektu, a ne pojedinačnom razgovoru. Za jednokratna pitanja (koliko je 235 puta 8, kako se kaže \"hvala\" na italijanskom) Projekat nema smisla, tu je običan razgovor sasvim dovoljan."
+        ]
+      },
+      {
+        "heading": "Šta staviti unutra, a šta ne",
+        "paragraphs": [
+          "Nije potrebno da otpremiš baš sve što imaš, važnije je da bude relevantno i ažurno. U uputstva stavljaš stvari koje se retko menjaju i koje oblikuju ton i pravila rada: ko si, čime se baviš, kome se obraćaš, šta treba a šta ne treba da radi Claude (\"nikad ne izmišljaj cene, uvek proveri u priloženom cenovniku\"). U dokumente stavljaš konkretan materijal: cenovnike, primere tekstova, tabele, ugovore, beleške. Ako neki dokument zastari (na primer stari cenovnik), najbolje je da ga zameniš novim, jer Claude ne zna sam da razlikuje koja verzija je aktuelna."
+        ]
+      },
+      {
+        "heading": "Kako se pravi Projekat",
+        "paragraphs": [
+          "U Claude aplikaciji, u levoj bočnoj traci nalazi se opcija za Projekte. Klikneš na \"Novi projekat\", daš mu ime (na primer \"Moja pekara\" ili \"Priprema za maturski ispit\"), i onda unutar njega možeš da: otpremiš dokumente (Word fajlove, PDF-ove, tabele) koje želiš da Claude poznaje, i napišeš posebna uputstva u polju za instrukcije, na primer \"Ti si moj pomoćnik za komunikaciju sa kupcima. Uvek piši toplim, domaćim tonom, nikad previše formalno, i uvek na ćirilici\" ili šta god odgovara tvojoj situaciji. Ceo proces traje par minuta, i možeš mu se vraćati kad god poželiš da nešto dodaš ili izmeniš, Projekat nije nešto što se jednom napravi i zaboravi."
+        ]
+      },
+      {
+        "heading": "Primer iz prakse",
+        "paragraphs": [
+          "Zamisli da imaš mali frizerski salon i želiš da ti Claude pomaže oko objava za društvene mreže. Napraviš Projekat \"Objave za salon\", ubaciš unutra par primera objava koje ti se dopadaju, dodaš uputstvo \"Piši u opuštenom, prijateljskom tonu, uvek dodaj poziv na zakazivanje termina na kraju, izbegavaj stručne frizerske termine.\" Od tog trenutka, svaki put kad u tom Projektu tražiš novu objavu, Claude već zna tvoj ton i format, bez da mu to ponovo objašnjavaš.",
+          "Isti princip radi i ako si freelancer, na primer prevodilac ili grafički dizajner koji šalje ponude klijentima. Napraviš Projekat \"Ponude za klijente\", otpremiš tri do četiri stare ponude koje su ti donele posao, i dodaš uputstvo poput \"Piši profesionalno ali toplo, uvek navedi rok isporuke i način plaćanja, i drži ponudu na jednoj strani.\" Sledeći put kad ti stigne upit od potencijalnog klijenta, samo prekopiraš njegovu poruku u taj Projekat i tražiš gotovu ponudu, umesto da svaki put ispočetka smišljaš strukturu i ton."
+        ]
+      }
+    ],
+    "exercise": [
+      "Napravi jedan Projekat vezan za nešto konkretno iz tvog života ili posla. Dodaj mu kratko uputstvo (dve do tri rečenice) o tome kako želiš da ti Claude pomaže u tom kontekstu. Ako imaš neki relevantan dokument na računaru (na primer opis tvog posla, primer teksta koji ti se dopada, ili beleške), otpremi ga. Zatim postavi jedno pitanje unutar tog Projekta i uporedi koliko je odgovor prilagođeniji nego što bi bio u običnom, praznom razgovoru. Ako želiš da zaista osetiš razliku, postavi identično pitanje i u običnom razgovoru van Projekta, pa uporedi dva odgovora jedan pored drugog."
+    ]
+  },
+  {
+    "num": 10,
+    "slug": "claude-artifacts",
+    "title": "Claude Artifacts — kad AI napravi gotov proizvod",
+    "shortDesc": "Kad AI napravi gotov proizvod.",
+    "intro": [
+      "Do sada je Claude uglavnom odgovarao tekstom. Ali kada tražiš nešto što nije čist tekst, recimo tabelu, malu veb stranicu, interaktivni kalkulator ili vizuelni grafikon, Claude to može napraviti kao poseban rezultat koji se otvara pored razgovora i koji možeš odmah da koristiš, menjaš ili preuzmeš. To se zove Artifact. Ova lekcija je važna jer otvara vrata ka nečemu što je do skoro bilo zamišljeno kao posao za programere, a sada je dostupno svakome ko ume da opiše šta mu treba."
+    ],
+    "diagram": "/diagrams/lekcija_10.png",
+    "diagramAlt": "dve kolone poređenja, levo \"Obična poruka\" sa ikonicom teksta, desno \"Artifact\" sa ikonicama tabele, sajta i grafikona",
+    "sections": [
+      {
+        "heading": "Šta je Artifact",
+        "paragraphs": [
+          "Artifact je samostalan, gotov \"proizvod\" koji Claude napravi na tvoj zahtev: to može biti interaktivna veb aplikacija, dokument sa formatiranjem, vizuelni prikaz podataka, mala igra, ili čak jednostavan alat koji rešava tačno tvoj problem. Za razliku od običnog teksta u razgovoru, Artifact se prikazuje u posebnom prozoru pored razgovora, gde ga možeš uživo isprobati, tražiti izmene, i na kraju preuzeti ili podeliti.",
+          "Claude sam prepoznaje kada je nešto pogodno za Artifact i obično ga napravi bez da ga izričito tražiš, ali možeš i sam da zatražiš: \"Napravi mi ovo kao poseban dokument koji mogu da otvorim i podelim.\" Bitno je da razumeš da Artifact nije statična slika onoga što je Claude napravio, nego živ rezultat: ako je to veb stranica, dugmad na njoj zaista rade; ako je kalkulator, brojke se zaista računaju kad ih unesеš."
+        ]
+      },
+      {
+        "heading": "Primeri šta možeš da tražiš",
+        "paragraphs": [
+          "Nekoliko konkretnih primera koje možeš odmah da probaš: \"Napravi mi interaktivni kalkulator ušteđevine, gde unosim mesečni iznos štednje i kamatnu stopu, a ti mi prikazuješ koliko ću imati za pet godina, sa grafikonom.\" Ili: \"Napravi mi jednostavnu stranicu sa mojim cenovnikom usluga, sa lepim dizajnom, koju mogu da pošaljem klijentima.\" Ili nešto sasvim jednostavno: \"Napravi mi vizuelni prikaz (grafikon) mojih mesečnih troškova na osnovu ovih brojeva: kirija 400, hrana 250, prevoz 80, zabava 100.\"",
+          "Osim ovoga, Artifacts su odlični i za manje \"kućne\" zadatke: raspored čišćenja za članove domaćinstva sa listama koje se mogu čekirati, kviz sa pitanjima za decu iz nekog školskog gradiva, jednostavan planer putovanja sa danima i aktivnostima, ili čak digitalna čestitka za rođendan sa animacijom. Granica je uglavnom tvoja mašta, a ne tehničko znanje, jer Claude sam piše sav potreban kod u pozadini, ti samo opisuješ rezultat koji želiš."
+        ]
+      },
+      {
+        "heading": "Kako se doteruje Artifact",
+        "paragraphs": [
+          "Isto kao i sa običnim tekstom, ne moraš da dobiješ savršen rezultat iz prve. Kada Claude napravi Artifact, možeš mu reći šta da promeni, tačno kao u običnom razgovoru: \"Promeni boju u plavu\", \"Dodaj još jednu kolonu za popust\", \"Učini font veći.\" On menja isti Artifact, ne pravi novi od nule, tako da proces liči na razgovor sa dizajnerom koji ti pred očima menja nacrt dok mu objašnjavaš šta želiš.",
+          "Korisno je znati i da možeš da tražiš izmene u malim koracima umesto da odjednom nabrajaš deset stvari. Na primer, prvo proveri da li kalkulator tačno računa, pa tek onda traži da izgleda lepše, umesto da sve to pomešaš u jednom zahtevu. Tako lakše primetiš ako nešto ne radi kako treba, i lakše je Claude-u da ispravi tačno taj deo."
+        ]
+      },
+      {
+        "heading": "Zašto je ovo posebno korisno za potpune početnike",
+        "paragraphs": [
+          "Ranije bi ti za bilo šta od gore navedenog (kalkulator, mali sajt, vizuelni prikaz) trebalo znanje programiranja ili plaćanje nekoga ko to zna. Sa Artifacts, opisuješ na običnom jeziku šta ti treba i dobijaš gotov, funkcionalan rezultat za par minuta. U lekciji 17 ćemo ovu ideju otići korak dalje, kada upoznaš Claude Code, alat namenjen za prave, veće projekte ove vrste."
+        ]
+      },
+      {
+        "heading": "Primer iz prakse",
+        "paragraphs": [
+          "Zamisli da si vlasnik male knjižare i želiš brz način da klijentima pokažeš koje knjige trenutno imaš na popustu. Umesto da plaćaš izradu sajta, otvoriš razgovor i kažeš: \"Napravi mi jednostavnu stranicu sa listom knjiga na akciji, sa nazivom, starom i novom cenom, i dugmetom 'U korpu' pored svake (dugme ne mora zaista da radi, samo vizuelno).\" Za par minuta imaš gotovu stranicu koju možeš da pošalješ linkom ili odštampaš kao letak, bez da si otvorio ijedan red koda."
+        ]
+      }
+    ],
+    "exercise": [
+      "Smisli jednu malu, konkretnu stvar koja bi ti bila korisna: kalkulator, jednostavan planer, vizuelni prikaz nekih tvojih podataka, ili jednostavna stranica sa informacijama. Zatraži od Claude-a da to napravi, opisujući tačno šta treba da sadrži. Kada dobiješ prvi rezultat, traži bar dve izmene, jednu koja se tiče izgleda (boja, raspored, font) i jednu koja se tiče sadržaja (dodatna stavka, drugačiji tekst), da probaš ceo proces doterivanja od početka do kraja."
+    ]
+  },
+  {
+    "num": 11,
+    "slug": "claude-cowork",
+    "title": "Claude Cowork — AI koji radi u pozadini",
+    "shortDesc": "AI koji radi u pozadini.",
+    "intro": [
+      "Sve do sada, ti si vodio razgovor: pitao si, čekao odgovor, opet pitao. To je uobičajen način korišćenja AI, ali predstavlja samo mali deo onoga što je danas moguće. Cowork menja taj odnos: umesto da vodiš razgovor, dodeljuješ posao, i AI ga samostalno obavlja dok se ti baviš nečim drugim. Ovo je jedna od najvećih promena u načinu korišćenja AI-a u poslednje vreme, pa joj posvećujemo dve pune lekcije."
+    ],
+    "diagram": "/diagrams/lekcija_11.png",
+    "diagramAlt": "vremenska linija koja pokazuje \"9:00 daješ zadatak\", zatim isprekidana linija \"Cowork radi sam\", pa \"17:00 gotov rezultat te čeka\"",
+    "sections": [
+      {
+        "heading": "Razlika između običnog razgovora i Cowork-a",
+        "paragraphs": [
+          "U običnom razgovoru, ti pokrećeš svaku poruku, čekaš odgovor, i proces staje kad ti stane. U Cowork-u, ti daš zadatak sa jasnim ciljem, i Claude samostalno radi na njemu, ponekad i satima: čita tvoje fajlove direktno, pristupa alatima poput mejla ili kalendara (ako si ih povezao), pravi kompletne, gotove rezultate, i sve to dok radiš nešto potpuno drugo. Najlakše je da to zamisliš kao razliku između postavljanja pitanja kolegi i dodeljivanja zadatka saradniku: kod prvog čekaš odgovor da bi nastavio, kod drugog odeš da radiš nešto drugo i vratiš se kad je posao gotov.",
+          "Ova razlika nije samo tehnička, nego menja i to kako planiraš svoj dan. Umesto da AI koristiš u kratkim pauzama između drugog posla, možeš mu dodeliti veći zadatak ujutru, otići na sastanke ili druge obaveze, i vratiti se rezultatu koji te čeka. To znači da se AI konačno uklapa u tvoj raspored, umesto da ti prilagođavaš svoj raspored njemu."
+        ]
+      },
+      {
+        "heading": "Šta ti treba da počneš",
+        "paragraphs": [
+          "Cowork radi isključivo u desktop aplikaciji (Mac ili Windows), ne u pregledaču niti na telefonu. Treba ti plaćen Claude plan, Pro (oko 20 dolara mesečno) ili Max (od oko 100 dolara mesečno, sa više prostora za duže i teže zadatke). Ako još nemaš desktop aplikaciju, preuzmi je sa claude.ai/download. Instalacija je ista kao za bilo koji drugi program, ne zahteva nikakvo tehničko predznanje."
+        ]
+      },
+      {
+        "heading": "Podešavanje za pet minuta",
+        "paragraphs": [
+          "Kada otvoriš desktop aplikaciju, u podešavanjima pronađi opciju za povezane aplikacije (Connected Apps) i poveži Gmail, Google Kalendar i Google Drive, ako ih koristiš. Ovo nije obavezno da bi Cowork radio, ali što više alata poveže, to će rezultati koje dobijaš biti korisniji i precizniji, jer Claude tada radi sa tvojim stvarnim podacima, a ne sa onim što mu ti prepričavaš. Zatim, kada ti Cowork zatraži pristup nekom folderu na tvom računaru, dozvoli mu, jer mu je to potrebno da bi mogao da čita, organizuje ili pravi dokumente od tvojih pravih fajlova.",
+          "Ne moraš da povežeš sve odjednom. Sasvim je u redu da počneš samo sa pristupom jednom folderu na računaru, isprobaš kako Cowork radi, i tek kasnije dodaš mejl i kalendar kada se budeš osećao spremnije. Svaku povezanu aplikaciju možeš u svakom trenutku i da isključiš iz istih podešavanja, pristup nije trajna, neopoziva odluka."
+        ]
+      },
+      {
+        "heading": "Najčešća greška početnika",
+        "paragraphs": [
+          "Najčešća greška je da ljudi otvore Cowork i postave mu pitanje, kao da je običan četbot: \"Koja je dobra marketinška strategija za mene?\" To je dobro pitanje za običan razgovor, ali ne iskorišćava ono što Cowork zapravo ume. Pravi način je da mu daš zadatak sa konkretnim, opipljivim rezultatom: \"Pročitaj sve fajlove u mom folderu Marketing i napravi mi dokument sa predlogom marketinške strategije za treći kvartal, na osnovu onoga što je do sada funkcionisalo. Sačuvaj dokument u istom folderu.\" Cowork uvek treba da nešto konkretno proizvede na kraju, ne samo da odgovori na pitanje.",
+          "Druga česta greška je da se odustane posle prvog nesavršenog rezultata. Baš kao i sa Artifacts iz prethodne lekcije, ne treba da očekuješ savršenstvo iz prve, razgovor sa Cowork-om nastavlja se i posle njegovog izveštaja, možeš tražiti izmene, dodatna objašnjenja ili drugačiji format."
+        ]
+      },
+      {
+        "heading": "Pet stvari koje odmah možeš da probaš",
+        "paragraphs": [
+          "Prva: uputi Cowork na svoj Downloads folder ili bilo koji neuredan folder na računaru i zamoli ga da pročita svaki fajl, sortira ih u podfoldere po temi i jasno ih preimenuje. Druga: daj mu folder sa beleškama ili istraživanjem i zamoli ga da od toga napravi uredan izveštaj ili vodič. Treća: zamoli ga da ti napravi jutarnji brifing na osnovu tvog kalendara i mejlova (ako su povezani). Četvrta: zamoli ga da pretraži tvoj Gmail za sve potvrde plaćanja i pretplate u poslednjih šest meseci i napravi ti listu svega za šta plaćaš. Peta: uveče mu daj veći, dugotrajniji zadatak (istraživanje neke teme, pravljenje detaljnog izveštaja) i pusti ga da radi dok ti spavaš. Sledećeg jutra te čeka gotov dokument."
+        ]
+      },
+      {
+        "heading": "Primer iz prakse",
+        "paragraphs": [
+          "Zamisli da vodiš malu online prodavnicu ručno rađenog nakita i imaš gomilu fotografija proizvoda razbacanih po različitim folderima na računaru, neke sa telefona, neke od fotografa. Umesto da satima ručno sortiraš, daš Cowork-u zadatak: \"Pregledaj sve fotografije u folderu Proizvodi, prepoznaj koje su slike istog proizvoda po nazivu fajla i sadržaju, grupiši ih u podfoldere po proizvodu, i napravi mi tabelu sa nazivom svakog proizvoda i brojem fotografija koje za njega imam.\" Dok se ti baviš pakovanjem porudžbina, Cowork ti za pola sata vrati uredno organizovanu arhivu i pregled u tabeli."
+        ]
+      }
+    ],
+    "exercise": [
+      "Izaberi jednu od pet ideja iznad koja ti je najkorisnija upravo sada, i uradi je. Prati kako Cowork radi, čak i ako u početku samo posmatraš, koristi je da bolje razumeš na koji način on donosi male odluke tokom zadatka. Ako nemaš plaćen plan ili desktop aplikaciju, ovu vežbu možeš da odložiš dok ne budeš spreman za taj korak, ali pročitaj ostatak lekcije da znaš tačno šta te čeka kada budeš spreman."
+    ]
+  },
+  {
+    "num": 12,
+    "slug": "kako-da-das-cowork-u-pravi-zadatak",
+    "title": "Kako da daš Cowork-u pravi zadatak (i automatizuješ svoj dan)",
+    "shortDesc": "Formula i automatizacija zadataka.",
+    "intro": [
+      "Sada kada znaš šta je Cowork, hajde da naučimo tačnu formulu za pisanje zadataka koji daju dobre rezultate, i kako da te zadatke pretvoriš u automatske, ponavljajuće rutine. Ovo je verovatno najpraktičnija lekcija do sada, jer ono što naučiš ovde direktno određuje koliko će ti Cowork zaista biti od koristi u svakodnevnom životu."
+    ],
+    "diagram": "/diagrams/lekcija_12.png",
+    "diagramAlt": "četiri povezane kutije u nizu sa natpisima \"Šta da pročita\", \"Šta da uradi\", \"Kako da formatira\", \"Gde da sačuva\"",
+    "sections": [
+      {
+        "heading": "Zadatak nije pitanje, zadatak je brifing",
+        "paragraphs": [
+          "U običnom razgovoru, postavljaš pitanje i usavršavaš odgovor u hodu. U Cowork-u, tvoja poruka je brifing: daješ jasne instrukcije unapred i odlaziš, a Cowork radi po tim instrukcijama bez dodatnog vođenja. Zbog toga je mnogo važnije da odmah budeš konkretan. Zamisli da objašnjavaš zadatak novom pripravniku koji je vredan i sposoban, ali ne zna ništa o tvom poslu: što mu jasnije objasniš šta očekuješ, to će rezultat biti bliži onome što zamišljaš."
+        ]
+      },
+      {
+        "heading": "Formula od četiri dela",
+        "paragraphs": [
+          "Svaki dobar Cowork zadatak sadrži četiri stvari. Prvo, šta da pročita: reci mu tačno gde je izvor informacija, na primer \"Pročitaj sve fajlove u mom folderu Dokumenti/Izveštaji\" ili \"Proveri moj Gmail za mejlove iz poslednjih sedam dana\" ili \"Pretraži internet za [tema].\" Drugo, šta da uradi sa tim: koristi jasan glagol radnje poput sažmi, organizuj, analiziraj, napravi, uporedi, napiši, umesto neodređenog \"pomozi mi.\" Treće, kako da formatira rezultat: reci mu kako treba da izgleda gotov proizvod, na primer \"jedan dokument sa posebnom sekcijom za svaku temu\" ili \"tabela sa kolonama za naziv, trošak i status.\" Ako mu ne kažeš, on će sam pogađati kako da organizuje rezultat, i pogodak neće uvek biti ono što si zamislio. Četvrto, gde da sačuva rezultat: reci mu tačno gde da sačuva gotov fajl, na primer \"sačuvaj na Desktop\" ili \"sačuvaj u istom folderu odakle si čitao fajlove\", jer u suprotnom će ti samo prikazati rezultat u prozoru razgovora.",
+          "Ova četiri dela ne moraju uvek da budu u ovom tačnom redosledu, niti moraju biti duge rečenice, ali sva četiri treba da postoje negde u tvom zadatku. Ako primetiš da rezultat koji dobijaš stalno nije ono što si očekivao, prvo proveri koji od ova četiri dela nedostaje ili je nejasan, u devet od deset slučajeva tu je problem."
+        ]
+      },
+      {
+        "heading": "Primer: kako da izgleda dobar zadatak",
+        "paragraphs": [
+          "Dobar primer: \"Pročitaj sve fajlove u mom folderu Projekti za klijente. Napravi izveštaj o statusu koji pokriva trenutno stanje, prepreke i sledeće korake za svaki projekat. Formatiraj sa jednom sekcijom po projektu. Sačuvaj kao 'Status projekata - april.md' u istom folderu.\"",
+          "Loš primer istog zadatka: \"Možeš li mi pomoći da shvatim gde stoje moji projekti?\" Ovaj drugi zahtev nije nužno pogrešan za običan razgovor, ali u Cowork-u ostavlja previše prostora za nagađanje i daje mnogo slabiji rezultat.",
+          "Evo još jednog para primera, ovog puta za istraživanje. Dobar zadatak: \"Pretraži internet za tri konkurentske firme u mojoj oblasti (uvoz kancelarijskog materijala) u Beogradu. Za svaku navedi cene tri najčešća proizvoda, način dostave i utisak korisnika na osnovu recenzija. Napravi tabelu za poređenje i sačuvaj je kao 'Konkurencija.md' na Desktop.\" Loš zadatak: \"Istraži mi konkurenciju.\" Razlika u kvalitetu rezultata između ova dva zahteva je ogromna, iako je razlika u trudu da ih napišeš svega par rečenica."
+        ]
+      },
+      {
+        "heading": "Zakazivanje zadataka da se ponavljaju sami od sebe",
+        "paragraphs": [
+          "Kada jednom napišeš zadatak koji dobro radi, možeš ga zakazati da se automatski ponavlja, bez da ga svaki put iznova pokrećeš. To se radi kroz opciju Dispatch, u podešavanjima: odabereš raspored (na primer svakog radnog dana u 8:30, ili svakog petka u 16h), nalepiš svoj Cowork zadatak, i sačuvaš. Od tog trenutka se zadatak izvršava sam, po tom rasporedu.",
+          "Nekoliko korisnih primera automatizacije za početak: jutarnji brifing svakog radnog dana koji ti sažima kalendar, mejlove i prioritete za taj dan; nedeljni pregled svakog petka popodne koji sumira šta si te nedelje uradio i šta prelazi na sledeću; i mesečni pregled troškova i pretplata prvog u mesecu, koji ti kaže tačno za šta plaćaš i šta možda ne koristiš. Dobra praksa je da svaki zakazani zadatak prvo par puta pokreneš ručno i proveriš rezultat, pa tek kada si zadovoljan formatom, prebaciš ga na automatsko ponavljanje. Tako izbegavaš da ti svako jutro u inbox stiže isti nedovršen ili loše formatiran izveštaj."
+        ]
+      },
+      {
+        "heading": "Pregled i doterivanje rezultata",
+        "paragraphs": [
+          "Kada Cowork završi zadatak, razgovor ostaje otvoren, tako da možeš da kažeš \"skrati ovo\", \"dodaj sekciju o X\" ili \"organizuj ovo po datumu umesto po temi\", umesto da počinješ ispočetka. Ovo doterivanje posle završenog zadatka je jednako važno kao i sam početni zadatak."
+        ]
+      },
+      {
+        "heading": "Primer iz prakse",
+        "paragraphs": [
+          "Zamisli da imaš malu knjigovodstvenu agenciju i svakog meseca ručno prolaziš kroz mejlove tražeći koji su klijenti poslali fakture za taj mesec, a koji nisu. To ti oduzima sat vremena koje bi radije proveo sa klijentima. Napišeš Cowork zadatak po formuli od četiri dela: \"Pretraži moj Gmail za mejlove od klijenata iz tekućeg meseca koji sadrže reč 'faktura' ili prilog u PDF formatu. Napravi listu klijenata koji su poslali fakturu i onih koji nisu, sa datumom poslednjeg mejla za svakog. Formatiraj kao tabelu sa kolonama Klijent, Status i Datum. Sačuvaj kao 'Fakture - [mesec].md' u folderu Knjigovodstvo.\" Kada vidiš da zadatak dobro radi, zakažeš ga kroz Dispatch da se pokreće poslednjeg dana svakog meseca, i taj sat vremena mesečno je zauvek uštеđen."
+        ]
+      }
+    ],
+    "exercise": [
+      "Napiši jedan Cowork zadatak koristeći formulu od četiri dela (šta da pročita, šta da uradi, kako da formatira, gde da sačuva) za nešto što ti stvarno treba ove nedelje. Pokreni ga i pogledaj rezultat. Ako nešto nije kako si zamislio, proveri koji od četiri dela je nedostajao i dopuni zadatak, pa pokreni ponovo. Ako je rezultat dobar, razmisli da li je to nešto što bi imalo smisla da zakažeš da se ponavlja automatski, i ako da, podesi to kroz Dispatch."
+    ]
+  },
+  {
+    "num": 13,
+    "slug": "sta-je-ai-agent-i-tri-nivoa-automatizacije",
+    "title": "Šta je AI agent i tri nivoa automatizacije",
+    "shortDesc": "Tri nivoa automatizacije.",
+    "intro": [
+      "U prethodne dve lekcije upoznao si Cowork, i verovatno si primetio da smo ga ponekad nazivali \"AI agentom.\" U ovoj lekciji ćemo tačno definisati šta taj termin znači, i pokazati ti da postoji čitava lestvica automatizacije, od najjednostavnije do potpuno samostalne, u zavisnosti od toga koliko duboko želiš da ideš. Termin \"AI agent\" se poslednjih godina koristi za mnogo različitih stvari, pa je korisno da imaš jasnu sliku pre nego što nastaviš dalje kroz kurs."
+    ],
+    "diagram": "/diagrams/lekcija_13.png",
+    "diagramAlt": "lestvica sa tri stepenika obeležena \"Cowork\", \"Claude Code\" i \"Potpuna autonomija\", sa strelicom koja raste na desno prikazujući rastuću složenost",
+    "sections": [
+      {
+        "heading": "Četbot naspram agenta",
+        "paragraphs": [
+          "Četbot odgovara na jedno pitanje u jednom trenutku. Ti pitaš, on odgovara, ti ponovo pitaš, i tako dok ne dobiješ ono što ti treba. Uvek čekaš na njega da bi ti nastavio dalje. Ovo je bio dominantan način korišćenja AI-a od kad je AI postao popularan, i to je i dalje odličan alat za brza pitanja, učenje i pisanje kraćih tekstova.",
+          "Agent prima cilj, a ne pojedinačno pitanje, i sam smišlja korake potrebne da taj cilj ostvari: čita podatke, donosi male odluke, koristi alate koje mu daš na raspolaganje, i izvršava radnje bez tvog nadzora nad svakim pojedinačnim korakom. Razlika je najbolje ilustrovana primerom: umesto da svako jutro kucaš \"pročitaj mi mejlove, sad ih kategoriši, sad napiši odgovor na ovaj\", jednom kažeš agentu \"svako jutro sredi mi inbox\" i on to radi sam, svaki dan, bez tvog dodatnog uputstva.",
+          "Ako želiš jednu rečenicu da zapamtiš razliku: razlika između korišćenja AI-a i posedovanja AI agenta je slična razlici između vožnje sopstvenog automobila i toga da imaš svog vozača. Kod vožnje, ti kontrolišeš svako skretanje i svako kočenje. Kod vozača, ti mu kažeš odredište, a on sam bira put, izbegava gužvu i parkira kola, dok ti gledaš kroz prozor ili radiš nešto drugo."
+        ]
+      },
+      {
+        "heading": "Tri nivoa automatizacije, od najlakšeg do najsloženijeg",
+        "paragraphs": [
+          "Postoje tri nivoa sa kojih možeš da kreneš, i svaki sledeći gradi na prethodnom, tako da ne moraš (a ni ne treba) da počneš od najsloženijeg. Zamisli ih kao stepenice: možeš stajati na prvoj koliko god želiš, i to je sasvim legitiman izbor, penjanje na sledeću ima smisla tek kada ti prva stvarno postane tesna.",
+          "**Prvi nivo, najlakši za početak, jeste upravo Cowork**, o kom smo detaljno pričali u prethodnim lekcijama. Bez instalacije, bez ijedne linije koda, sve što ti treba je pet minuta podešavanja. Idealan je za istraživanje, pisanje, analizu i organizaciju, i za sve što smo do sada obrađivali u kursu. Za veliku većinu ljudi, uključujući vlasnike malih biznisa i freelancere, ovaj nivo pokriva devedeset posto onoga što im AI ikada zatreba.",
+          "**Drugi nivo je Claude Code**, alat za pravljenje pravih digitalnih alata (sajtova, aplikacija, dashboard-a) bez pisanja koda, kroz razgovor na običnom jeziku. O njemu detaljno učimo u lekciji 17, ali ga ovde pominjemo jer je, tehnički gledano, takođe agent: ne piše samo tekst, nego čita fajlove, pokreće komande, instalira potrebne delove i ispravlja sopstvene greške dok gradi ono što si tražio. Ovaj nivo ima smisla kada ti Artifacts iz lekcije 10 više nisu dovoljni, na primer kada ti treba nešto što se čuva na internetu trajno, sa svojom bazom podataka, ne samo prikaz unutar jednog razgovora.",
+          "**Treći nivo je potpuna autonomija**, gde AI radi 24 sata dnevno, sedam dana nedeljno, potpuno nezavisno od toga da li si ti ulogovan u Claude ili ne, i komunicira sa tobom kroz aplikacije koje već svakodnevno koristiš poput WhatsApp-a, Telegrama ili Slack-a. Ovaj nivo zahteva tehničko podešavanje (sopstveni mali server ili računar koji je uvek uključen) i namenjen je ljudima koji su već udobni sa prva dva nivoa i žele da automatizuju cele tokove posla, ne pojedinačne zadatke. Ovo pominjemo radi kompletnosti slike, ali za ovaj kurs, namenjen potpunim početnicima, fokus ostaje na prva dva nivoa, koja pokrivaju veliku većinu onoga što će ti ikad zatrebati."
+        ]
+      },
+      {
+        "heading": "Poređenje po ključnim stavkama",
+        "paragraphs": [
+          "Ako razmišljaš odakle da kreneš, evo najjednostavnijeg vodiča: ako želiš rezultate već danas, bez ičega novog da instaliraš, kreni od Cowork-a. Ako želiš sopstvene, prilagođene alate poput trackera, kalkulatora ili malih internih aplikacija, sledeći korak je Claude Code. Treći nivo ostavi za kasnije, kada budeš siguran da ti zaista treba automatizacija koja radi nezavisno od toga da li si ulogovan.",
+          "Vredi napomenuti i cenu ulaska za svaki nivo: Cowork traži samo plaćen Claude plan i pet minuta podešavanja; Claude Code traži malo više strpljenja jer gradiš nešto od nule, ali i dalje bez pisanja koda; treći nivo traži tehničko znanje ili nekoga ko ti to može podesiti. Nema potrebe da žuriš ka trećem nivou samo zato što zvuči napredno, mnogi ljudi koji profesionalno koriste AI nikada ne odu dalje od prva dva."
+        ]
+      }
+    ],
+    "exercise": [
+      "Vrati se na svoje beleške iz lekcije 8, gde si zapisao situacije u kojima bi ti Cowork mogao pomoći. Za svaku, zapiši da li je to zadatak koji bi trebalo da radiš ručno svaki put (nivo razgovora), zadatak koji bi mogao da zakažeš da se automatski ponavlja (Cowork sa Dispatch rasporedom), ili nešto što bi tražilo poseban alat napravljen samo za tu svrhu (Claude Code, o čemu učimo uskoro). Ako nijedna od tvojih beležaka ne spada u treću kategoriju, to je sasvim normalno, većina svakodnevnih potreba stane u prva dva nivoa."
+    ]
+  },
+  {
+    "num": 14,
+    "slug": "pet-primera-ai-agenata-u-praksi",
+    "title": "Pet primera AI agenata u praksi",
+    "shortDesc": "Gotovi predlošci za primenu.",
+    "intro": [
+      "Da bi ti ideja o AI agentima postala potpuno konkretna, u ovoj lekciji prolazimo kroz pet stvarnih primera automatizacije koje ljudi već koriste u svakodnevnom poslu. Cilj nije da ih kopiraš tačno onakve kakve jesu, nego da ih koristiš kao inspiraciju i predložak koji prilagođavaš svojoj situaciji. Svaki primer je izabran zato što rešava problem koji se ponavlja iz nedelje u nedelju, a upravo su ponavljajući zadaci ti koji se najbolje isplate automatizovati.",
+      "Svaki od ovih primera možeš da postaviš kao Cowork zadatak sa zakazanim ponavljanjem (Dispatch), po istoj formuli koju si naučio u lekciji 12: šta da pročita, šta da uradi, kako da formatira, gde da sačuva ili pošalje rezultat."
+    ],
+    "diagram": "/diagrams/lekcija_14.png",
+    "diagramAlt": "pet ikonica u nizu sa kratkim labelama (Mejlovi, Upiti klijenata, Sastanci, Nedeljni izveštaj, Follow-up) povezanih jednom horizontalnom linijom kao koraci jedne nedelje",
+    "sections": [
+      {
+        "heading": "Primer 1: Sređivanje mejlova (Inbox Triage)",
+        "paragraphs": [
+          "Agent svako jutro čita tvoje nove mejlove i za svaki odlučuje da li je hitno (potreban je odgovor danas, pa piše nacrt odgovora), da li je potreban odgovor ali nije hitno (opet piše nacrt), da li je samo informativno (piše jednu kratku rečenicu rezimea), ili da li je nebitno poput reklama i newslettera (u tom slučaju ga potpuno ignoriše). Budiš se sa sređenim inboxom i gotovim nacrtima odgovora koje samo pregledaš i pošalješ ako se slažeš. Vremenom možeš da doteruješ i pravila: na primer, da mejlove od određenih ljudi (najvažnijih klijenata) uvek označi kao hitne, bez obzira na sadržaj."
+        ]
+      },
+      {
+        "heading": "Primer 2: Odgovaranje na nove upite klijenata (Lead Response)",
+        "paragraphs": [
+          "Kada neko popuni formu za kontakt na tvom sajtu ili ti pošalje upit, agent istraži ko je ta osoba i kompanija (ako je poslovni kontekst), oceni koliko je taj upit obećavajući, i napiše personalizovan odgovor koji spominje nešto specifično o toj osobi ili firmi, umesto generičkog \"Hvala na interesovanju.\" Ovo je posebno korisno ako imaš mali biznis i ne stižeš da svakom upitu posvetiš vreme koje bi voleo. Brzina odgovora je često presudna za to da li ćeš dobiti posao, a agent može da reaguje u roku od nekoliko minuta od pristiglog upita, čak i kada ti fizički nisi za računarom."
+        ]
+      },
+      {
+        "heading": "Primer 3: Priprema za sastanke (Meeting Prep)",
+        "paragraphs": [
+          "Pre svakog sastanka u tvom kalendaru, agent pripremi kratak pregled na jednoj strani: ko su učesnici i čime se bave, kakva je bila vaša prethodna komunikacija, koji dokumenti su relevantni, i predlog od tri do četiri tačke za razgovor. Umesto da uleteš u sastanak nepripremljen, imaš gotov podsetnik nekoliko minuta ranije. Ovo je posebno korisno ljudima koji imaju mnogo sastanaka u toku dana i teško pamte detalje o svakom sagovorniku, jer agent im vraća kontekst koji bi inače morali sami da pretražuju po starim mejlovima."
+        ]
+      },
+      {
+        "heading": "Primer 4: Nedeljni izveštaj (Friday Report)",
+        "paragraphs": [
+          "Svakog petka, agent pogleda tvoje podatke (na primer iz tabele sa prodajom ili rezultatima) i napravi kratak izveštaj: šta se dobro odvijalo te nedelje, šta zahteva pažnju, i na šta se fokusirati sledeće nedelje. Koristan je i za timove koji žele redovan pregled napretka bez da neko svake nedelje ručno sastavlja isti izveštaj. Ako vodiš tim, ovaj izveštaj možeš zakazati da se automatski pošalje na tvoj mejl ili čak deli sa saradnicima, tako da svi imaju isti pregled situacije bez dodatnog sastanka samo radi ažuriranja."
+        ]
+      },
+      {
+        "heading": "Primer 5: Praćenje posle sastanka (Follow-Up)",
+        "paragraphs": [
+          "Nakon sastanka, agent pročita tvoje beleške, izvuče konkretne akcione stavke (ko šta treba da uradi i dokad), napiše nacrte follow-up mejlova učesnicima, i predloži termin za sledeći sastanak ako je pomenut. Ovo rešava čest problem da se dobre odluke sa sastanka izgube jer ih niko formalno ne zapiše i ne pošalje na vreme. Dovoljno je da posle sastanka nalepiš svoje (i najkraće, nesređene) beleške agentu, on iz njih izvlači strukturu koju bi ti inače morao ručno da sastavljaš."
+        ]
+      },
+      {
+        "heading": "Kako da ovo primeniš uz Claude Cowork",
+        "paragraphs": [
+          "Svaki od ovih pet primera možeš da postaviš kao Cowork zadatak. Na primer, za sređivanje mejlova, tvoj zadatak bi mogao da glasi: \"Svako jutro pročitaj moje nove mejlove iz poslednjih 12 sati. Za svaki odluči da li je hitno, da li treba odgovor bez žurbe, da li je samo informativno, ili nebitno. Za prva dva slučaja napiši nacrt odgovora u mom stilu, kratkim i direktnim rečenicama. Prikaži mi rezultat organizovan po ove četiri kategorije, počev sa brojem mejlova koji zahtevaju moju pažnju.\" Ovaj zadatak zatim zakažeš kroz Dispatch da se izvršava svako jutro."
+        ]
+      },
+      {
+        "heading": "Primer iz prakse",
+        "paragraphs": [
+          "Zamisli da si samostalni fotograf koji radi venčanja i portrete, i imaš stalan priliv upita preko Instagrama i sajta, ali i gomilu sastanaka sa parovima pre svakog venčanja. Kombinuješ dva agenta odjednom: prvi (Lead Response) svaki upit sa sajta pretvara u personalizovan odgovor sa tvojim paketima i dostupnim terminima; drugi (Meeting Prep) ti dan pre svakog sastanka sa parom pripremi kratak podsetnik o njihovom venčanju (datum, lokacija, stil koji su tražili u prvom mejlu), tako da deluješ pripremljeno i pažljivo, iako u glavi žongliraš sa desetak različitih klijenata istovremeno."
+        ]
+      }
+    ],
+    "exercise": [
+      "Izaberi jedan od pet primera koji je najbliži tvojoj situaciji (ili osmisli sopstvenu varijaciju) i napiši ga kao kompletan Cowork zadatak, koristeći formulu od četiri dela iz lekcije 12. Ne mora odmah da bude zakazan da se ponavlja, prvo ga pokreni ručno jednom i proveri da li rezultat odgovara onome što si zamislio, pa tek onda razmisli o automatizaciji. Ako imaš vremena, probaj i drugi primer koji ti je blizak, da vidiš kako se ista formula prilagođava različitim situacijama."
+    ]
+  },
+  {
+    "num": 15,
+    "slug": "claude-skillovi",
+    "title": "Claude Skillovi — uštedi vreme na ponavljajućim zadacima",
+    "shortDesc": "Uštedi vreme na ponavljajućim zadacima.",
+    "intro": [
+      "Ako si kroz kurs primetio da neke zahteve Claude-u praktično kucaš na isti način svaki put (isti ton mejla, isti format izveštaja, ista pravila za neki zadatak), vreme je da naučiš za Skillove. Skill ti omogućava da to objasniš jednom, sačuvaš, i od tada se automatski primenjuje svaki put kad ti zatreba, bez ponovnog objašnjavanja. Zamisli ga kao belešku koju ostaviš Claude-u jednom zauvek, \"evo tačno kako ja to radim\", koju on onda čita svaki put kad mu zatreba, a da je ti nikad više ne moraš izgovoriti."
+    ],
+    "diagram": "/diagrams/lekcija_15.png",
+    "diagramAlt": "poređenje dve kolone, \"Bez Skilla\" (dugačko objašnjenje kucaš iznova svaki put) naspram \"Sa Skillom\" (kratka poruka, Claude sam zna pravila)",
+    "sections": [
+      {
+        "heading": "Šta je Skill",
+        "paragraphs": [
+          "Skill je skup instrukcija koji sačuvaš jednom, i Claude ga automatski učitava kad prepozna da je zadatak odgovarajući. Umesto da svaki put iznova kucaš \"napiši ovaj mejl mojim stilom, najviše četiri rečenice, opušten ton, uvek sa jasnim sledećim korakom\", to sačuvaš kao Skill jednom, i Claude to primenjuje svaki put kad tražiš da napiše mejl, bez ponovnog objašnjavanja.",
+          "Tehnički, Skill je samo folder koji sadrži jedan tekstualni fajl nazvan SKILL.md. Taj fajl ima dva dela: kratak opis koji govori Claude-u kada da ga koristi, i detaljne instrukcije koje mu govore kako da uradi taj zadatak. Nema koda, nema tehničkih podešavanja, samo običan tekst.",
+          "Bitno je da razumeš razliku između Skilla i običnog uputstva koje daš u razgovoru. Kada Claude-u kažeš \"piši kraće rečenice\" usred razgovora, to pravilo važi samo u tom razgovoru i nestaje kad ga zatvoriš. Skill, s druge strane, ostaje trajno sačuvan i dostupan u svakom novom razgovoru, na svakom uređaju na kom koristiš svoj nalog, sve dok ga sam ne isključiš ili obrišeš. To je ono što ga čini vrednim ulaganja vremena, jedanput ga podesiš dobro, i koristi ti nedeljama ili mesecima unapred."
+        ]
+      },
+      {
+        "heading": "Najbolji test da li ti nešto treba kao Skill",
+        "paragraphs": [
+          "Zapitaj se: da li sam ovo Claude-u objašnjavao barem pet puta? Ako je odgovor da, to je tvoj kandidat za Skill. Tipični primeri: pisanje mejlova tvojim ličnim stilom, formatiranje izveštaja uvek na isti način, pisanje objava za društvene mreže tvojim tonom, ili pregled dokumenata po istim kriterijumima svaki put.",
+          "Drugi koristan znak je kada primetiš da kopiraš i lepiš isti dugačak \"uvod\" na početak svake poruke Claude-u, pre nego što uopšte stigneš do samog zadatka. Ako se taj uvod ponavlja iz nedelje u nedelju, skoro identičan, to je siguran znak da ga treba pretvoriti u Skill umesto da ga stalno prekucavaš ili kopiraš iz nekog starog dokumenta.",
+          "### Primer iz prakse",
+          "Zamisli vlasnicu malog kozmetičkog salona koja svake nedelje piše po tri do četiri objave za Instagram, uvek istim, opuštenim i pomalo duhovitim tonom, uvek sa emotikonima na kraju i pozivom da se klijentkinje jave za termin. Umesto da svaki put Claude-u iznova objašnjava svoj ton i format, ona to zapiše jednom kao Skill \"Objave za Instagram\", i od tada samo kaže \"napiši objavu o novoj tretmanu za lice koji uvodimo\", a Claude sam zna ton, dužinu i format bez ijedne dodatne reči objašnjenja. Isto važi i za frilensera, na primer prevodioca koji svakom klijentu šalje ponudu po istom obrascu, samo sa drugim ciframa i rokovima, savršen kandidat za Skill koji se koristi mesecima unazad."
+        ]
+      },
+      {
+        "heading": "Najbrži način da napraviš Skill: skill-creator",
+        "paragraphs": [
+          "Najlakši put da napraviš svoj prvi Skill je alat koji se zove skill-creator, i koji radi unutar Cowork-a (o kom si učio u lekcijama 11 i 12), pa ti za ovo treba plaćen plan i desktop aplikacija. Otvoriš Cowork i ukucaš: \"Koristi skill-creator da mi pomogneš da napravim Skill za [zadatak koji stalno ponavljaš]\", gde zamenjuješ deo u zagradi konkretnim opisom, na primer \"pisanje mejlova klijentima mojim stilom\" ili \"pretvaranje grubih beležaka u uglađene objave za LinkedIn.\"",
+          "Claude tada prelazi u režim intervjua: postavlja ti pitanja poput \"Šta tačno treba ovaj Skill da radi?\", \"Kakav ton treba da ima rezultat?\", \"Šta uvek treba da uključi, a šta uvek da izbegava?\", \"Možeš li mi dati primer dobrog rezultata?\" Što detaljnije odgovoriš, to će Skill dugoročno bolje raditi. Koristan trik: ako Claude ima ugrađenu opciju za glasovni unos, pričaj umesto da kucaš odgovore na ova pitanja, jer ćeš prirodno dati mnogo više detalja govoreći nego kucajući, a upravo ti detalji čine Skill dobrim.",
+          "Ne brini ako u prvom pokušaju ne znaš tačno šta da odgovoriš na neko pitanje, na primer \"kakav ton treba da ima rezultat\". U tom slučaju, najbolje je da zalepiš primer teksta koji si već ranije napisao ili dobio od Claude-a, a koji ti se dopao, i kažeš \"hoću da svaki put zvuči ovako.\" Konkretan primer je uvek vredniji od apstraktnog opisa poput \"profesionalno, ali toplo.\"",
+          "Kada intervju završi, Claude sam generiše kompletan SKILL.md fajl. Pregledaš ga i kažeš šta eventualno da promeni (\"učini ton opušteniji\", \"dodaj pravilo da uvek uključim naslov poruke\"), i on to doteruje dok ne budeš zadovoljan."
+        ]
+      },
+      {
+        "heading": "Instalacija i testiranje",
+        "paragraphs": [
+          "Kada je Skill gotov, sačuvaš folder koji je Claude napravio, kompresuješ ga u ZIP fajl (desni klik na folder, pa \"Kompresuj\" na Mac-u ili \"Pošalji u kompresovani folder\" na Windows-u), i otpremiš ga kroz Podešavanja → Skillovi, dugme \"+\", opcija \"Otpremi Skill.\" Zatim ga uključiš.",
+          "Da bi proverio da li radi, otvori nov razgovor (ne isti Cowork gde si ga pravio) i napiši poruku koja treba prirodno da ga aktivira, ne pominjući ime Skill-a. Na primer, ako si napravio Skill za pisanje mejlova, samo reci \"Pomozi mi da napišem mejl kolegi\", bez da kažeš \"koristi moj Skill.\" Ako se Skill sam aktivira i rezultat liči na ono što si tražio, sve radi kako treba.",
+          "Ako nisi siguran da li se Skill zaista aktivirao, možeš direktno pitati Claude-a na kraju odgovora: \"Da li si upravo koristio neki od mojih Skillova, i koji?\" On će ti iskreno reći, i to je brz način da proveriš da li tvoj okidač (opis kada se Skill koristi) radi kako treba, pre nego što uopšte pređeš na proveru samog sadržaja odgovora."
+        ]
+      },
+      {
+        "heading": "Najčešća greška i kako da je ispraviš",
+        "paragraphs": [
+          "Devedeset posto problema sa Skillovima leži u opisu (onom kratkom delu na vrhu fajla), ne u instrukcijama. Ako je opis previše nejasan (\"pomaže sa mejlovima\"), Skill će se aktivirati na svemu i praviti zabunu. Ako je previše uzak (\"samo za mejlove klijentima iz određene industrije\"), nikad se neće aktivirati kad ti zatreba. Ako primetiš da se Skill ne pokreće kad očekuješ, pitaj direktno Claude-a: \"Kada bi koristio [naziv Skill-a]? Pročitaj mi opis naglas.\" On će ti pročitati tačan opis i odmah ćeš videti gde je problem, pa ga ispraviš i ponovo otpremiš.",
+          "Druga česta greška je da u jedan Skill pokušaš da naguraš previše različitih zadataka odjednom, na primer i pisanje mejlova i pisanje izveštaja i pregled ugovora u istom fajlu. Rezultat je zbunjujući, jer Claude ne zna koja pravila važe za koji deo. Rešenje je jednostavno: napravi po jedan Skill za svaki jasno odvojen zadatak, čak i ako ih ima pet ili šest, jer se svaki učitava samo kada je zaista potreban, pa veći broj manjih, fokusiranih Skillova radi bolje od jednog velikog koji pokušava sve."
+        ]
+      }
+    ],
+    "exercise": [
+      "Prisetite se zadatka koji radiš na isti način barem jednom nedeljno (mejl, objava, izveštaj, bilo šta iz tvog posla ili života). Ako imaš pristup Cowork-u, iskoristi skill-creator po uputstvu iznad da napraviš svoj prvi Skill za taj zadatak. Ako trenutno nemaš pristup Cowork-u, samo napiši, ručno, kako bi izgledao opis (kada da se koristi) i tri do pet konkretnih instrukcija (kako tačno da se uradi) za taj isti zadatak, kao pripremu za kad budeš spreman da ga zaista napraviš. Na kraju, zapiši i jednu rečenicu o tome kako ćeš znati da je Skill uspešan, na primer \"kada tri puta zaredom dobijem objavu koju mogu da okačim bez ijedne izmene.\""
+    ]
+  },
+  {
+    "num": 16,
+    "slug": "napravi-svoj-prvi-skill-korak-po-korak",
+    "title": "Napravi svoj prvi Skill korak po korak",
+    "shortDesc": "Korak po korak.",
+    "intro": [
+      "U prethodnoj lekciji naučio si najbrži način da napraviš Skill, uz pomoć skill-creator alata koji radi većinu posla umesto tebe. U ovoj lekciji ulazimo dublje: kako Skill zapravo funkcioniše iznutra, i kako ga napišeš i ručno, ako želiš potpunu kontrolu ili nemaš pristup Cowork-u."
+    ],
+    "diagram": "/diagrams/lekcija_16.png",
+    "diagramAlt": "tri naslagana sloja (poput piramide ili tri kutije jedna ispod druge) sa labelama \"Naziv i opis okidača\", \"Instrukcije korak po korak\", \"Referentni fajlovi\"",
+    "sections": [
+      {
+        "heading": "Tri sloja jednog Skilla",
+        "paragraphs": [
+          "Skill nije jedan veliki blok teksta, nego ima tri jasno razdvojena sloja, i razumevanje ove podele je ono što razdvaja Skill koji dobro radi od onog koji zbunjuje Claude-a ili se nikad ne aktivira.",
+          "**Prvi sloj, naziv i opis okidača**, je ono što se uvek čita, u svakom razgovoru, da bi Claude odlučio da li je taj Skill relevantan u tom trenutku. Dobar okidač znači da se Skill aktivira automatski kad treba; nejasan okidač znači da se nikad ne aktivira. Primer dobrog okidača: naziv \"Prepisivač mejlova\", opis \"Prepisuje mejlove da zvuče profesionalno i toplo. Koristi kada neko traži da poboljša, ispravi, prepiše ili uredi mejl.\"",
+          "**Drugi sloj, tvoje instrukcije korak po korak**, učitava se tek kada se okidač aktivira. Ovde pišeš tačno kako želiš da Claude radi: tvoje korake, tvoja pravila, kako treba da izgleda rezultat. Ovaj deo drži fokusiran na jedan proces, ne pokušavaj da jedan Skill radi sve i svašta.",
+          "**Treći sloj, referentni fajlovi**, su opcioni, dodatni fajlovi koje Claude preuzima samo kada mu zaista zatrebaju: dokument o tonu tvog brenda, konkretni primeri tekstova u tvom stilu, šablon koji uvek prati. Ovi fajlovi se ne učitavaju svaki put, što drži Claude-ove odgovore brzim, umesto da svaki put čita gomilu materijala koji mu nije potreban za taj konkretan zadatak.",
+          "Da bi ti bilo jasnije kako se ova tri sloja uklapaju u praksi, zamisli agenciju za nekretnine koja pravi Skill za pisanje oglasa za stanove. Prvi sloj (okidač) kaže Claude-u da se aktivira kad god neko traži \"opis stana\" ili \"oglas za nekretninu\". Drugi sloj (instrukcije) kaže mu tačan redosled informacija koje oglas mora da sadrži, kvadratura, sprat, broj soba, blizina prevoza, cena. Treći sloj (referentni fajlov) sadrži tri stvarna primera odličnih oglasa iz prošlosti, na koje se Claude ugleda kad piše nove, umesto da izmišlja stil od nule."
+        ]
+      },
+      {
+        "heading": "Kako izgleda SKILL.md fajl iznutra",
+        "paragraphs": [
+          "Evo konkretnog primera kompletnog fajla, da vidiš tačno kako sve izgleda kada se sastavi:",
+          "```\n---\nname: pisanje-mejlova\ndescription: Piše profesionalne mejlove stilom korisnika. Koristi kada korisnik traži da napiše, sačini ili odgovori na mejl, poruku ili odgovor. NE KORISTITI za razmišljanje naglas, sumiranje ili analitičke zadatke.\n---",
+          "# Pisanje mejlova"
+        ]
+      },
+      {
+        "heading": "Instrukcije",
+        "paragraphs": [
+          "Kada korisnik traži da napišeš mejl:\n1. Pitaj kome je namenjen i koja je ključna poruka, ako nije već navedeno.\n2. Piši toplim ali profesionalnim tonom.\n3. Drži se do 150 reči, osim ako nije drugačije navedeno.\n4. Uvek uključi jasan naslov poruke.\n5. Završi konkretnim sledećim korakom ili pozivom na akciju.\n6. Nikad ne počinji sa \"Nadam se da ova poruka nalazi dobro.\"\n```",
+          "Primeti da opis izričito kaže i kada NE treba da se koristi (\"NE KORISTITI za...\"). Ovo je jedan od najkorisnijih trikova: taj jedan red eliminiše veliku većinu pogrešnih, neželjenih aktivacija Skilla. Primeti i da su instrukcije numerisane i konkretne, \"piši toplim tonom\" je manje korisno samo po sebi, ali kombinovano sa pravilom o dužini, naslovu i završetku, Claude dobija dovoljno jasnu sliku da rezultat bude dosledan iz razgovora u razgovor."
+        ]
+      },
+      {
+        "heading": "Kako se pravi ručno, korak po korak",
+        "paragraphs": [
+          "Ako želiš da napraviš Skill bez skill-creator alata, evo pet koraka. Prvo, uključi opciju \"Izvršavanje koda i kreiranje fajlova\" u Podešavanjima, u sekciji Mogućnosti, jer je ovo preduslov da Skillovi uopšte rade. Drugo, izaberi tačno jedan proces koji stalno ponavljaš, koristeći test od pet puta koji smo pomenuli u prethodnoj lekciji. Treće, napravi novi folder na svom računaru i unutar njega običan tekstualni fajl nazvan tačno SKILL.md, sa zaglavljem (naziv i opis) na vrhu i instrukcijama ispod, po uzoru na primer iznad. Četvrto, kompresuj ceo folder (ne samo fajl unutar njega, to je najčešća greška) u ZIP i otpremi ga kroz Podešavanja → Skillovi → dugme \"+\" → Otpremi Skill. Peto, uključi ga i testiraj u novom razgovoru, formulišući poruku prirodno, bez pominjanja imena Skilla.",
+          "### Primer iz prakse",
+          "Frilenser koji radi grafički dizajn želi Skill koji mu pomaže da odgovori klijentima kada traže \"još jednu malu izmenu\" van dogovorenog obima posla. Ručno napiše SKILL.md sa nazivom \"Odgovor na dodatne izmene\", opisom \"Koristi kada klijent traži izmenu van dogovorenog obima rada\", i instrukcijama: uvek prvo zahvali na povratnoj informaciji, jasno objasni da je ovo van originalnog dogovora, ponudi cenu za dodatni rad ili predloži da se uključi u sledeći projekat, i završi ljubaznim tonom bez izvinjavanja. Sada, kad god mu klijent pošalje sličan zahtev, samo prosledi taj mejl Claude-u i kaže \"odgovori mu\", i dobija odgovor u tačno onom tonu koji čuva odnos sa klijentom, a ipak štiti njegovo vreme."
+        ]
+      },
+      {
+        "heading": "Pro saveti za bolje Skillove",
+        "paragraphs": [
+          "Provedi više vremena doterujući opis nego instrukcije, jer ako je opis pogrešan, ni najbolje instrukcije neće pomoći kada se Skill jednostavno nikad ne pokrene. Ne pravi odjednom pet Skillova pa ih onda testiraj sve zajedno, napravi jedan, testiraj ga odmah, ispravi, pa tek onda pravi sledeći. Ako Skill radi unutar Projekta (o kom smo učili u lekciji 9), automatski dobija ceo kontekst tog Projekta, tvoje fajlove i preference, što dodatno poboljšava rezultate. Instaliranje mnogo Skillova ne usporava Claude, jer se pune instrukcije čitaju samo onda kada se neki Skill zaista poklopi sa tvojim trenutnim zadatkom, tako da slobodno možeš imati veći broj sačuvanih Skillova bez brige. I na kraju, tvoji procesi se vremenom menjaju, pa je dobra navika da povremeno (na primer jednom mesečno) pregledaš svoje najkorišćenije Skillove i ažuriraš ono što je zastarelo.",
+          "Dodatni savet, čuvaj svoje Skillove na jednom mestu na računaru, na primer u folderu \"Moji Skillovi\", čak i pošto su već otpremljeni. Tako uvek imaš originalnu, uređivu verziju spremnu ako poželiš da napraviš izmenu ili napraviš sličan Skill za novi zadatak, umesto da moraš da preuzimaš ili ponovo sastavljaš fajl od nule."
+        ]
+      }
+    ],
+    "exercise": [
+      "Otvori tekstualni fajl na svom računaru i napiši kompletan SKILL.md za neki zadatak iz tvog života, po uzoru na primer iz ove lekcije: zaglavlje sa nazivom i opisom (uključujući \"NE KORISTITI za...\" red), i ispod pet konkretnih, numerisanih instrukcija. Ako imaš pristup Cowork-u i opciji za otpremanje Skillova, kompresuj ga i otpremi kao pravi Skill i testiraj ga u novom razgovoru. Kada ga testiraš, zapiši jednu stvar koju bi promenio u opisu ili instrukcijama na osnovu prvog rezultata, jer se retko koji Skill savršeno pogodi iz prve."
+    ]
+  },
+  {
+    "num": 17,
+    "slug": "claude-code",
+    "title": "Claude Code — pravi alate i sajtove bez pisanja koda",
+    "shortDesc": "Praviš alate bez pisanja koda.",
+    "intro": [
+      "Zove se Claude Code, i to ime zvuči tehnički i pomalo zastrašujuće ako nikad nisi programirao. U praksi, ovo je jedan od najpristupačnijih alata u celom kursu: opisuješ šta želiš običnim, svakodnevnim jezikom, a Claude piše kod, pravi fajlove i sastavlja ceo alat umesto tebe."
+    ],
+    "diagram": "/diagrams/lekcija_17.png",
+    "diagramAlt": "vremenska linija sa četiri koraka, \"Opiši ideju\", \"Claude gradi\", \"Ti testiraš\", \"Traži izmenu\", sa strelicom koja se vraća na treći korak",
+    "sections": [
+      {
+        "heading": "Šta je Claude Code",
+        "paragraphs": [
+          "Claude Code je alat koji ti omogućava da praviš prave digitalne alate kroz razgovor. Napravljen je prvobitno za programere, ali sve više ljudi bez ikakvog tehničkog predznanja, treneri, vlasnici malih biznisa, frilenseri, koriste ga da naprave stvari koje su im nekad tražile da plate programera. Ključna stvar koju treba da zapamtiš: ne moraš da naučiš da programiraš, samo moraš da naučiš da jasno opišeš šta želiš, a tu veštinu si već uveliko uvežbao kroz lekciju 5 ovog kursa.",
+          "Razlika u odnosu na običan razgovor sa Claude-om koji si do sada vodio je u tome što ovde Claude ne samo da ti daje tekst kao odgovor, nego stvarno kreira fajlove, piše programski kod u pozadini (koji ti nikad ne moraš ni pogledati ni razumeti) i pravi funkcionalnu stranicu ili alat koji odmah možeš da otvoriš u pregledaču i koristiš, ili da pošalješ link nekom drugom da i on koristi."
+        ]
+      },
+      {
+        "heading": "Šta ljudi prave bez ikakvog programerskog iskustva",
+        "paragraphs": [
+          "Nekoliko konkretnih primera iz prakse: portali za klijente, gde se korisnici prijavljuju i vide svoje materijale, rokove i fajlove; alati za rezervacije i zakazivanje, prilagođeni tačno tvom brendu; interne kontrolne table sa pregledom poslovnih metrika, inventara ili zadataka tima; kalkulatori i kvizovi, poput ROI kalkulatora ili kvizova za prikupljanje kontakata potencijalnih klijenata; kompletni sajtovi, od jednostavne landing stranice do sajta sa više podstranica; i prilagođene aplikacije za praćenje inventara, jednostavne CRM alate ili aplikacije za praćenje navika.",
+          "Vredi naglasiti da ovi alati nisu samo \"igračke\" za vežbu, nego stvari koje ljudi zaista koriste svakodnevno u svom poslu. Vlasnica joga studija je, na primer, napravila jednostavnu stranicu gde polaznici biraju termin i unose ime, a ona dobija mejl obaveštenje, umesto da vodi raspored ručno u svesci. Knjigovođa je napravio kalkulator koji klijentima pokazuje okvirnu procenu poreza na osnovu nekoliko unetih brojeva, i sada ga samo šalje kao link umesto da svakom klijentu posebno objašnjava isto pravilo iznova."
+        ]
+      },
+      {
+        "heading": "Kako izgleda u praksi: primer razgovora",
+        "paragraphs": [
+          "Najbolji način da razumeš Claude Code je da vidiš kako stvaran razgovor izgleda. Zamisli da si nutricionista i kažeš: \"Ja sam nutricionista. Želim jednostavan alat gde moji klijenti mogu da unose obroke svaki dan, a ja da vidim preglednu kontrolnu tablu svega što svi jedu.\" Claude Code odgovara opisom šta gradi (stranica za unos obroka sa kategorijama i izborom datuma, i administratorska tabla sa nedeljnim pregledom svakog klijenta) i počinje da gradi. Zatim kažeš: \"Možeš li dodati i mesto gde mogu da ostavim povratnu informaciju na njihove unose?\" On dodaje sekciju za komentare, objašnjava ti tačno gde se nalazi i kako je klijent vidi. To je ceo proces: opišeš, on gradi, kažeš šta da promeni, on ažurira, i tako napred-nazad dok rezultat ne bude tačno onakav kakav si zamislio.",
+          "Ono što je važno da primetiš u ovom primeru jeste da nutricionista ni u jednom trenutku ne mora da zna šta se tačno dešava \"ispod haube\". On govori jezikom svog posla, \"obroci\", \"klijenti\", \"nedeljni pregled\", a Claude sam prevodi to u tehničko rešenje. Ako u nekom trenutku nešto ne razume ili mu treba dodatno pojašnjenje, on će te pitati direktno, na primer \"da li želiš da klijenti vide i tuđe unose, ili samo svoje?\", i na tebi je samo da odgovoriš iz svoje perspektive korisnika, ne programera."
+        ]
+      },
+      {
+        "heading": "Kako da probaš Claude Code već danas",
+        "paragraphs": [
+          "Prvi korak, ako još nemaš nalog, registruj se na claude.ai (isti nalog koji koristiš za sve ostalo iz ovog kursa). Za veće projekte gde ćeš imati puno razgovora napred-nazad, Max plan (od oko 100 dolara mesečno) radi glatkije, ali Pro plan (oko 20 dolara mesečno) je sasvim dovoljan za manje projekte i za učenje.",
+          "Drugi korak, otvori Claude Code. Dostupan je na više načina: kroz terminal na računaru, kao desktop aplikaciju, kroz dodatke za programerske alate poput VS Code-a, ili direktno u pregledaču na claude.ai/code. Za apsolutne početnike, preporuka je da počneš baš u pregledaču, jer ne treba ništa da instaliraš.",
+          "Treći korak, opiši šta želiš da napraviš, ali počni jednostavno. Ne pokušavaj da u prvom pokušaju napraviš celu kompleksnu aplikaciju. Na primer: \"Želim jednostavan landing page za moj trenerski biznis, sa naslovom, tri navedene usluge i kontakt formom.\" Claude će ga napraviti, a ti ga zatim poboljšavaš u iteracijama.",
+          "Četvrti korak, i najvažniji: ponavljaj izmene dok ne bude savršeno. Nećeš dobiti savršen rezultat iz prvog pokušaja, i to je sasvim u redu, tako ovaj proces i funkcioniše. Samo nastavi da govoriš šta da promeni: \"Povećaj naslov\", \"Promeni boju u plavu\", \"Dodaj odeljak sa preporukama klijenata.\" Svaka izmena te približava konačnom cilju.",
+          "Peti korak, kada budeš zadovoljan rezultatom, zatraži od Claude-a da ga objavi ili ti da link koji možeš da podeliš. Za jednostavnije stranice i alate ovo je obično ugrađena opcija u samom razgovoru, jedna rečenica poput \"objavi ovo i daj mi link\" je sve što ti treba, bez ikakvog dodatnog tehničkog koraka sa tvoje strane."
+        ]
+      },
+      {
+        "heading": "Savet broj jedan za početnike",
+        "paragraphs": [
+          "Budi konkretan u opisu onoga što želiš. Umesto \"napravi mi sajt\", reci \"napravi mi jednostraničan sajt za moj biznis šetanja pasa u Beogradu, sa kalendarom za rezervacije, cenama za tri paketa usluga i fotografijama pasa.\" Što više detalja daš unapred, manje krugova doterivanja će ti trebati da stigneš do gotovog rezultata.",
+          "Drugi, manje očigledan savet: kada nešto ne izgleda kako si zamislio, opiši problem, a ne rešenje. Umesto da nagađaš \"verovatno treba da promeniš CSS na dugmetu\" (što verovatno ni sam ne razumeš), samo reci \"dugme za rezervaciju je premalo i teško ga je pronaći na telefonu.\" Claude zna tehnička rešenja bolje od tebe, tvoj posao je samo da jasno opišeš šta ne valja iz perspektive korisnika koji gleda stranicu."
+        ]
+      },
+      {
+        "heading": "Besplatni resursi ako želiš da ideš dublje",
+        "paragraphs": [
+          "Ako posle ovog kursa poželiš da naučiš više o Claude Code-u konkretno, postoji nekoliko besplatnih zvaničnih izvora: Anthropic-ova zvanična dokumentacija na docs.anthropic.com, besplatni kursevi na GitHub-u (github.com/anthropics/courses) koji pokrivaju osnove Claude-a i promptovanja, Anthropic-ov YouTube kanal sa video vodičima, i Claude Discord zajednica gde možeš postavljati pitanja i učiti od iskustava drugih korisnika."
+        ]
+      }
+    ],
+    "exercise": [
+      "Otvori claude.ai/code i opiši jednu malu, konkretnu stvar koju bi voleo da imaš: jednostavnu stranicu, mali kalkulator, ili alat za praćenje nečega iz tvog života. Prati proces iz primera u ovoj lekciji: prvi opis, pa bar dve runde doterivanja, dok rezultat ne bude blizu onoga što si zamislio. Kada završiš, zapiši jednu rečenicu o tome šta bi sledeće dodao ovom alatu, kao podsetnik za sledeći put kad mu se vratiš."
+    ]
+  },
+  {
+    "num": 18,
+    "slug": "koristi-ai-za-pisanje-i-marketinske-tekstove",
+    "title": "Koristi AI za pisanje i marketinške tekstove",
+    "shortDesc": "Copywriting osnove uz AI.",
+    "intro": [
+      "U lekciji 6 smo pokrili opšte pisanje uz pomoć AI. Sada idemo dublje, u jednu specifičnu i izuzetno korisnu oblast: pisanje tekstova koji imaju za cilj da nekoga ubede ili navedu na akciju, poput opisa proizvoda, tekstova za sajt, oglasa ili poruka koje pozivaju na kupovinu. Ovo se profesionalno zove copywriting, i AI je u tome iznenađujuće dobar pomoćnik, čim mu daš pravi kontekst."
+    ],
+    "diagram": "/diagrams/lekcija_18.png",
+    "diagramAlt": "krug podeljen na četiri dela sa labelama \"Svrha\", \"Publika\", \"Proizvod\", \"Kontekst\", koji se spajaju u strelicu ka jednom tekstu",
+    "sections": [
+      {
+        "heading": "Zašto marketinški tekst traži drugačiji pristup",
+        "paragraphs": [
+          "Za razliku od običnog mejla ili poruke, marketinški tekst ima jasan cilj: da čitalac uradi nešto konkretno (kupi, prijavi se, klikne, pozove). Zbog toga, pre nego što tražiš od AI da napiše bilo šta ove vrste, korisno je da mu daš četiri grupe informacija, slično formuli iz lekcije 5, ali prilagođeno ovoj specifičnoj svrsi.",
+          "Razlog zašto je ovo posebno važno kod marketinškog teksta, više nego kod obične poruke, jeste što ovde svaka reč nosi teret. Kada pišeš mejl kolegi, čak i ako je pomalo nejasan ili predugačak, kolega će verovatno ipak razumeti poentu. Kada neko čita opis proizvoda na sajtu, ima svega nekoliko sekundi da odluči da li nastavlja da čita ili odlazi, pa nema prostora za nejasnoću ili suvišne reči."
+        ]
+      },
+      {
+        "heading": "Četiri stvari koje treba da objasniš pre pisanja",
+        "paragraphs": [
+          "Prvo, svrha teksta: kakva stranica ili poruka je u pitanju (početna strana sajta, opis proizvoda, oglas, mejl), i koja je glavna akcija koju želiš da čitalac uradi.",
+          "Drugo, publika: ko je tvoj idealan kupac, koji problem pokušava da reši, i kojim jezikom on sam opisuje taj problem (ovo je važno, jer AI treba da koristi reči koje tvoji kupci već koriste, ne stručne ili korporativne izraze).",
+          "Treće, proizvod ili ponuda: šta tačno prodaješ, po čemu se razlikuješ od alternativa, i koji je glavni rezultat ili promena koju kupac dobija.",
+          "Četvrto, kontekst: odakle dolazi osoba koja čita tekst (da li je to njena prva poseta tvom sajtu, da li dolazi sa oglasa, da li je već tvoj kupac), jer to menja koliko objašnjenja treba da uključiš.",
+          "Ove četiri stvari ne moraš uvek da napišeš u dugačkim rečenicama, dovoljno je da ih imaš spremne kao kratke beleške pre nego što uopšte otvoriš razgovor sa Claude-om. Mnogi ljudi drže ovakve beleške sačuvane u jednom dokumentu, po jedan blok za svaki proizvod ili uslugu koju nude, tako da svaki put kada im treba novi tekst, samo kopiraju te beleške umesto da ih ponovo smišljaju od nule."
+        ]
+      },
+      {
+        "heading": "Osnovni principi dobrog marketinškog teksta",
+        "paragraphs": [
+          "Nekoliko pravila koja vrede za skoro svaki marketinški tekst, i koja možeš direktno da uneseš u svoj zahtev AI-u: jasnoća je uvek važnija od kreativnosti, ako moraš da biraš između duhovite ali nejasne rečenice i jasne ali obične, izaberi jasnu; benefiti su važniji od karakteristika proizvoda, uvek poveži svaku funkciju sa konkretnom koristi za kupca (\"štedi ti dva sata nedeljno\", ne samo \"ima automatsko planiranje\"); konkretnost prodaje bolje od uopštenih obećanja (\"stiže za 24 sata\" umesto \"brza isporuka\"); i jedna ideja po delu teksta, svaki pasus ili sekcija treba da nosi tačno jednu jasnu poruku, ne više njih odjednom.",
+          "Postoji i peto pravilo koje se često zaboravlja: piši tako da tekst zvuči prirodno kada ga naglas pročitaš. Ako ti neka rečenica zvuči kruto ili izveštačeno kada je izgovoriš, verovatno će isto tako delovati i čitaocu, čak i ako ju je napisao AI. Zato je dobra navika da svaki gotov tekst pre objavljivanja pročitaš naglas jednom, i tražiš od Claude-a da uprosti bilo koju rečenicu koja ti zvuči nezgrapno.",
+          "### Primer iz prakse",
+          "Vlasnik male stolarske radionice želeo je da napiše opis za svoju uslugu izrade nameštaja po meri. Prvi pokušaj bez konteksta dao mu je generičan tekst pun fraza poput \"vrhunski kvalitet\" i \"zadovoljstvo garantovano\", koji nije zvučao kao on. Kada je Claude-u dao sve četiri stvari, svrha (opis usluge za sajt), publika (parovi koji renoviraju stan i žele nešto što se ne kupuje u magacinu nameštaja), proizvod (ručna izrada od masivnog drveta, sa besplatnom prvom konsultacijom) i kontekst (posetioci uglavnom dolaze preko preporuke prijatelja), dobio je tekst koji je zvučao kao razgovor sa majstorom, ne kao reklama, i koji je odmah iskoristio na svom sajtu bez skoro ikakvih izmena."
+        ]
+      },
+      {
+        "heading": "Primer zahteva za AI",
+        "paragraphs": [
+          "\"Pišem opis za svoj proizvod: ručno pravljen sapun od kozjeg mleka. Kupci su uglavnom žene između 25 i 45 godina koje traže prirodnu kozmetiku i imaju osetljivu kožu. Glavna prednost je da ne sadrži nikakve veštačke sastojke i pravi se ručno u malim serijama. Napiši mi kratak opis proizvoda za moj online sajt, maksimalno 80 reči, topao i ličan ton, sa jasnim pozivom na kupovinu na kraju.\" Primeti kako ovaj zahtev sadrži sve četiri stvari iz prethodnog dela: svrhu, publiku, proizvod i format."
+        ]
+      },
+      {
+        "heading": "Dobri naspram loših poziva na akciju (CTA)",
+        "paragraphs": [
+          "Poziv na akciju (dugme ili rečenica koja traži od čitaoca da nešto uradi) je često najvažniji deo celog teksta, a najčešće mu se posveti najmanje pažnje. Generički pozivi poput \"Pošalji\", \"Prijavi se\" ili \"Saznaj više\" retko motivišu ikoga. Mnogo bolje funkcionišu konkretni, sa jasnom koristi: \"Pokreni besplatan probni period\", \"Preuzmi besplatan vodič\", \"Rezerviši svoj termin\", \"Probaj besplatno 14 dana.\" Kada tražiš tekst od AI, slobodno traži nekoliko alternativa za poziv na akciju i biraj onaj koji najbolje odgovara tvom tonu.",
+          "Dobra praksa je i da poziv na akciju uvek smanji osećaj rizika kod čitaoca, kad god je to iskreno moguće. Umesto samo \"Kupi sada\", razmisli da li možeš dodati nešto poput \"Kupi sada, besplatna zamena u roku od 30 dana\" ili \"Zakaži poziv, bez obaveze.\" Ljudi mnogo lakše kliknu kada osećaju da ništa ne rizikuju, a AI ti može ponuditi nekoliko varijanti ovakvih dopuna čim mu kažeš koje garancije zaista nudiš."
+        ]
+      }
+    ],
+    "exercise": [
+      "Izaberi jedan proizvod, uslugu ili ideju koju želiš da predstaviš (može biti tvoj pravi biznis, ili nešto izmišljeno za vežbu). Odgovori sebi na četiri pitanja iz ove lekcije (svrha, publika, proizvod, kontekst), a zatim to pretvori u kompletan zahtev za Claude, tražeći kratak marketinški tekst sa jasnim pozivom na akciju. Kada dobiješ prvi rezultat, zatraži još dve alternativne verzije poziva na akciju i uporedi ih. Na kraju, pročitaj ceo tekst naglas i proveri da li zvuči prirodno, ako ne, zatraži od Claude-a da uprosti rečenicu koja ti smeta."
+    ]
+  },
+  {
+    "num": 19,
+    "slug": "sta-dalje",
+    "title": "Šta dalje — sledeći koraci i resursi za dalje učenje",
+    "shortDesc": "Sledeći koraci i resursi.",
+    "intro": [
+      "Stigao si do kraja kursa. Prošao si put od potpune nule, preko osnova promptovanja i svakodnevne upotrebe, do naprednijih alata poput Cowork-a, Skillova i Claude Code-a. U ovoj poslednjoj lekciji sumiramo sve što si naučio, dajemo ti pogled na ono što dolazi posle ovog kursa, i ostavljamo ti konkretan plan i resurse za dalje napredovanje."
+    ],
+    "diagram": "/diagrams/lekcija_19.png",
+    "diagramAlt": "vremenska linija sa četiri koraka koje treba uraditi posle kursa, \"Ova nedelja\", \"Ovaj mesec\", \"Za tri meseca\", \"Kontinuirano\"",
+    "sections": [
+      {
+        "heading": "Kratak pregled celog puta",
+        "paragraphs": [
+          "U prvom delu kursa naučio si šta je AI, kako da napraviš nalog, vodiš razgovor i postavljaš pitanja koja daju korisne odgovore, kao i na šta treba da paziš (halucinacije i ograničenja). U srednjem delu upoznao si napredniji sloj Claude-a: Projekte za trajan kontekst, Artifacts za gotove proizvode umesto samo teksta, i Cowork za zadatke koje AI obavlja samostalno u pozadini. Zatim si prošao kroz svet AI agenata i automatizacije, uz konkretne primere koje možeš odmah da primeniš. Na kraju si naučio da napraviš sopstvene Skillove da AI radi tačno po tvom ličnom stilu, i da koristiš Claude Code da napraviš prave digitalne alate bez ijedne linije koda, kao i kako da AI koristiš za ubedljive marketinške tekstove.",
+          "Ako pogledaš unazad, primetićeš da su sve ove veštine zapravo nadogradnja jedna na drugu. Jasno formulisanje zahteva iz lekcije 5 je osnova bez koje Cowork ne bi imao smisla, jer agent koji radi samostalno mora dobiti isto tako jasne instrukcije kao i običan razgovor, samo unapred, u jednom paketu. Skillovi su, opet, način da tu istu jasnoću ne moraš svaki put iznova da izgovaraš. Sve se svodi na istu veštinu, samo primenjenu na različite alate."
+        ]
+      },
+      {
+        "heading": "Kako da nastaviš da napreduješ",
+        "paragraphs": [
+          "Najveća greška posle završetka bilo kog kursa je da se sve naučeno ostavi po strani i vrati se na stare navike. Najbolji način da znanje iz ovog kursa zaista ostane s tobom je da ga odmah primeniš na nešto stvarno iz svog života, ne kao vežbu, nego kao pravi zadatak koji ti je već potreban. Ako ti treba ideja odakle da kreneš, vrati se na rečenicu koju si napisao u lekciji 1 (\"AI bih želeo da mi pomogne oko ___\") i pretvori je u konkretan Cowork zadatak ili Skill koji ćeš zaista koristiti ove nedelje.",
+          "### Konkretan plan za prve tri meseca",
+          "Da ti ne ostane samo dobra namera, evo predloga kako da rasporediš dalje korake u vremenu, umesto da pokušaš sve odjednom.",
+          "**Ova nedelja**: primeni jednu stvar iz kursa na pravi zadatak koji ti već treba, ne na izmišljenu vežbu. Najbolji kandidati su prvi Skill iz lekcije 15 ili 16, ili jedan mali Cowork zadatak koji ti štedi vreme koje bi inače potrošio ove nedelje.",
+          "**Ovaj mesec**: napravi bar dva do tri Skilla za svoje najčešće zadatke, i isprobaj Claude Code na jednoj maloj, konkretnoj stvari koju bi voleo da imaš, čak i ako je to samo jednostavna stranica ili kalkulator za ličnu upotrebu.",
+          "**Za tri meseca**: pregledaj šta od svega ovoga zaista koristiš, a šta si zaboravio, i zadrži samo ono što ti stvarno donosi vrednost. Ako imaš mali biznis ili tim, razmisli da li ima smisla da još neko iz tvog okruženja prođe kroz ove osnove, jer AI alati postaju mnogo korisniji kada ih koristi više ljudi na isti, dogovoren način.",
+          "**Kontinuirano**: jednom mesečno izdvoj pola sata da pregledaš svoje Skillove i navike korišćenja AI, i da proveriš da li postoji nova funkcija ili alat koji bi ti pojednostavio nešto što sada radiš na duži način.",
+          "### Checklist za odmah posle kursa",
+          "Kao brz podsetnik, evo pet konkretnih stvari koje možeš da odradiš već danas ili sutra: (1) zapiši tri zadatka iz svog posla ili života koje AI može da preuzme ili ubrza; (2) napravi svoj prvi Skill za zadatak koji radiš najmanje jednom nedeljno; (3) otvori claude.ai/code i napravi jednu malu, jednostavnu stranicu ili alat, samo da vidiš kako proces izgleda; (4) proveri podešavanje privatnosti opisano ispod, ako još nisi; (5) sačuvaj link ka ovom kursu ili svoje beleške na jedno mesto kojem ćeš se lako vratiti kad ti zatreba podsetnik."
+        ]
+      },
+      {
+        "heading": "Kada budeš spreman za sledeći nivo: AI za tvoj posao",
+        "paragraphs": [
+          "Ako imaš mali biznis ili radiš samostalno, vredi da znaš da postoji i specijalizovana verzija Claude-a napravljena baš za vlasnike malih biznisa, koja se povezuje direktno sa alatima poput knjigovodstvenih programa, sistema za naplatu i alata za rad sa klijentima, i dolazi sa gotovim, unapred pripremljenim radnim tokovima za zadatke koje svaki vlasnik biznisa najviše mrzi: obračun zarada, zatvaranje meseca, praćenje faktura i slično. Ovo prevazilazi okvire ovog kursa za apsolutne početnike, ali dobro je da znaš da postoji, za trenutak kad tvoj posao preraste osnovne AI zadatke koje smo ovde obradili. Kada budeš spreman, potraži informacije o \"Claude for Small Business\" i primeni na to podešavanje isto ono što si ovde naučio o Cowork-u i automatizaciji, jer se ti principi u potpunosti prenose.",
+          "Na primer, frizerski salon sa tri zaposlena ne treba mu odmah kompletan poslovni sistem, ali kada naraste na deset zaposlenih i nekoliko lokacija, ručno praćenje termina, zaliha i plata kroz obične razgovore sa AI postaje nepraktično, i tada je pravi trenutak da se pređe na specijalizovanije, povezane alate umesto da se i dalje sve radi ručno, korak po korak, kao na početku."
+        ]
+      },
+      {
+        "heading": "Jedan važan podsetnik pre nego što kreneš dalje",
+        "paragraphs": [
+          "Pre nego što počneš da koristiš AI za bilo šta poslovno ili ozbiljno, vredi se vratiti na jedan mali, ali važan detalj iz podešavanja: proveri u Podešavanjima da li je opcija koja dozvoljava korišćenje sadržaja tvojih razgovora za treniranje modela uključena ili isključena, i odluči svesno da li ti to odgovara, umesto da ostane na podrazumevanoj vrednosti bez da si o tome razmislio. Ovo posebno važi ako u razgovore unosiš osetljive podatke, poput imena klijenata ili finansijskih detalja."
+        ]
+      },
+      {
+        "heading": "Besplatni resursi za dalje učenje",
+        "paragraphs": [
+          "Sve što sledi je besplatno, i možeš početi odakle god ti ima najviše smisla: Anthropic-ova zvanična dokumentacija (docs.anthropic.com) pokriva sve, od osnovnog podešavanja do naprednijih funkcija; besplatni kursevi na GitHub-u (github.com/anthropics/courses) uče osnove Claude-a, promptovanja i korišćenja alata; Anthropic-ov YouTube kanal nudi video vodiče i demonstracije direktno od tima koji pravi Claude; i Claude Discord zajednica je mesto gde možeš postavljati pitanja, deliti šta praviš i učiti od iskustava drugih korisnika.",
+          "Ako voliš da učiš čitanjem konkretnih primera, dobra navika je da povremeno pregledaš i zvaničan blog sa studijama slučaja, gde razne kompanije i pojedinci opisuju tačno kako su rešili neki problem uz pomoć AI, jer su ti primeri često konkretniji i primenjiviji od opštih uputstava."
+        ]
+      },
+      {
+        "heading": "Poslednja reč",
+        "paragraphs": [
+          "Veštačka inteligencija se menja brzo, mnogo brže nego većina tehnologija na koje smo navikli. Alati koje si naučio u ovom kursu će se vremenom menjati i unapređivati, i pojaviće se novi. Ono što ostaje konstantno, i što je bio pravi cilj ovog kursa, jeste način razmišljanja: kako da jasno formulišeš šta ti treba, kako da prepoznaš kada je zadatak za obično pitanje a kada za samostalnog agenta, i kako da ostaneš kritičan i proveravaš ono što je važno. Sa tim načinom razmišljanja, lako ćeš pratiti svaku narednu promenu u ovom svetu.",
+          "Hvala ti što si prošao ovaj put od prve lekcije do ovde. Jedina stvar koja sada zaista pravi razliku nije koliko si zapamtio, nego šta ćeš od ovoga primeniti u narednih par dana, dok ti je sve još sveže."
+        ]
+      }
+    ],
+    "exercise": [
+      "Napravi kratku ličnu listu od tri stvari iz ovog kursa koje ćeš primeniti već ove nedelje, sa konkretnim danom kada planiraš da to uradiš za svaku od njih. Iskoristi checklist iz ove lekcije kao polaznu tačku, ali slobodno prilagodi stavke svom poslu ili životu. Ne mora biti ništa veliko, čak i jedan mali Cowork zadatak ili jedan Skill koji zaista koristiš vredi više od deset ideja koje ostanu samo zapisane. Kada ispuniš sve tri stavke, vrati se na ovu listu i dodaj sledeće tri, jer je najbolji način da AI ostane deo tvog svakodnevnog rada taj da mu se stalno vraćaš sa novim, konkretnim zadacima."
+    ]
+  }
+]

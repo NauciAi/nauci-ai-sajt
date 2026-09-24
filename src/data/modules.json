@@ -1,0 +1,96 @@
+[
+  {
+    "num": 1,
+    "title": "Osnove",
+    "lessons": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "lessonSlugs": [
+      "dobrodosli",
+      "sta-je-ai-objasnjeno-jednostavnim-jezikom",
+      "tvoj-prvi-ai-nalog",
+      "tvoj-prvi-razgovor-sa-ai",
+      "kako-da-postavljas-dobra-pitanja"
+    ]
+  },
+  {
+    "num": 2,
+    "title": "AI u svakodnevnom životu",
+    "lessons": [
+      6,
+      7,
+      8
+    ],
+    "lessonSlugs": [
+      "ai-kao-pomocnik-u-svakodnevnim-zadacima",
+      "prvi-samostalni-zadatak",
+      "pet-stvari-koje-claude-radi-drugacije-od-obicnog-cetbota"
+    ]
+  },
+  {
+    "num": 3,
+    "title": "Organizuj svoj rad",
+    "lessons": [
+      9,
+      10
+    ],
+    "lessonSlugs": [
+      "claude-projekti",
+      "claude-artifacts"
+    ]
+  },
+  {
+    "num": 4,
+    "title": "Claude Cowork",
+    "lessons": [
+      11,
+      12
+    ],
+    "lessonSlugs": [
+      "claude-cowork",
+      "kako-da-das-cowork-u-pravi-zadatak"
+    ]
+  },
+  {
+    "num": 5,
+    "title": "AI agenti",
+    "lessons": [
+      13,
+      14
+    ],
+    "lessonSlugs": [
+      "sta-je-ai-agent-i-tri-nivoa-automatizacije",
+      "pet-primera-ai-agenata-u-praksi"
+    ]
+  },
+  {
+    "num": 6,
+    "title": "Claude Skillovi",
+    "lessons": [
+      15,
+      16
+    ],
+    "lessonSlugs": [
+      "claude-skillovi",
+      "napravi-svoj-prvi-skill-korak-po-korak"
+    ]
+  },
+  {
+    "num": 7,
+    "title": "Napredniji koraci",
+    "lessons": [
+      17,
+      18,
+      19
+    ],
+    "lessonSlugs": [
+      "claude-code",
+      "koristi-ai-za-pisanje-i-marketinske-tekstove",
+      "sta-dalje"
+    ]
+  }
+]
