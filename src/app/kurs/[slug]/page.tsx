@@ -54,17 +54,15 @@ export default async function LekcijaPage({ params }: Props) {
         <h1>{lesson.title}</h1>
         <p className="sub">{lesson.shortDesc}</p>
 
-        <div className="video-placeholder">
-          {lesson.youtubeId ? (
+        {lesson.youtubeId && (
+          <div className="video-placeholder">
             <iframe
               src={`https://www.youtube.com/embed/${lesson.youtubeId}`}
               title={lesson.title}
               allowFullScreen
             />
-          ) : (
-            <span>Video snimak lekcije stiže uskoro</span>
-          )}
-        </div>
+          </div>
+        )}
 
         <div className="lesson-body">
           {lesson.intro.map((p, i) => (
