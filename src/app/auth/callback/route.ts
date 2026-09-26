@@ -12,7 +12,13 @@ export async function GET(request: Request) {
 
   if (code) {
     const supabase = await createClient();
-    await supabase.auth.exchangeCodeForSession(code);
+    const { error } = await supabase.auth.exchangeCodeForSession(code);
+    if (error) {
+      console.error("Greška pri razmeni magic link koda za sesiju:", error.message);
+      const url = new URL("/prijava", origin);
+      url.searchParams.set("greska", "link");
+      return NextResponse.redirect(url);
+    }
   }
 
   return NextResponse.redirect(`${origin}${redirect}`);

@@ -9,6 +9,7 @@ function PrijavaForm() {
   const [status, setStatus] = useState<"idle" | "sending" | "sent" | "error">("idle");
   const searchParams = useSearchParams();
   const redirect = searchParams.get("redirect") || "/kurs";
+  const greska = searchParams.get("greska");
 
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
@@ -19,9 +20,9 @@ function PrijavaForm() {
     const { error } = await supabase.auth.signInWithOtp({
       email,
       options: {
-        emailRedirectTo: `${process.env.NEXT_PUBLIC_SITE_URL || window.location.origin}/auth/callback?redirect=${encodeURIComponent(
-          redirect
-        )}`,
+        emailRedirectTo: `${
+          process.env.NEXT_PUBLIC_SITE_URL || window.location.origin
+        }/auth/callback?redirect=${encodeURIComponent(redirect)}`,
       },
     });
 
@@ -32,6 +33,15 @@ function PrijavaForm() {
     <div className="login-wrap">
       <h1>Pristupi kursu</h1>
       <p className="lead">Unesi email — pošaljemo ti link za prijavu, bez lozinke.</p>
+
+      {greska === "link" && (
+        <div className="form-note err">
+          Link iz mejla nije uspeo da te uloguje. Ovo se obično dešava kad se link otvori u
+          drugom pregledaču ili na drugom uređaju od onog gde si tražio/la prijavu, ili kad je
+          link već iskorišćen. Zatraži novi link ispod i otvori ga u <b>istom pregledaču</b> gde
+          ga tražiš.
+        </div>
+      )}
 
       <form onSubmit={handleSubmit}>
         <div className="field">
