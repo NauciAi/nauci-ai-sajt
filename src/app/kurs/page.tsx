@@ -1,7 +1,9 @@
+import Link from "next/link";
 import Navbar from "@/components/Navbar";
 import ModuleAccordion from "@/components/ModuleAccordion";
 import { createClient } from "@/lib/supabase/server";
 import { getAllLessons, getModules } from "@/lib/lessons";
+import { getFreePromptCount } from "@/lib/prompts";
 
 export default async function KursPage() {
   const supabase = await createClient();
@@ -24,12 +26,22 @@ export default async function KursPage() {
   const firstOpenModuleNum =
     modules.find((m) => m.lessonSlugs.some((s) => !completedSlugs.has(s)))?.num ?? modules[0]?.num;
 
+  const freePromptCount = getFreePromptCount();
+
   return (
     <>
       <Navbar email={user?.email ?? ""} />
       <div className="course-wrap">
         <h1>Lekcije</h1>
         <p className="sub">Prođi kroz module redom, svojim tempom.</p>
+
+        <Link href="/kurs/promptovi" className="promptovi-link">
+          <span className="p-text">
+            <span className="p-title">📋 Biblioteka promptova</span>
+            <span className="p-desc">{freePromptCount} besplatnih Claude promptova za tvoj biznis</span>
+          </span>
+          <span className="p-arrow">→</span>
+        </Link>
 
         <div className="progress-label">
           <span>Tvoj napredak</span>

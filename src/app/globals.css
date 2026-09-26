@@ -660,3 +660,192 @@ a {
 .lesson-nav a:hover {
   color: var(--text);
 }
+
+/* ===== PROMPTOVI ===== */
+.prompts-wrap {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 40px 24px 100px;
+}
+.prompts-wrap h1 {
+  font-size: 26px;
+  margin: 6px 0 8px;
+}
+.prompts-wrap .sub {
+  color: var(--text-dim);
+  margin: 0 0 26px;
+  line-height: 1.6;
+  max-width: 560px;
+}
+
+.upsell-banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+  background: linear-gradient(135deg, rgba(201, 154, 68, 0.14), rgba(52, 211, 153, 0.06));
+  border: 1px solid rgba(201, 154, 68, 0.35);
+  border-radius: 16px;
+  padding: 20px 24px;
+  margin-bottom: 32px;
+}
+.upsell-banner-bottom {
+  margin-top: 8px;
+  margin-bottom: 0;
+}
+.upsell-text {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.upsell-text strong {
+  font-size: 15.5px;
+  color: var(--text);
+}
+.upsell-text span {
+  font-size: 13.5px;
+  color: var(--text-dim);
+  line-height: 1.5;
+  max-width: 420px;
+}
+
+.prompt-categories {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+.prompt-category-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 12px;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 8px;
+}
+.prompt-category-head h2 {
+  font-size: 16px;
+  margin: 0;
+  color: var(--gold-light);
+}
+.prompt-count {
+  font-size: 12.5px;
+  color: var(--text-dimmer);
+  font-variant-numeric: tabular-nums;
+  flex-shrink: 0;
+}
+
+.prompt-table {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.prompt-row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+  border: 1px solid var(--border);
+  background: var(--panel);
+  border-radius: 12px;
+  padding: 14px 16px;
+}
+.prompt-row-text {
+  min-width: 0;
+}
+.prompt-title {
+  display: block;
+  font-weight: 700;
+  font-size: 14px;
+  color: var(--text);
+  margin-bottom: 4px;
+}
+.prompt-body {
+  margin: 0;
+  font-size: 13px;
+  line-height: 1.55;
+  color: var(--text-dim);
+}
+
+.copy-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  flex-shrink: 0;
+  border: 1px solid var(--border-light);
+  background: rgba(255, 255, 255, 0.04);
+  color: var(--text-dim);
+  padding: 8px 14px;
+  border-radius: 999px;
+  font-size: 12.5px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.15s;
+  white-space: nowrap;
+}
+.copy-btn:hover {
+  border-color: var(--border-light);
+  background: rgba(255, 255, 255, 0.09);
+  color: var(--text);
+}
+.copy-btn.copied {
+  border-color: var(--emerald-border);
+  background: var(--emerald-bg);
+  color: var(--emerald);
+}
+
+.prompt-locked-hint {
+  margin-top: 10px;
+  font-size: 12.5px;
+  color: var(--text-dimmer);
+  border: 1px dashed var(--border-light);
+  border-radius: 10px;
+  padding: 10px 14px;
+}
+
+.promptovi-link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  border: 1px solid rgba(201, 154, 68, 0.35);
+  background: rgba(201, 154, 68, 0.08);
+  border-radius: 14px;
+  padding: 16px 18px;
+  margin-bottom: 24px;
+  text-decoration: none;
+}
+.promptovi-link .p-text {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.promptovi-link .p-title {
+  font-weight: 700;
+  font-size: 14.5px;
+  color: var(--text);
+}
+.promptovi-link .p-desc {
+  font-size: 12.5px;
+  color: var(--text-dim);
+}
+.promptovi-link .p-arrow {
+  color: var(--gold-light);
+  font-weight: 700;
+  flex-shrink: 0;
+}
+
+@media (max-width: 560px) {
+  .prompt-row {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .copy-btn {
+    align-self: flex-start;
+  }
+  .upsell-banner {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

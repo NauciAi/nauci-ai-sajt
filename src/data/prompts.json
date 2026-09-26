@@ -1,0 +1,322 @@
+[
+  {
+    "category": "Sadržaj i pisanje",
+    "total": 56,
+    "items": [
+      {
+        "title": "Naslovna \"O nama\" stranica",
+        "prompt": "Napiši ubedljiv tekst za stranicu \"O nama\" za moj biznis [naziv biznisa], koji se bavi [čime se bavi]. Ton neka bude [ton, npr. prijateljski i profesionalan]. Uključi kratku priču o tome zašto smo pokrenuli biznis, šta nas izdvaja od konkurencije, i poziv na akciju na kraju."
+      },
+      {
+        "title": "Blog objava",
+        "prompt": "Napiši kompletnu blog objavu na temu \"[tema]\", namenjenu [ciljna publika]. Objava treba da ima privlačan naslov, uvod koji hvata pažnju, 3 do 5 podnaslova sa razrađenim sadržajem, i zaključak sa pozivom na akciju. Piši jasno i konkretno, bez nepotrebnog žargona."
+      },
+      {
+        "title": "Opis proizvoda",
+        "prompt": "Napiši ubedljiv opis proizvoda za \"[naziv proizvoda]\". Proizvod radi sledeće: [kratak opis funkcije/koristi]. Ciljna publika su [opiši kupce]. Opis treba da ističe konkretne koristi za kupca, ne samo osobine proizvoda, i da bude dužine oko 100 reči."
+      },
+      {
+        "title": "Skripta za video",
+        "prompt": "Napiši skriptu za kratak video (60 do 90 sekundi) na temu \"[tema]\". Video je namenjen za [platforma, npr. Instagram Reels / YouTube]. Uključi jak hook u prve 3 sekunde, glavnu poruku, i jasan poziv na akciju na kraju. Piši u razgovornom tonu."
+      },
+      {
+        "title": "Natpisi za objave na društvenim mrežama",
+        "prompt": "Napiši 5 različitih natpisa (caption) za objavu na Instagramu koja promoviše \"[proizvod/usluga/događaj]\". Svaki natpis neka bude drugačijeg tona (npr. duhovit, inspirativan, direktan, pričajući priču, sa pitanjem publici) i neka sadrži poziv na akciju."
+      },
+      {
+        "title": "FAQ sekcija",
+        "prompt": "Na osnovu ovih informacija o mom proizvodu/usluzi: [nalepi opis ili karakteristike], generiši sekciju od 8 najčešćih pitanja i odgovora (FAQ) za moj sajt. Pitanja treba da budu ona koja bi stvarni kupci verovatno postavili, a odgovori kratki, jasni i korisni."
+      }
+    ]
+  },
+  {
+    "category": "Email marketing i automatizacija",
+    "total": 42,
+    "items": [
+      {
+        "title": "Serija dobrodošlice",
+        "prompt": "Napravi seriju od 3 email-a dobrodošlice za nove pretplatnike na moj newsletter o [tema/biznis]. Prvi email neka predstavi ko sam / šta radim, drugi neka pruži vrednost (savet ili resurs), treći neka predstavi glavnu ponudu ili proizvod. Ton neka bude topao i ličan."
+      },
+      {
+        "title": "Email sekvenca",
+        "prompt": "Napravi sekvencu od 5 email-ova za [cilj, npr. predstavljanje novog proizvoda / podsticanje na akciju]. Ciljna publika su [opiši publiku]. Za svaki email napiši predmet (subject line) i kratak sadržaj, uz jasan poziv na akciju."
+      },
+      {
+        "title": "Email za napuštenu korpu",
+        "prompt": "Napiši email koji se šalje kupcu koji je dodao proizvod u korpu ali nije završio kupovinu na mom online sajtu. Proizvod je [naziv proizvoda]. Email treba da bude kratak, prijateljski, da podseti na proizvod i eventualno ponudi mali podsticaj (npr. besplatna dostava ili popust) da završi kupovinu."
+      },
+      {
+        "title": "Newsletter",
+        "prompt": "Napravi predložak mesečnog newslettera za moj biznis [naziv/oblast]. Uključi sekcije: kratak uvod, glavnu vest ili savet meseca, isticanje jednog proizvoda/usluge, i poziv na akciju. Piši prijateljskim, ličnim tonom."
+      },
+      {
+        "title": "Hladan email (cold outreach)",
+        "prompt": "Napiši kratak, ubedljiv hladan email za [cilj, npr. saradnju, prodaju usluge] osobi koja radi kao [pozicija/uloga primaoca]. Predstavi ukratko ko sam i šta nudim, fokusiraj se na konkretnu korist za primaoca, i završi jasnim, niskorizičnim pozivom na akciju (npr. kratak poziv od 15 minuta)."
+      }
+    ]
+  },
+  {
+    "category": "Društvene mreže",
+    "total": 38,
+    "items": [
+      {
+        "title": "Kalendar objava za društvene mreže",
+        "prompt": "Napravi kalendar objava za društvene mreže za narednih 2 nedelje za moj biznis [naziv/oblast]. Za svaki dan predloži temu objave, kratak opis sadržaja i platformu (Instagram, Facebook, LinkedIn, itd.), uzimajući u obzir da imam [broj] objava nedeljno."
+      },
+      {
+        "title": "Strategija hashtag-ova",
+        "prompt": "Predloži mi 20 relevantnih hashtag-ova za Instagram objave o [tema/biznis/industrija]. Podeli ih u tri grupe: popularni (veliki domet, veća konkurencija), srednje popularni, i nišni (mala konkurencija, ciljana publika)."
+      },
+      {
+        "title": "Instagram carousel objava",
+        "prompt": "Napravi plan za Instagram carousel objavu (5-7 slajdova) na temu \"[tema]\". Za svaki slajd napiši kratak tekst koji ide na njega, tako da cela serija ispriča jasnu priču ili pruži koristan savet, sa pozivom na akciju na poslednjem slajdu."
+      },
+      {
+        "title": "LinkedIn strategija",
+        "prompt": "Predloži mi strategiju za rast na LinkedIn-u za moj biznis / lični brend u oblasti [oblast]. Uključi: koliko puta nedeljno da objavljujem, koje tipove sadržaja (postovi, članci, video), i 5 konkretnih ideja za objave za sledeći mesec."
+      }
+    ]
+  },
+  {
+    "category": "SEO i pretraživanje",
+    "total": 20,
+    "items": [
+      {
+        "title": "Istraživanje ključnih reči",
+        "prompt": "Predloži mi 15 ključnih reči i fraza za koje bi trebalo da optimizujem sadržaj na sajtu, ako se bavim [oblast/proizvod/usluga] i moji kupci su [opiši publiku]. Za svaku ključnu reč, proceni da li iza nje stoji namera za kupovinu, istraživanje ili informisanje."
+      },
+      {
+        "title": "Google Business profil",
+        "prompt": "Pomozi mi da optimizujem opis mog Google Business profila za biznis \"[naziv]\" koji se bavi [delatnost] u [grad/lokacija]. Napiši ubedljiv opis od oko 750 karaktera koji uključuje relevantne ključne reči i jasno predstavlja šta nudimo."
+      }
+    ]
+  },
+  {
+    "category": "Oglašavanje i plaćeni mediji",
+    "total": 22,
+    "items": [
+      {
+        "title": "Tekst za oglas",
+        "prompt": "Napiši 5 verzija teksta oglasa za [platforma, npr. Facebook / Google Ads] koji promoviše \"[proizvod/usluga]\". Ciljna publika su [opiši publiku]. Svaka verzija neka testira drugačiji ugao (cena, kvalitet, hitnost, društveni dokaz, rešavanje problema)."
+      },
+      {
+        "title": "Facebook reklamna kampanja",
+        "prompt": "Pomozi mi da isplaniram Facebook reklamnu kampanju za \"[proizvod/usluga]\" sa budžetom od [iznos] mesečno. Predloži ciljnu publiku, 3 ideje za kreativu (sliku/video), i tekst oglasa za svaku."
+      }
+    ]
+  },
+  {
+    "category": "Prodaja i funneli",
+    "total": 30,
+    "items": [
+      {
+        "title": "Prodajna stranica",
+        "prompt": "Napiši tekst za prodajnu stranicu za \"[proizvod/usluga]\", čija je cena [cena]. Uključi: udarni naslov, opis problema koji rešava, listu koristi (ne samo osobina), sekciju sa čestim primedbama i odgovorima, i jasan poziv na akciju."
+      },
+      {
+        "title": "Persona kupca",
+        "prompt": "Na osnovu ovih informacija o mojim dosadašnjim kupcima: [opiši šta znaš o kupcima], napravi detaljnu personu idealnog kupca za moj biznis. Uključi: demografiju, ciljeve, izazove, i gde najčešće traže informacije/rešenja."
+      },
+      {
+        "title": "Lead magnet",
+        "prompt": "Predloži mi 5 ideja za \"lead magnet\" (besplatan sadržaj u zamenu za email adresu) za moj biznis u oblasti [oblast]. Za svaku ideju napiši naslov i kratak opis šta bi sadržala, i koju vrstu kupca bi najviše privukla."
+      }
+    ]
+  },
+  {
+    "category": "Brending i dizajn",
+    "total": 24,
+    "items": [
+      {
+        "title": "Slogan brenda",
+        "prompt": "Smisli 10 opcija za slogan (tagline) mog brenda \"[naziv brenda]\", koji se bavi [delatnost]. Slogan treba da bude kratak (do 6 reči), pamtljiv, i da prenese [glavnu vrednost/osećaj koji želim da prenesem]."
+      },
+      {
+        "title": "Paleta boja",
+        "prompt": "Predloži mi paletu od 5 boja za brend \"[naziv brenda]\" u industriji [industrija], koji želi da deluje [opis, npr. moderno i pouzdano]. Za svaku boju daj hex kod i objasni gde bi se koristila (glavna, sekundarna, akcent, tekst, pozadina)."
+      }
+    ]
+  },
+  {
+    "category": "Finansije",
+    "total": 28,
+    "items": [
+      {
+        "title": "Predložak fakture",
+        "prompt": "Napravi predložak profesionalne fakture za moj biznis \"[naziv]\". Treba da sadrži: podatke o firmi, podatke o klijentu, listu stavki sa cenama, ukupan iznos, rok plaćanja i način plaćanja. Formatiraj to jasno, kao tekst koji mogu da prekopiram u dokument."
+      },
+      {
+        "title": "Kalkulator cena",
+        "prompt": "Pomozi mi da odredim cenu za \"[proizvod/usluga]\". Moji troškovi su [nabroj troškove], želim maržu od [procenat]%, a konkurencija naplaćuje oko [iznos]. Predloži mi konačnu cenu i objasni logiku iza toga."
+      },
+      {
+        "title": "Plan budžeta",
+        "prompt": "Napravi mi jednostavan mesečni budžetski plan za moj mali biznis \"[naziv/oblast]\", sa mesečnim prihodom od oko [iznos]. Podeli troškove u kategorije (fiksni, varijabilni, marketing, rezerva) i predloži razumne procente za svaku."
+      }
+    ]
+  },
+  {
+    "category": "Pravo i zakon",
+    "total": 30,
+    "items": [
+      {
+        "title": "Politika privatnosti",
+        "prompt": "Napiši osnovnu politiku privatnosti za moj sajt \"[naziv sajta]\", koji prikuplja [koje podatke, npr. email adresu, ime]. Napomeni da ovo treba da bude polazna tačka koju bi trebalo da pregleda pravnik pre objavljivanja."
+      },
+      {
+        "title": "Uslovi korišćenja",
+        "prompt": "Napiši osnovne uslove korišćenja za moj sajt/aplikaciju \"[naziv]\", koji nudi [opiši uslugu]. Uključi standardne sekcije (prava i obaveze korisnika, ograničenje odgovornosti, promene uslova). Napomeni da ovo treba da pregleda pravnik pre objavljivanja."
+      },
+      {
+        "title": "Osnovni ugovor o usluzi",
+        "prompt": "Napravi predložak jednostavnog ugovora o pružanju usluga između mene, kao [opiši svoju ulogu, npr. frilenser/agencija], i klijenta, za uslugu \"[opiši uslugu]\". Uključi: opseg posla, cenu i način plaćanja, rokove, i uslove otkazivanja. Napomeni da treba da ga pregleda pravnik."
+      }
+    ]
+  },
+  {
+    "category": "Operacije i sistemi",
+    "total": 30,
+    "items": [
+      {
+        "title": "Beleške sa sastanka",
+        "prompt": "Na osnovu ovih beležaka/transkripta sa sastanka: [nalepi beleške], napravi organizovan sažetak sa sledećim sekcijama: ključne teme, odluke koje su donete, i zadaci sa nosiocima i rokovima."
+      },
+      {
+        "title": "Nedeljni izveštaj",
+        "prompt": "Na osnovu ovih informacija o tome šta sam radio/la ove nedelje: [nabroj aktivnosti/rezultate], napiši kratak, profesionalan nedeljni izveštaj za mog menadžera/tim, sa sekcijama: šta je urađeno, izazovi, i planovi za sledeću nedelju."
+      },
+      {
+        "title": "Standardna operativna procedura (SOP)",
+        "prompt": "Napravi standardnu operativnu proceduru (SOP) korak po korak za proces \"[opiši proces, npr. obrada nove porudžbine]\" u mom biznisu. Format neka bude jasna numerisana lista koraka, tako da bilo ko nov u timu može da je isprati."
+      }
+    ]
+  },
+  {
+    "category": "HR i tim",
+    "total": 28,
+    "items": [
+      {
+        "title": "Oglas za posao",
+        "prompt": "Napiši privlačan oglas za posao za poziciju \"[naziv pozicije]\" u mojoj firmi \"[naziv]\". Uključi: kratak opis firme, glavne odgovornosti, potrebne kvalifikacije, i šta nudimo kandidatu. Ton neka bude [npr. profesionalan ali topao]."
+      },
+      {
+        "title": "Checklist za uvođenje novog zaposlenog",
+        "prompt": "Napravi checklistu za uvođenje (onboarding) novog zaposlenog na poziciji \"[pozicija]\" u mojoj firmi, za prvih 30 dana. Podeli je po nedeljama, sa konkretnim zadacima i ciljevima za svaku."
+      }
+    ]
+  },
+  {
+    "category": "Klijenti i konsalting",
+    "total": 18,
+    "items": [
+      {
+        "title": "Formular za prijem klijenata",
+        "prompt": "Napravi listu od 10 pitanja za formular za prijem novih klijenata u mojoj [vrsta biznisa, npr. agenciji / konsultantskoj praksi], koja će mi pomoći da razumem njihove potrebe i ciljeve pre prvog sastanka."
+      },
+      {
+        "title": "Anketa za klijente",
+        "prompt": "Napravi anketu od 8 pitanja za prikupljanje povratnih informacija od mojih klijenata o [proizvod/usluga]. Uključi mešavinu pitanja sa ocenom (1-5) i otvorenih pitanja, tako da dobijem i merljive podatke i konkretne komentare."
+      }
+    ]
+  },
+  {
+    "category": "Kursevi i edukacija",
+    "total": 20,
+    "items": [
+      {
+        "title": "Struktura online kursa",
+        "prompt": "Predloži mi strukturu online kursa na temu \"[tema]\", namenjenog [ciljna publika, npr. potpunim početnicima]. Podeli ga u module i lekcije, sa kratkim opisom šta se uči u svakoj lekciji, tako da ceo kurs vodi polaznika od osnova do samostalne primene."
+      },
+      {
+        "title": "Plan lekcije",
+        "prompt": "Napravi detaljan plan jedne lekcije na temu \"[tema]\", u trajanju od [broj] minuta, za [ciljna publika]. Uključi: cilj lekcije, ključne tačke koje treba objasniti, jedan praktičan primer, i vežbu na kraju."
+      }
+    ]
+  },
+  {
+    "category": "Događaji i javni nastupi",
+    "total": 24,
+    "items": [
+      {
+        "title": "Plan događaja",
+        "prompt": "Pomozi mi da isplaniram [vrsta događaja, npr. radionicu/konferenciju] za [broj] ljudi, na temu \"[tema]\". Napravi listu svega što treba da organizujem, podeljenu po kategorijama: lokacija, logistika, promocija, i dan događaja."
+      },
+      {
+        "title": "Tekst za stranicu registracije na događaj",
+        "prompt": "Napiši tekst za stranicu za registraciju na događaj \"[naziv događaja]\", koji se održava [datum/mesto] na temu \"[tema]\". Uključi ubedljiv opis događaja, ko treba da dođe, šta će dobiti učešćem, i jasan poziv na akciju za registraciju."
+      }
+    ]
+  },
+  {
+    "category": "Rast i lansiranje",
+    "total": 24,
+    "items": [
+      {
+        "title": "Tok uvođenja korisnika (onboarding)",
+        "prompt": "Predloži mi tok uvođenja (onboarding) novih korisnika za moj proizvod/aplikaciju \"[naziv]\", čija je glavna funkcija [opis]. Cilj je da korisnik što pre doživi \"aha trenutak\" i shvati vrednost proizvoda. Predloži korake i poruke za svaki korak."
+      },
+      {
+        "title": "NPS anketa",
+        "prompt": "Napravi kratku NPS (Net Promoter Score) anketu za moje kupce, sa glavnim pitanjem o preporuci i 2 dodatna pitanja za praćenje (zašto su dali tu ocenu, i šta bismo mogli da poboljšamo)."
+      }
+    ]
+  },
+  {
+    "category": "Analitika i podaci",
+    "total": 22,
+    "items": [
+      {
+        "title": "KPI dashboard",
+        "prompt": "Predloži mi koje ključne pokazatelje uspešnosti (KPI) treba da pratim za moj biznis u oblasti [oblast], i kako da ih organizujem u jednostavan mesečni dashboard/izveštaj. Objasni zašto je svaki pokazatelj bitan."
+      },
+      {
+        "title": "Analiza ankete",
+        "prompt": "Ovo su odgovori sa moje ankete za kupce: [nalepi odgovore/podatke]. Analiziraj ih i izdvoji: glavne teme/obrasce koji se ponavljaju, najvažnije uvide, i 3 konkretna predloga šta bih trebalo da uradim na osnovu ovih rezultata."
+      }
+    ]
+  },
+  {
+    "category": "E-commerce i proizvodi",
+    "total": 24,
+    "items": [
+      {
+        "title": "Opis za tržišnu platformu",
+        "prompt": "Napiši optimizovan opis proizvoda \"[naziv proizvoda]\" za [platforma, npr. Etsy / Amazon]. Uključi ključne reči koje kupci verovatno pretražuju, jasnu listu karakteristika i koristi, i ubedljiv, prirodan ton."
+      },
+      {
+        "title": "Vodič za poklone",
+        "prompt": "Napravi vodič za poklone na temu \"[tema/prilika, npr. pokloni za mame]\" koristeći moje proizvode: [nabroj proizvode]. Organizuj ih po cenovnim kategorijama ili tipovima primalaca, sa kratkim opisom zašto je svaki dobar izbor."
+      }
+    ]
+  },
+  {
+    "category": "Industrijski specifične veštine",
+    "total": 15,
+    "items": [
+      {
+        "title": "Marketinški plan za restoran",
+        "prompt": "Napravi jednostavan mesečni marketinški plan za moj restoran \"[naziv]\", koji se nalazi u [lokacija] i nudi [vrsta kuhinje]. Uključi ideje za društvene mreže, lokalni marketing, i po jednu promociju/akciju za mesec."
+      }
+    ]
+  },
+  {
+    "category": "AI i tehnologija",
+    "total": 4,
+    "items": [
+      {
+        "title": "Pronalaženje AI slučajeva upotrebe",
+        "prompt": "Na osnovu opisa mog biznisa: \"[opiši svoj biznis i svakodnevne zadatke]\", predloži mi 10 konkretnih načina na koje bih mogao/la da koristim AI (poput Claude-a) da uštedim vreme ili poboljšam poslovanje, poređanih od najlakših za odmah primeniti do naprednijih."
+      }
+    ]
+  },
+  {
+    "category": "Neprofitne organizacije i zajednica",
+    "total": 2,
+    "items": [
+      {
+        "title": "Regrutovanje volontera",
+        "prompt": "Napiši poziv za regrutovanje volontera za \"[naziv organizacije/akcije]\", koji se bavi [misija/aktivnost]. Objasni šta volonteri rade, koliko vremena je potrebno, i zašto je ovo smisleno iskustvo, sa jasnim pozivom da se prijave."
+      }
+    ]
+  }
+]
