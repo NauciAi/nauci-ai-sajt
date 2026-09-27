@@ -694,6 +694,13 @@ a {
   margin-top: 8px;
   margin-bottom: 0;
 }
+.unlocked-banner {
+  background: linear-gradient(135deg, rgba(52, 211, 153, 0.14), rgba(52, 211, 153, 0.05));
+  border-color: var(--emerald-border);
+}
+.unlocked-banner strong {
+  color: var(--emerald);
+}
 .upsell-text {
   display: flex;
   flex-direction: column;

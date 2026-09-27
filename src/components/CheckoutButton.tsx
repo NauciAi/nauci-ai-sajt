@@ -7,15 +7,26 @@ type CheckoutButtonProps = {
   className?: string;
   /** Ako znamo email korisnika (npr. na /nema-pristup), prosledimo ga da Polar unapred popuni polje. */
   prefillEmail?: string | null;
+  /**
+   * Opcioni override checkout linka, za drugi proizvod (npr. paket od 500 promptova).
+   * Ako se ne prosledi, koristi se podrazumevani kurs iz NEXT_PUBLIC_POLAR_CHECKOUT_URL.
+   */
+  checkoutUrl?: string;
 };
 
 /**
  * Dugme koje otvara Polar-ov embedded checkout (ostaje na istoj stranici, bez redirekcije).
  * Link ka proizvodu se podešava preko NEXT_PUBLIC_POLAR_CHECKOUT_URL u .env fajlu —
  * dobijaš ga u Polar dashboard-u kad napraviš proizvod (Products -> tvoj kurs -> Checkout Link).
+ * Za drugi proizvod prosledi `checkoutUrl` prop (npr. iz NEXT_PUBLIC_POLAR_PROMPTS_CHECKOUT_URL).
  */
-export default function CheckoutButton({ children, className, prefillEmail }: CheckoutButtonProps) {
-  const base = process.env.NEXT_PUBLIC_POLAR_CHECKOUT_URL;
+export default function CheckoutButton({
+  children,
+  className,
+  prefillEmail,
+  checkoutUrl,
+}: CheckoutButtonProps) {
+  const base = checkoutUrl || process.env.NEXT_PUBLIC_POLAR_CHECKOUT_URL;
 
   if (!base) {
     return (

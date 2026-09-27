@@ -5,27 +5,283 @@
     "items": [
       {
         "title": "Naslovna \"O nama\" stranica",
-        "prompt": "Napiši ubedljiv tekst za stranicu \"O nama\" za moj biznis [naziv biznisa], koji se bavi [čime se bavi]. Ton neka bude [ton, npr. prijateljski i profesionalan]. Uključi kratku priču o tome zašto smo pokrenuli biznis, šta nas izdvaja od konkurencije, i poziv na akciju na kraju."
+        "prompt": "Napiši ubedljiv tekst za stranicu \"O nama\" za moj biznis [naziv biznisa], koji se bavi [čime se bavi]. Ton neka bude [ton, npr. prijateljski i profesionalan]. Uključi kratku priču o tome zašto smo pokrenuli biznis, šta nas izdvaja od konkurencije, i poziv na akciju na kraju.",
+        "free": true
       },
       {
         "title": "Blog objava",
-        "prompt": "Napiši kompletnu blog objavu na temu \"[tema]\", namenjenu [ciljna publika]. Objava treba da ima privlačan naslov, uvod koji hvata pažnju, 3 do 5 podnaslova sa razrađenim sadržajem, i zaključak sa pozivom na akciju. Piši jasno i konkretno, bez nepotrebnog žargona."
+        "prompt": "Napiši kompletnu blog objavu na temu \"[tema]\", namenjenu [ciljna publika]. Objava treba da ima privlačan naslov, uvod koji hvata pažnju, 3 do 5 podnaslova sa razrađenim sadržajem, i zaključak sa pozivom na akciju. Piši jasno i konkretno, bez nepotrebnog žargona.",
+        "free": true
       },
       {
         "title": "Opis proizvoda",
-        "prompt": "Napiši ubedljiv opis proizvoda za \"[naziv proizvoda]\". Proizvod radi sledeće: [kratak opis funkcije/koristi]. Ciljna publika su [opiši kupce]. Opis treba da ističe konkretne koristi za kupca, ne samo osobine proizvoda, i da bude dužine oko 100 reči."
+        "prompt": "Napiši ubedljiv opis proizvoda za \"[naziv proizvoda]\". Proizvod radi sledeće: [kratak opis funkcije/koristi]. Ciljna publika su [opiši kupce]. Opis treba da ističe konkretne koristi za kupca, ne samo osobine proizvoda, i da bude dužine oko 100 reči.",
+        "free": true
       },
       {
         "title": "Skripta za video",
-        "prompt": "Napiši skriptu za kratak video (60 do 90 sekundi) na temu \"[tema]\". Video je namenjen za [platforma, npr. Instagram Reels / YouTube]. Uključi jak hook u prve 3 sekunde, glavnu poruku, i jasan poziv na akciju na kraju. Piši u razgovornom tonu."
+        "prompt": "Napiši skriptu za kratak video (60 do 90 sekundi) na temu \"[tema]\". Video je namenjen za [platforma, npr. Instagram Reels / YouTube]. Uključi jak hook u prve 3 sekunde, glavnu poruku, i jasan poziv na akciju na kraju. Piši u razgovornom tonu.",
+        "free": true
       },
       {
         "title": "Natpisi za objave na društvenim mrežama",
-        "prompt": "Napiši 5 različitih natpisa (caption) za objavu na Instagramu koja promoviše \"[proizvod/usluga/događaj]\". Svaki natpis neka bude drugačijeg tona (npr. duhovit, inspirativan, direktan, pričajući priču, sa pitanjem publici) i neka sadrži poziv na akciju."
+        "prompt": "Napiši 5 različitih natpisa (caption) za objavu na Instagramu koja promoviše \"[proizvod/usluga/događaj]\". Svaki natpis neka bude drugačijeg tona (npr. duhovit, inspirativan, direktan, pričajući priču, sa pitanjem publici) i neka sadrži poziv na akciju.",
+        "free": true
       },
       {
         "title": "FAQ sekcija",
-        "prompt": "Na osnovu ovih informacija o mom proizvodu/usluzi: [nalepi opis ili karakteristike], generiši sekciju od 8 najčešćih pitanja i odgovora (FAQ) za moj sajt. Pitanja treba da budu ona koja bi stvarni kupci verovatno postavili, a odgovori kratki, jasni i korisni."
+        "prompt": "Na osnovu ovih informacija o mom proizvodu/usluzi: [nalepi opis ili karakteristike], generiši sekciju od 8 najčešćih pitanja i odgovora (FAQ) za moj sajt. Pitanja treba da budu ona koja bi stvarni kupci verovatno postavili, a odgovori kratki, jasni i korisni.",
+        "free": true
+      },
+      {
+        "title": "Studiju slučaja klijenta sa problemom, rešenjem i rezultatima",
+        "prompt": "Izgradi studiju slučaja klijenta sa problemom, rešenjem i rezultatima. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Mesečni kalendar sadržaja sa temama i formatima",
+        "prompt": "Napravi mesečni kalendar sadržaja sa temama i formatima. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Jedan sadržaj u više formata",
+        "prompt": "Pretvori jedan sadržaj u više formata. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Beleške i rezimee za podcast epizode",
+        "prompt": "Napiši beleške i rezimee za podcast epizode. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Saopštenje za javnost za najave i lansiranja",
+        "prompt": "Napravi saopštenje za javnost za najave i lansiranja. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Koncepte sličica i predloge teksta za YouTube",
+        "prompt": "Generiši koncepte sličica i predloge teksta za YouTube. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Detaljan outline knjige poglavlje po poglavlje",
+        "prompt": "Napravi detaljan outline knjige poglavlje po poglavlje. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Priču o poreklu brenda za marketinške svrhe",
+        "prompt": "Napravi priču o poreklu brenda za marketinške svrhe. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Detaljan brief za pisce ili kreatore sadržaja",
+        "prompt": "Napravi detaljan brief za pisce ili kreatore sadržaja. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Pažnju-hvatajuće hookove za bilo koji sadržaj",
+        "prompt": "Generiši pažnju-hvatajuće hookove za bilo koji sadržaj. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Govore za događaje, pitche ili prezentacije",
+        "prompt": "Napiši govore za događaje, pitche ili prezentacije. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Korak-po-korak tutorijale za proizvode ili procese",
+        "prompt": "Napravi korak-po-korak tutorijale za proizvode ili procese. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Postojeće članke sa svežim uglovima i glasom",
+        "prompt": "Prepiši postojeće članke sa svežim uglovima i glasom. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Poređenja proizvoda ili usluga",
+        "prompt": "Napiši poređenja proizvoda ili usluga. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Postojeći sadržaj za kvalitet, nedostatke i prilike",
+        "prompt": "Proveri postojeći sadržaj za kvalitet, nedostatke i prilike. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Nedostajuće teme u vašoj content strategiji",
+        "prompt": "Identifikuj nedostajuće teme u vašoj content strategiji. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Pillar content strategiju oko ključnih tema",
+        "prompt": "Izgradi pillar content strategiju oko ključnih tema. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Style guide za konzistentnu produkciju sadržaja",
+        "prompt": "Napravi style guide za konzistentnu produkciju sadržaja. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Outline e-knjige sa poglavljima, sekcijama i ključnim tačkama",
+        "prompt": "Napravi outline e-knjige sa poglavljima, sekcijama i ključnim tačkama. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Brief za angažovanje ili usmeravanje ghost-pisca",
+        "prompt": "Napravi brief za angažovanje ili usmeravanje ghost-pisca. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Više opcija naslova za bilo koji sadržaj",
+        "prompt": "Generiši više opcija naslova za bilo koji sadržaj. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Tekst orijentisan na konverziju za landing stranice",
+        "prompt": "Napiši tekst orijentisan na konverziju za landing stranice. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Profesionalni LinkedIn članak",
+        "prompt": "Napravi profesionalni LinkedIn članak. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Privlačne listu-formate članaka",
+        "prompt": "Napravi privlačne listu-formate članaka. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "UI mikrotekst za dugmad, tooltipove i notifikacije",
+        "prompt": "Napiši UI mikrotekst za dugmad, tooltipove i notifikacije. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Sveobuhvatan sadržaj pillar stranice za SEO",
+        "prompt": "Napravi sveobuhvatan sadržaj pillar stranice za SEO. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Video ili podcast skripte u blog postove",
+        "prompt": "Konvertuj video ili podcast skripte u blog postove. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Autoritativni white paper na bilo koju temu",
+        "prompt": "Napiši autoritativni white paper na bilo koju temu. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Tematske klastere za content marketing",
+        "prompt": "Isplaniraj tematske klastere za content marketing. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "SEO-optimizovane content briefove sa ciljanim ključnim rečima",
+        "prompt": "Napravi SEO-optimizovane content briefove sa ciljanim ključnim rečima. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Tekst za e-commerce kolekcije i kategorije",
+        "prompt": "Napiši tekst za e-commerce kolekcije i kategorije. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "FAQ sadržaj specifičan za proizvod",
+        "prompt": "Napravi FAQ sadržaj specifičan za proizvod. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Jasne članke za help centar i podršku",
+        "prompt": "Napiši jasne članke za help centar i podršku. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Content strategiju koja vas pozicionira kao autoritet",
+        "prompt": "Izgradi content strategiju koja vas pozicionira kao autoritet. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Sadržaj koji uspostavlja thought leadership",
+        "prompt": "Isplaniraj sadržaj koji uspostavlja thought leadership. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Profesionalni predlog knjige za izdavače",
+        "prompt": "Napravi profesionalni predlog knjige za izdavače. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Poliranu profesionalnu biografiju",
+        "prompt": "Napiši poliranu profesionalnu biografiju. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Ubedljiv tekst za stranicu sa cenama",
+        "prompt": "Napiši ubedljiv tekst za stranicu sa cenama. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Najave za nove funkcionalnosti ili ažuriranja",
+        "prompt": "Napravi najave za nove funkcionalnosti ili ažuriranja. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Formatiran product changelog",
+        "prompt": "Napravi formatiran product changelog. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Jasne release notes za ažuriranja proizvoda",
+        "prompt": "Napiši jasne release notes za ažuriranja proizvoda. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Formatirane recepte sa sastojcima i koracima",
+        "prompt": "Napravi formatirane recepte sa sastojcima i koracima. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Press kit sa biografijama, slikama i ključnim činjenicama",
+        "prompt": "Izgradi press kit sa biografijama, slikama i ključnim činjenicama. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "One-sheet rezime za podcast pitching",
+        "prompt": "Napravi one-sheet rezime za podcast pitching. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Pitcheve za stručne roundup članke",
+        "prompt": "Napravi pitcheve za stručne roundup članke. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Ubedljiv tekst za donacije i stranice za prikupljanje sredstava",
+        "prompt": "Napiši ubedljiv tekst za donacije i stranice za prikupljanje sredstava. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Sadržaj i šablone za newsletter",
+        "prompt": "Izgradi sadržaj i šablone za newsletter. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Strategiju rasta i sadržaja za newsletter",
+        "prompt": "Napravi strategiju rasta i sadržaja za newsletter. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Thought leadership sadržaj i pozicioniranje",
+        "prompt": "Razvij thought leadership sadržaj i pozicioniranje. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "I primenjuje obrasce iz viralnog sadržaja",
+        "prompt": "Analiziraj i primenjuje obrasce iz viralnog sadržaja. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
       }
     ]
   },
@@ -35,23 +291,213 @@
     "items": [
       {
         "title": "Serija dobrodošlice",
-        "prompt": "Napravi seriju od 3 email-a dobrodošlice za nove pretplatnike na moj newsletter o [tema/biznis]. Prvi email neka predstavi ko sam / šta radim, drugi neka pruži vrednost (savet ili resurs), treći neka predstavi glavnu ponudu ili proizvod. Ton neka bude topao i ličan."
+        "prompt": "Napravi seriju od 3 email-a dobrodošlice za nove pretplatnike na moj newsletter o [tema/biznis]. Prvi email neka predstavi ko sam / šta radim, drugi neka pruži vrednost (savet ili resurs), treći neka predstavi glavnu ponudu ili proizvod. Ton neka bude topao i ličan.",
+        "free": true
       },
       {
         "title": "Email sekvenca",
-        "prompt": "Napravi sekvencu od 5 email-ova za [cilj, npr. predstavljanje novog proizvoda / podsticanje na akciju]. Ciljna publika su [opiši publiku]. Za svaki email napiši predmet (subject line) i kratak sadržaj, uz jasan poziv na akciju."
+        "prompt": "Napravi sekvencu od 5 email-ova za [cilj, npr. predstavljanje novog proizvoda / podsticanje na akciju]. Ciljna publika su [opiši publiku]. Za svaki email napiši predmet (subject line) i kratak sadržaj, uz jasan poziv na akciju.",
+        "free": true
       },
       {
         "title": "Email za napuštenu korpu",
-        "prompt": "Napiši email koji se šalje kupcu koji je dodao proizvod u korpu ali nije završio kupovinu na mom online sajtu. Proizvod je [naziv proizvoda]. Email treba da bude kratak, prijateljski, da podseti na proizvod i eventualno ponudi mali podsticaj (npr. besplatna dostava ili popust) da završi kupovinu."
+        "prompt": "Napiši email koji se šalje kupcu koji je dodao proizvod u korpu ali nije završio kupovinu na mom online sajtu. Proizvod je [naziv proizvoda]. Email treba da bude kratak, prijateljski, da podseti na proizvod i eventualno ponudi mali podsticaj (npr. besplatna dostava ili popust) da završi kupovinu.",
+        "free": true
       },
       {
         "title": "Newsletter",
-        "prompt": "Napravi predložak mesečnog newslettera za moj biznis [naziv/oblast]. Uključi sekcije: kratak uvod, glavnu vest ili savet meseca, isticanje jednog proizvoda/usluge, i poziv na akciju. Piši prijateljskim, ličnim tonom."
+        "prompt": "Napravi predložak mesečnog newslettera za moj biznis [naziv/oblast]. Uključi sekcije: kratak uvod, glavnu vest ili savet meseca, isticanje jednog proizvoda/usluge, i poziv na akciju. Piši prijateljskim, ličnim tonom.",
+        "free": true
       },
       {
         "title": "Hladan email (cold outreach)",
-        "prompt": "Napiši kratak, ubedljiv hladan email za [cilj, npr. saradnju, prodaju usluge] osobi koja radi kao [pozicija/uloga primaoca]. Predstavi ukratko ko sam i šta nudim, fokusiraj se na konkretnu korist za primaoca, i završi jasnim, niskorizičnim pozivom na akciju (npr. kratak poziv od 15 minuta)."
+        "prompt": "Napiši kratak, ubedljiv hladan email za [cilj, npr. saradnju, prodaju usluge] osobi koja radi kao [pozicija/uloga primaoca]. Predstavi ukratko ko sam i šta nudim, fokusiraj se na konkretnu korist za primaoca, i završi jasnim, niskorizičnim pozivom na akciju (npr. kratak poziv od 15 minuta).",
+        "free": true
+      },
+      {
+        "title": "Email sekvence za upsell postojećim kupcima",
+        "prompt": "Napravi email sekvence za upsell postojećim kupcima. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Re-engagement emailove za neaktivne kupce",
+        "prompt": "Napiši re-engagement emailove za neaktivne kupce. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Email kampanje zahvalnosti nakon kupovine",
+        "prompt": "Izgradi email kampanje zahvalnosti nakon kupovine. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "I poboljšava isporuku emailova",
+        "prompt": "Proveri i poboljšava isporuku emailova. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Email sekvence za lansiranje proizvoda",
+        "prompt": "Napiši email sekvence za lansiranje proizvoda. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Emailove za ponovni angažman neaktivnih pretplatnika",
+        "prompt": "Napravi emailove za ponovni angažman neaktivnih pretplatnika. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Transakcione emailove (računi, potvrde itd.)",
+        "prompt": "Napiši transakcione emailove (računi, potvrde itd.). Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Email kampanje za Black Friday i prazničnu rasprodaju",
+        "prompt": "Napravi email kampanje za Black Friday i prazničnu rasprodaju. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "SMS sekvence za oporavak napuštene korpe",
+        "prompt": "Napiši SMS sekvence za oporavak napuštene korpe. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Automatizovane drip email kampanje",
+        "prompt": "Izgradi automatizovane drip email kampanje. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "A/B testove za subject linije i sadržaj emailova",
+        "prompt": "Isplaniraj A/B testove za subject linije i sadržaj emailova. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Plan za čišćenje i segmentiranje email liste",
+        "prompt": "Napravi plan za čišćenje i segmentiranje email liste. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Centar preferencija emailova za pretplatnike",
+        "prompt": "Dizajniraj centar preferencija emailova za pretplatnike. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "I ocenjuje subject linije emailova za stopu otvaranja",
+        "prompt": "Testiraj i ocenjuje subject linije emailova za stopu otvaranja. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Email i promo kampanje za flash rasprodaje",
+        "prompt": "Napravi email i promo kampanje za flash rasprodaje. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Kompletnu email sekvencu za lansiranje od pre-launch do zatvaranja",
+        "prompt": "Izgradi kompletnu email sekvencu za lansiranje od pre-launch do zatvaranja. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Emailove za prekretnice i godišnjice za kupce",
+        "prompt": "Napiši emailove za prekretnice i godišnjice za kupce. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Emailove sa obaveštenjem o povećanju cena",
+        "prompt": "Napravi emailove sa obaveštenjem o povećanju cena. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Email kampanje za obnovu i ponovnu pretplatu",
+        "prompt": "Napravi email kampanje za obnovu i ponovnu pretplatu. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Email sekvence za promociju webinara i praćenje",
+        "prompt": "Napiši email sekvence za promociju webinara i praćenje. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Konzistentan sistem dizajna i smernice za emailove",
+        "prompt": "Napravi konzistentan sistem dizajna i smernice za emailove. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Downsell email sekvence za izgubljene prodaje",
+        "prompt": "Napiši downsell email sekvence za izgubljene prodaje. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Playbook strategije angažmana za email i sadržaj",
+        "prompt": "Napravi playbook strategije angažmana za email i sadržaj. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Email sekvence za konverziju besplatnih probnih verzija u plaćene",
+        "prompt": "Napiši email sekvence za konverziju besplatnih probnih verzija u plaćene. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Email strategije za dvostrane tržišne platforme",
+        "prompt": "Napravi email strategije za dvostrane tržišne platforme. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Sezonske marketing kampanje sa emailovima i promocijama",
+        "prompt": "Isplaniraj sezonske marketing kampanje sa emailovima i promocijama. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Program lojalnosti za kupce",
+        "prompt": "Dizajniraj program lojalnosti za kupce. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Program preporuka sa podsticajima i strukturom",
+        "prompt": "Napravi program preporuka sa podsticajima i strukturom. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Program brand ambasadora",
+        "prompt": "Izgradi program brand ambasadora. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Order bump ponude za stranice za plaćanje",
+        "prompt": "Napiši order bump ponude za stranice za plaćanje. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Tekst i strukturu ponude plana plaćanja",
+        "prompt": "Napravi tekst i strukturu ponude plana plaćanja. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Strategiju liste čekanja sa tekstom landing stranice",
+        "prompt": "Izgradi strategiju liste čekanja sa tekstom landing stranice. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Strategiju za prikupljanje i korišćenje recenzija kupaca",
+        "prompt": "Napravi strategiju za prikupljanje i korišćenje recenzija kupaca. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Prikupljanje društvenih dokaza i preporuka",
+        "prompt": "Sistematizuj prikupljanje društvenih dokaza i preporuka. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Sisteme za prikupljanje svedočanstava kupaca",
+        "prompt": "Napravi sisteme za prikupljanje svedočanstava kupaca. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "UGC strategiju i plan kampanje",
+        "prompt": "Napravi UGC strategiju i plan kampanje. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Marketing kampanje vezane za društvene uzroke",
+        "prompt": "Isplaniraj marketing kampanje vezane za društvene uzroke. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
       }
     ]
   },
@@ -61,19 +507,193 @@
     "items": [
       {
         "title": "Kalendar objava za društvene mreže",
-        "prompt": "Napravi kalendar objava za društvene mreže za narednih 2 nedelje za moj biznis [naziv/oblast]. Za svaki dan predloži temu objave, kratak opis sadržaja i platformu (Instagram, Facebook, LinkedIn, itd.), uzimajući u obzir da imam [broj] objava nedeljno."
+        "prompt": "Napravi kalendar objava za društvene mreže za narednih 2 nedelje za moj biznis [naziv/oblast]. Za svaki dan predloži temu objave, kratak opis sadržaja i platformu (Instagram, Facebook, LinkedIn, itd.), uzimajući u obzir da imam [broj] objava nedeljno.",
+        "free": true
       },
       {
         "title": "Strategija hashtag-ova",
-        "prompt": "Predloži mi 20 relevantnih hashtag-ova za Instagram objave o [tema/biznis/industrija]. Podeli ih u tri grupe: popularni (veliki domet, veća konkurencija), srednje popularni, i nišni (mala konkurencija, ciljana publika)."
+        "prompt": "Predloži mi 20 relevantnih hashtag-ova za Instagram objave o [tema/biznis/industrija]. Podeli ih u tri grupe: popularni (veliki domet, veća konkurencija), srednje popularni, i nišni (mala konkurencija, ciljana publika).",
+        "free": true
       },
       {
         "title": "Instagram carousel objava",
-        "prompt": "Napravi plan za Instagram carousel objavu (5-7 slajdova) na temu \"[tema]\". Za svaki slajd napiši kratak tekst koji ide na njega, tako da cela serija ispriča jasnu priču ili pruži koristan savet, sa pozivom na akciju na poslednjem slajdu."
+        "prompt": "Napravi plan za Instagram carousel objavu (5-7 slajdova) na temu \"[tema]\". Za svaki slajd napiši kratak tekst koji ide na njega, tako da cela serija ispriča jasnu priču ili pruži koristan savet, sa pozivom na akciju na poslednjem slajdu.",
+        "free": true
       },
       {
         "title": "LinkedIn strategija",
-        "prompt": "Predloži mi strategiju za rast na LinkedIn-u za moj biznis / lični brend u oblasti [oblast]. Uključi: koliko puta nedeljno da objavljujem, koje tipove sadržaja (postovi, članci, video), i 5 konkretnih ideja za objave za sledeći mesec."
+        "prompt": "Predloži mi strategiju za rast na LinkedIn-u za moj biznis / lični brend u oblasti [oblast]. Uključi: koliko puta nedeljno da objavljujem, koje tipove sadržaja (postovi, članci, video), i 5 konkretnih ideja za objave za sledeći mesec.",
+        "free": true
+      },
+      {
+        "title": "Vaše prisustvo i performanse na društvenim mrežama",
+        "prompt": "Proveri vaše prisustvo i performanse na društvenim mrežama. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Briefove i specifikacije za grafike na društvenim mrežama",
+        "prompt": "Napravi briefove i specifikacije za grafike na društvenim mrežama. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Šablone i strategije za kontaktiranje influensera",
+        "prompt": "Napravi šablone i strategije za kontaktiranje influensera. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Media kit za brand partnerstva",
+        "prompt": "Izgradi media kit za brand partnerstva. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "I pokreće online zajednicu",
+        "prompt": "Isplaniraj i pokreće online zajednicu. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Smernice zajednice i politike moderacije",
+        "prompt": "Napravi smernice zajednice i politike moderacije. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "I strukturira strategiju Facebook grupe",
+        "prompt": "Isplaniraj i strukturira strategiju Facebook grupe. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Pitcheve za prilike gostujućeg postavljanja",
+        "prompt": "Napravi pitcheve za prilike gostujućeg postavljanja. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Briefove za meme-stilski content marketing",
+        "prompt": "Napravi briefove za meme-stilski content marketing. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Pinterest marketing strategiju",
+        "prompt": "Razvij Pinterest marketing strategiju. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Reddit marketing i strategiju angažmana",
+        "prompt": "Napravi Reddit marketing i strategiju angažmana. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Kratki video sadržaj za Reels, TikTok, Shorts",
+        "prompt": "Isplaniraj kratki video sadržaj za Reels, TikTok, Shorts. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Strategiju praćenja i slušanja društvenih mreža",
+        "prompt": "Izgradi strategiju praćenja i slušanja društvenih mreža. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Politiku društvenih mreža za vaš brend ili tim",
+        "prompt": "Napiši politiku društvenih mreža za vaš brend ili tim. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Sveobuhvatnu strategiju za društvene mreže",
+        "prompt": "Razvij sveobuhvatnu strategiju za društvene mreže. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Hookove za Twitter/X i LinkedIn niti",
+        "prompt": "Napiši hookove za Twitter/X i LinkedIn niti. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Skripte za TikTok videe",
+        "prompt": "Napravi skripte za TikTok videe. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Privlačne Twitter/X niti",
+        "prompt": "Napiši privlačne Twitter/X niti. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Strategiju rasta YouTube kanala",
+        "prompt": "Izgradi strategiju rasta YouTube kanala. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Detaljne briefove za influenser kampanje",
+        "prompt": "Napravi detaljne briefove za influenser kampanje. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "LinkedIn profile za vidljivost i autoritet",
+        "prompt": "Optimizuj LinkedIn profile za vidljivost i autoritet. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Strategiju ličnog brenda",
+        "prompt": "Razvij strategiju ličnog brenda. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Autorsku platformu za marketing knjiga",
+        "prompt": "Isplaniraj autorsku platformu za marketing knjiga. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Pitcheve za nastup kao gost na podcastima",
+        "prompt": "Napravi pitcheve za nastup kao gost na podcastima. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Strategiju profesionalnog umrežavanja",
+        "prompt": "Razvij strategiju profesionalnog umrežavanja. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Smernice zajednice za online platforme",
+        "prompt": "Napiši smernice zajednice za online platforme. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Ko-marketing kampanje sa partnerima",
+        "prompt": "Isplaniraj ko-marketing kampanje sa partnerima. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "PR pitcheve za medijsku pokrivenost",
+        "prompt": "Napravi PR pitcheve za medijsku pokrivenost. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Planove i šablone krizne komunikacije",
+        "prompt": "Napravi planove i šablone krizne komunikacije. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Briefove za snimanje brand fotografija",
+        "prompt": "Napravi briefove za snimanje brand fotografija. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Briefove za fotografisanje proizvoda",
+        "prompt": "Napravi briefove za fotografisanje proizvoda. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Briefove za snimanje hrane",
+        "prompt": "Napravi briefove za snimanje hrane. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Briefove za dizajn menija restorana",
+        "prompt": "Napravi briefove za dizajn menija restorana. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Pitch dekove i predloge za sponzorstvo",
+        "prompt": "Napiši pitch dekove i predloge za sponzorstvo. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
       }
     ]
   },
@@ -83,11 +703,103 @@
     "items": [
       {
         "title": "Istraživanje ključnih reči",
-        "prompt": "Predloži mi 15 ključnih reči i fraza za koje bi trebalo da optimizujem sadržaj na sajtu, ako se bavim [oblast/proizvod/usluga] i moji kupci su [opiši publiku]. Za svaku ključnu reč, proceni da li iza nje stoji namera za kupovinu, istraživanje ili informisanje."
+        "prompt": "Predloži mi 15 ključnih reči i fraza za koje bi trebalo da optimizujem sadržaj na sajtu, ako se bavim [oblast/proizvod/usluga] i moji kupci su [opiši publiku]. Za svaku ključnu reč, proceni da li iza nje stoji namera za kupovinu, istraživanje ili informisanje.",
+        "free": true
       },
       {
         "title": "Google Business profil",
-        "prompt": "Pomozi mi da optimizujem opis mog Google Business profila za biznis \"[naziv]\" koji se bavi [delatnost] u [grad/lokacija]. Napiši ubedljiv opis od oko 750 karaktera koji uključuje relevantne ključne reči i jasno predstavlja šta nudimo."
+        "prompt": "Pomozi mi da optimizujem opis mog Google Business profila za biznis \"[naziv]\" koji se bavi [delatnost] u [grad/lokacija]. Napiši ubedljiv opis od oko 750 karaktera koji uključuje relevantne ključne reči i jasno predstavlja šta nudimo.",
+        "free": true
+      },
+      {
+        "title": "Sveobuhvatnu SEO proveru vašeg sajta",
+        "prompt": "Izvrši sveobuhvatnu SEO proveru vašeg sajta. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Sadržaj za osvajanje featured snippetova",
+        "prompt": "Optimizuj sadržaj za osvajanje featured snippetova. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Strategiju izgradnje linkova i plan outreachovanja",
+        "prompt": "Napravi strategiju izgradnje linkova i plan outreachovanja. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Lokalnu SEO strategiju za firme vezane za lokaciju",
+        "prompt": "Razvij lokalnu SEO strategiju za firme vezane za lokaciju. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Meta naslove i opise za stopu klikanja",
+        "prompt": "Optimizuj meta naslove i opise za stopu klikanja. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Vodiče za implementaciju schema markup-a",
+        "prompt": "Napravi vodiče za implementaciju schema markup-a. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "SEO strategije i rangiranja konkurenata",
+        "prompt": "Analiziraj SEO strategije i rangiranja konkurenata. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "SEO-bezbedne migracije i redizajne sajtova",
+        "prompt": "Isplaniraj SEO-bezbedne migracije i redizajne sajtova. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Šablone i dashboardove za SEO izveštavanje",
+        "prompt": "Napravi šablone i dashboardove za SEO izveštavanje. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Arhitekturu sajta za SEO i upotrebljivost",
+        "prompt": "Isplaniraj arhitekturu sajta za SEO i upotrebljivost. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Checkliste za tehnički SEO audit",
+        "prompt": "Napravi checkliste za tehnički SEO audit. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "YouTube videe za pretragu i otkrivanje",
+        "prompt": "Optimizuj YouTube videe za pretragu i otkrivanje. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Listinge na tržišnim platformama za vidljivost",
+        "prompt": "Optimizuj listinge na tržišnim platformama za vidljivost. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Landing stranice za konverziju i SEO performanse",
+        "prompt": "Proveri landing stranice za konverziju i SEO performanse. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Listinge proizvoda za pretragu i konverziju",
+        "prompt": "Optimizuj listinge proizvoda za pretragu i konverziju. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Migracije platforme uz čuvanje SEO-a",
+        "prompt": "Isplaniraj migracije platforme uz čuvanje SEO-a. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "E-commerce stranice prodavnice za performanse",
+        "prompt": "Proveri e-commerce stranice prodavnice za performanse. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Procese plaćanja za veću konverziju",
+        "prompt": "Optimizuj procese plaćanja za veću konverziju. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
       }
     ]
   },
@@ -97,11 +809,113 @@
     "items": [
       {
         "title": "Tekst za oglas",
-        "prompt": "Napiši 5 verzija teksta oglasa za [platforma, npr. Facebook / Google Ads] koji promoviše \"[proizvod/usluga]\". Ciljna publika su [opiši publiku]. Svaka verzija neka testira drugačiji ugao (cena, kvalitet, hitnost, društveni dokaz, rešavanje problema)."
+        "prompt": "Napiši 5 verzija teksta oglasa za [platforma, npr. Facebook / Google Ads] koji promoviše \"[proizvod/usluga]\". Ciljna publika su [opiši publiku]. Svaka verzija neka testira drugačiji ugao (cena, kvalitet, hitnost, društveni dokaz, rešavanje problema).",
+        "free": true
       },
       {
         "title": "Facebook reklamna kampanja",
-        "prompt": "Pomozi mi da isplaniram Facebook reklamnu kampanju za \"[proizvod/usluga]\" sa budžetom od [iznos] mesečno. Predloži ciljnu publiku, 3 ideje za kreativu (sliku/video), i tekst oglasa za svaku."
+        "prompt": "Pomozi mi da isplaniram Facebook reklamnu kampanju za \"[proizvod/usluga]\" sa budžetom od [iznos] mesečno. Predloži ciljnu publiku, 3 ideje za kreativu (sliku/video), i tekst oglasa za svaku.",
+        "free": true
+      },
+      {
+        "title": "Briefove za produkciju kreativa oglasa",
+        "prompt": "Napravi briefove za produkciju kreativa oglasa. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "I strukturira Google Ads kampanje",
+        "prompt": "Isplaniraj i strukturira Google Ads kampanje. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Strategiju i plan kupovine medijskog prostora",
+        "prompt": "Napravi strategiju i plan kupovine medijskog prostora. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Strategiju retargetinga i remarketinga",
+        "prompt": "Razvij strategiju retargetinga i remarketinga. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Šablone za izveštavanje o performansama oglasa",
+        "prompt": "Napravi šablone za izveštavanje o performansama oglasa. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Optimalni budžet za oglase i očekivane prinose",
+        "prompt": "Izračunaj optimalni budžet za oglase i očekivane prinose. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "LinkedIn reklamne kampanje za B2B targeting",
+        "prompt": "Isplaniraj LinkedIn reklamne kampanje za B2B targeting. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Strategije lookalike publike za plaćene oglase",
+        "prompt": "Napravi strategije lookalike publike za plaćene oglase. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Skripte za reklame u podcastima",
+        "prompt": "Napiši skripte za reklame u podcastima. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Skripte za TikTok reklamne kampanje",
+        "prompt": "Napravi skripte za TikTok reklamne kampanje. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Skripte za YouTube reklamne kampanje",
+        "prompt": "Napiši skripte za YouTube reklamne kampanje. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Kampanje i materijale za regrutovanje afilijata",
+        "prompt": "Napravi kampanje i materijale za regrutovanje afilijata. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Affiliate program sa uslovima i strukturom",
+        "prompt": "Dizajniraj affiliate program sa uslovima i strukturom. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Uslove i odredbe affiliate programa",
+        "prompt": "Napiši uslove i odredbe affiliate programa. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Strategiju popusta i promocija",
+        "prompt": "Napravi strategiju popusta i promocija. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Ponude proizvoda u paketu i određuje cene",
+        "prompt": "Dizajniraj ponude proizvoda u paketu i određuje cene. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Jeftine tripwire ponude za sticanje kupaca",
+        "prompt": "Napravi jeftine tripwire ponude za sticanje kupaca. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Strategije i sekvence cross-sella",
+        "prompt": "Razvij strategije i sekvence cross-sella. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Prodajne stranice za skuplje ponude",
+        "prompt": "Napiši prodajne stranice za skuplje ponude. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Tekst prodajnih stranica fokusiran na konverziju",
+        "prompt": "Napravi tekst prodajnih stranica fokusiran na konverziju. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
       }
     ]
   },
@@ -111,15 +925,153 @@
     "items": [
       {
         "title": "Prodajna stranica",
-        "prompt": "Napiši tekst za prodajnu stranicu za \"[proizvod/usluga]\", čija je cena [cena]. Uključi: udarni naslov, opis problema koji rešava, listu koristi (ne samo osobina), sekciju sa čestim primedbama i odgovorima, i jasan poziv na akciju."
+        "prompt": "Napiši tekst za prodajnu stranicu za \"[proizvod/usluga]\", čija je cena [cena]. Uključi: udarni naslov, opis problema koji rešava, listu koristi (ne samo osobina), sekciju sa čestim primedbama i odgovorima, i jasan poziv na akciju.",
+        "free": true
       },
       {
         "title": "Persona kupca",
-        "prompt": "Na osnovu ovih informacija o mojim dosadašnjim kupcima: [opiši šta znaš o kupcima], napravi detaljnu personu idealnog kupca za moj biznis. Uključi: demografiju, ciljeve, izazove, i gde najčešće traže informacije/rešenja."
+        "prompt": "Na osnovu ovih informacija o mojim dosadašnjim kupcima: [opiši šta znaš o kupcima], napravi detaljnu personu idealnog kupca za moj biznis. Uključi: demografiju, ciljeve, izazove, i gde najčešće traže informacije/rešenja.",
+        "free": true
       },
       {
         "title": "Lead magnet",
-        "prompt": "Predloži mi 5 ideja za \"lead magnet\" (besplatan sadržaj u zamenu za email adresu) za moj biznis u oblasti [oblast]. Za svaku ideju napiši naslov i kratak opis šta bi sadržala, i koju vrstu kupca bi najviše privukla."
+        "prompt": "Predloži mi 5 ideja za \"lead magnet\" (besplatan sadržaj u zamenu za email adresu) za moj biznis u oblasti [oblast]. Za svaku ideju napiši naslov i kratak opis šta bi sadržala, i koju vrstu kupca bi najviše privukla.",
+        "free": true
+      },
+      {
+        "title": "Outline pitch deka za investitore ili prodaju",
+        "prompt": "Izgradi outline pitch deka za investitore ili prodaju. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Poslovne predloge za klijente ili partnere",
+        "prompt": "Napiši poslovne predloge za klijente ili partnere. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Prodajne skripte za pozive i demo prezentacije",
+        "prompt": "Napiši prodajne skripte za pozive i demo prezentacije. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Skripte za rešavanje prigovora za prodajne timove",
+        "prompt": "Napravi skripte za rešavanje prigovora za prodajne timove. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Skripte za prodajne discovery pozive",
+        "prompt": "Napiši skripte za prodajne discovery pozive. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Konkurentske prodajne battlecardove",
+        "prompt": "Napravi konkurentske prodajne battlecardove. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Outline prodajnog prezentacionog deka",
+        "prompt": "Izgradi outline prodajnog prezentacionog deka. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Šablone prodajnih emailova za outreach",
+        "prompt": "Napravi šablone prodajnih emailova za outreach. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Canvas vrednosne propozicije za vašu ponudu",
+        "prompt": "Izgradi canvas vrednosne propozicije za vašu ponudu. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Prodajne skripte za webinar prezentacije",
+        "prompt": "Napiši prodajne skripte za webinar prezentacije. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Dobijene i izgubljene poslove radi poboljšanja prodaje",
+        "prompt": "Analiziraj dobijene i izgubljene poslove radi poboljšanja prodaje. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Putovanje kupca od svesti do zagovaranja",
+        "prompt": "Mapiraj putovanje kupca od svesti do zagovaranja. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Kupce za ciljani marketing",
+        "prompt": "Segmentiraj kupce za ciljani marketing. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Predloge partnerstva za saradnju",
+        "prompt": "Napravi predloge partnerstva za saradnju. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Predloge i sporazume za zajednička ulaganja",
+        "prompt": "Napiši predloge i sporazume za zajednička ulaganja. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Strateške saveze sa komplementarnim firmama",
+        "prompt": "Isplaniraj strateške saveze sa komplementarnim firmama. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Šablone sporazuma o saradnji",
+        "prompt": "Napravi šablone sporazuma o saradnji. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "I dokumentuje model prihoda",
+        "prompt": "Dizajniraj i dokumentuje model prihoda. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Istraživanje tržišta i konkurentsku analizu",
+        "prompt": "Izvrši istraživanje tržišta i konkurentsku analizu. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Ukupno adresabilno tržište",
+        "prompt": "Izračunaj ukupno adresabilno tržište. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Detaljnu analizu konkurenata",
+        "prompt": "Izvrši detaljnu analizu konkurenata. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "SWOT analizu za vaše poslovanje ili proizvod",
+        "prompt": "Uradi SWOT analizu za vaše poslovanje ili proizvod. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Sveobuhvatan poslovni plan",
+        "prompt": "Napiši sveobuhvatan poslovni plan. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Membership sajt sa nivoima i sadržajem",
+        "prompt": "Isplaniraj membership sajt sa nivoima i sadržajem. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Roadmapu proizvoda sa prioritetima i rokovima",
+        "prompt": "Napravi roadmapu proizvoda sa prioritetima i rokovima. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Okvir koučing programa",
+        "prompt": "Dizajniraj okvir koučing programa. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Tabele i sadržaj za poređenje proizvoda",
+        "prompt": "Napravi tabele i sadržaj za poređenje proizvoda. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
       }
     ]
   },
@@ -129,11 +1081,123 @@
     "items": [
       {
         "title": "Slogan brenda",
-        "prompt": "Smisli 10 opcija za slogan (tagline) mog brenda \"[naziv brenda]\", koji se bavi [delatnost]. Slogan treba da bude kratak (do 6 reči), pamtljiv, i da prenese [glavnu vrednost/osećaj koji želim da prenesem]."
+        "prompt": "Smisli 10 opcija za slogan (tagline) mog brenda \"[naziv brenda]\", koji se bavi [delatnost]. Slogan treba da bude kratak (do 6 reči), pamtljiv, i da prenese [glavnu vrednost/osećaj koji želim da prenesem].",
+        "free": true
       },
       {
         "title": "Paleta boja",
-        "prompt": "Predloži mi paletu od 5 boja za brend \"[naziv brenda]\" u industriji [industrija], koji želi da deluje [opis, npr. moderno i pouzdano]. Za svaku boju daj hex kod i objasni gde bi se koristila (glavna, sekundarna, akcent, tekst, pozadina)."
+        "prompt": "Predloži mi paletu od 5 boja za brend \"[naziv brenda]\" u industriji [industrija], koji želi da deluje [opis, npr. moderno i pouzdano]. Za svaku boju daj hex kod i objasni gde bi se koristila (glavna, sekundarna, akcent, tekst, pozadina).",
+        "free": true
+      },
+      {
+        "title": "Osvežavanje brenda sa ažuriranim vizualima i porukama",
+        "prompt": "Isplaniraj osvežavanje brenda sa ažuriranim vizualima i porukama. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Vodič za glas i ton brenda",
+        "prompt": "Napravi vodič za glas i ton brenda. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Sveobuhvatnu reviziju brenda",
+        "prompt": "Izvrši sveobuhvatnu reviziju brenda. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Arhitekturu brenda za firme sa više brendova",
+        "prompt": "Dizajniraj arhitekturu brenda za firme sa više brendova. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Kompletan dokument smernica vizuelnog identiteta brenda",
+        "prompt": "Napravi kompletan dokument smernica vizuelnog identiteta brenda. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Izjavu o pozicioniranju brenda",
+        "prompt": "Napiši izjavu o pozicioniranju brenda. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Briefove za dizajn prilagođenih ikonica",
+        "prompt": "Napravi briefove za dizajn prilagođenih ikonica. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Briefove za dizajn brendiranog merchandisea",
+        "prompt": "Napravi briefove za dizajn brendiranog merchandisea. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Radionicu imenovanja za proizvode ili brendove",
+        "prompt": "Vodi radionicu imenovanja za proizvode ili brendove. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Briefove za dizajn pakovanja",
+        "prompt": "Napravi briefove za dizajn pakovanja. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Smernice za prezentacije koje odgovaraju brendu",
+        "prompt": "Napravi smernice za prezentacije koje odgovaraju brendu. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Kompletnu strategiju rebranda i implementaciju",
+        "prompt": "Isplaniraj kompletnu strategiju rebranda i implementaciju. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Briefove za signalizaciju i dizajn enterijera",
+        "prompt": "Napravi briefove za signalizaciju i dizajn enterijera. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Style tile-ove za vizuelni smer dizajna",
+        "prompt": "Napravi style tile-ove za vizuelni smer dizajna. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Nezaboravno iskustvo otvaranja paketa",
+        "prompt": "Dizajniraj nezaboravno iskustvo otvaranja paketa. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Brief za dizajn vizuelnog identiteta",
+        "prompt": "Napravi brief za dizajn vizuelnog identiteta. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Strukturu i tekst stranice portfolia",
+        "prompt": "Napravi strukturu i tekst stranice portfolia. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Vas kao stručnjaka u vašoj oblasti",
+        "prompt": "Pozicioniraj vas kao stručnjaka u vašoj oblasti. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Speaker one-sheet za dobijanje nastupa",
+        "prompt": "Napravi speaker one-sheet za dobijanje nastupa. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Okvir vašeg signature predavanja",
+        "prompt": "Razvij okvir vašeg signature predavanja. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Jasnu misiju za vašu organizaciju",
+        "prompt": "Napiši jasnu misiju za vašu organizaciju. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "CV na izvršnom nivou",
+        "prompt": "Napravi CV na izvršnom nivou. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
       }
     ]
   },
@@ -143,15 +1207,143 @@
     "items": [
       {
         "title": "Predložak fakture",
-        "prompt": "Napravi predložak profesionalne fakture za moj biznis \"[naziv]\". Treba da sadrži: podatke o firmi, podatke o klijentu, listu stavki sa cenama, ukupan iznos, rok plaćanja i način plaćanja. Formatiraj to jasno, kao tekst koji mogu da prekopiram u dokument."
+        "prompt": "Napravi predložak profesionalne fakture za moj biznis \"[naziv]\". Treba da sadrži: podatke o firmi, podatke o klijentu, listu stavki sa cenama, ukupan iznos, rok plaćanja i način plaćanja. Formatiraj to jasno, kao tekst koji mogu da prekopiram u dokument.",
+        "free": true
       },
       {
         "title": "Kalkulator cena",
-        "prompt": "Pomozi mi da odredim cenu za \"[proizvod/usluga]\". Moji troškovi su [nabroj troškove], želim maržu od [procenat]%, a konkurencija naplaćuje oko [iznos]. Predloži mi konačnu cenu i objasni logiku iza toga."
+        "prompt": "Pomozi mi da odredim cenu za \"[proizvod/usluga]\". Moji troškovi su [nabroj troškove], želim maržu od [procenat]%, a konkurencija naplaćuje oko [iznos]. Predloži mi konačnu cenu i objasni logiku iza toga.",
+        "free": true
       },
       {
         "title": "Plan budžeta",
-        "prompt": "Napravi mi jednostavan mesečni budžetski plan za moj mali biznis \"[naziv/oblast]\", sa mesečnim prihodom od oko [iznos]. Podeli troškove u kategorije (fiksni, varijabilni, marketing, rezerva) i predloži razumne procente za svaku."
+        "prompt": "Napravi mi jednostavan mesečni budžetski plan za moj mali biznis \"[naziv/oblast]\", sa mesečnim prihodom od oko [iznos]. Podeli troškove u kategorije (fiksni, varijabilni, marketing, rezerva) i predloži razumne procente za svaku.",
+        "free": true
+      },
+      {
+        "title": "Šablone i sisteme za praćenje troškova",
+        "prompt": "Napravi šablone i sisteme za praćenje troškova. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Prognoze i projekcije novčanog toka",
+        "prompt": "Napravi prognoze i projekcije novčanog toka. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Layoute finansijskog dashboarda i KPI-jeve",
+        "prompt": "Dizajniraj layoute finansijskog dashboarda i KPI-jeve. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Šablone izveštaja o dobiti i gubitku",
+        "prompt": "Generiši šablone izveštaja o dobiti i gubitku. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Sisteme i kategorije za knjiženje",
+        "prompt": "Postavi sisteme i kategorije za knjiženje. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Tačke break-even za proizvode ili usluge",
+        "prompt": "Izračunaj tačke break-even za proizvode ili usluge. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Analizu troškova za poslovne odluke",
+        "prompt": "Izvrši analizu troškova za poslovne odluke. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Finansijske modele za planiranje poslovanja",
+        "prompt": "Izgradi finansijske modele za planiranje poslovanja. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Finansijske projekcije za prikupljanje investicija ili planiranje",
+        "prompt": "Napravi finansijske projekcije za prikupljanje investicija ili planiranje. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Cenovnik za frilensere sa nivoima cena",
+        "prompt": "Napravi cenovnik za frilensere sa nivoima cena. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Napredak prikupljanja sredstava i upravljanje donatorima",
+        "prompt": "Prati napredak prikupljanja sredstava i upravljanje donatorima. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Aplikacije za grantove i predloge za finansiranje",
+        "prompt": "Napiši aplikacije za grantove i predloge za finansiranje. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Emailove i izveštaje za ažuriranje investitora",
+        "prompt": "Napravi emailove i izveštaje za ažuriranje investitora. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Sveobuhvatnu strategiju određivanja cena",
+        "prompt": "Razvij sveobuhvatnu strategiju određivanja cena. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Kvartalne izveštaje o pregledu poslovanja",
+        "prompt": "Napravi kvartalne izveštaje o pregledu poslovanja. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Prihod na osnovu trenutnih podataka i trendova",
+        "prompt": "Prognoziraj prihod na osnovu trenutnih podataka i trendova. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Povrat investicije za kampanje ili projekte",
+        "prompt": "Izračunaj povrat investicije za kampanje ili projekte. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "I analizira metrike pretplatničkog modela",
+        "prompt": "Prati i analizira metrike pretplatničkog modela. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Potencijalne poreske olakšice za vaše poslovanje",
+        "prompt": "Identifikuj potencijalne poreske olakšice za vaše poslovanje. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Checkliste za pripremu poreza i listu dokumenata",
+        "prompt": "Napravi checkliste za pripremu poreza i listu dokumenata. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Jediničnu ekonomiku za vaše proizvode ili usluge",
+        "prompt": "Izračunaj jediničnu ekonomiku za vaše proizvode ili usluge. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Cene u odnosu na tržište i konkurente",
+        "prompt": "Analiziraj cene u odnosu na tržište i konkurente. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Strukture provizija za prodaju",
+        "prompt": "Dizajniraj strukture provizija za prodaju. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Planove kompenzacije za zaposlene",
+        "prompt": "Napravi planove kompenzacije za zaposlene. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Skripte za pregovaranje o tarifama i naknadama",
+        "prompt": "Napiši skripte za pregovaranje o tarifama i naknadama. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
       }
     ]
   },
@@ -161,15 +1353,153 @@
     "items": [
       {
         "title": "Politika privatnosti",
-        "prompt": "Napiši osnovnu politiku privatnosti za moj sajt \"[naziv sajta]\", koji prikuplja [koje podatke, npr. email adresu, ime]. Napomeni da ovo treba da bude polazna tačka koju bi trebalo da pregleda pravnik pre objavljivanja."
+        "prompt": "Napiši osnovnu politiku privatnosti za moj sajt \"[naziv sajta]\", koji prikuplja [koje podatke, npr. email adresu, ime]. Napomeni da ovo treba da bude polazna tačka koju bi trebalo da pregleda pravnik pre objavljivanja.",
+        "free": true
       },
       {
         "title": "Uslovi korišćenja",
-        "prompt": "Napiši osnovne uslove korišćenja za moj sajt/aplikaciju \"[naziv]\", koji nudi [opiši uslugu]. Uključi standardne sekcije (prava i obaveze korisnika, ograničenje odgovornosti, promene uslova). Napomeni da ovo treba da pregleda pravnik pre objavljivanja."
+        "prompt": "Napiši osnovne uslove korišćenja za moj sajt/aplikaciju \"[naziv]\", koji nudi [opiši uslugu]. Uključi standardne sekcije (prava i obaveze korisnika, ograničenje odgovornosti, promene uslova). Napomeni da ovo treba da pregleda pravnik pre objavljivanja.",
+        "free": true
       },
       {
         "title": "Osnovni ugovor o usluzi",
-        "prompt": "Napravi predložak jednostavnog ugovora o pružanju usluga između mene, kao [opiši svoju ulogu, npr. frilenser/agencija], i klijenta, za uslugu \"[opiši uslugu]\". Uključi: opseg posla, cenu i način plaćanja, rokove, i uslove otkazivanja. Napomeni da treba da ga pregleda pravnik."
+        "prompt": "Napravi predložak jednostavnog ugovora o pružanju usluga između mene, kao [opiši svoju ulogu, npr. frilenser/agencija], i klijenta, za uslugu \"[opiši uslugu]\". Uključi: opseg posla, cenu i način plaćanja, rokove, i uslove otkazivanja. Napomeni da treba da ga pregleda pravnik.",
+        "free": true
+      },
+      {
+        "title": "Poslovne ugovore i sporazume",
+        "prompt": "Napravi poslovne ugovore i sporazume. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni]. Napomeni na kraju da je ovo polazna tačka koju bi trebalo da pregleda pravnik pre zvanične upotrebe.",
+        "free": false
+      },
+      {
+        "title": "Jasnu politiku povrata i refundacije",
+        "prompt": "Napiši jasnu politiku povrata i refundacije. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje]. Napomeni na kraju da je ovo polazna tačka koju bi trebalo da pregleda pravnik pre zvanične upotrebe.",
+        "free": false
+      },
+      {
+        "title": "Šablone ugovora o licenciranju",
+        "prompt": "Napravi šablone ugovora o licenciranju. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni]. Napomeni na kraju da je ovo polazna tačka koju bi trebalo da pregleda pravnik pre zvanične upotrebe.",
+        "free": false
+      },
+      {
+        "title": "Šablone ugovora o neotkrivanju informacija",
+        "prompt": "Generiši šablone ugovora o neotkrivanju informacija. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje]. Napomeni na kraju da je ovo polazna tačka koju bi trebalo da pregleda pravnik pre zvanične upotrebe.",
+        "free": false
+      },
+      {
+        "title": "Politiku dostave za e-commerce firme",
+        "prompt": "Napravi politiku dostave za e-commerce firme. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni]. Napomeni na kraju da je ovo polazna tačka koju bi trebalo da pregleda pravnik pre zvanične upotrebe.",
+        "free": false
+      },
+      {
+        "title": "Politiku pristupačnosti i plan uskladjenosti",
+        "prompt": "Napravi politiku pristupačnosti i plan uskladjenosti. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje]. Napomeni na kraju da je ovo polazna tačka koju bi trebalo da pregleda pravnik pre zvanične upotrebe.",
+        "free": false
+      },
+      {
+        "title": "Šablone pisma za prestanak i odustajanje",
+        "prompt": "Napravi šablone pisma za prestanak i odustajanje. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni]. Napomeni na kraju da je ovo polazna tačka koju bi trebalo da pregleda pravnik pre zvanične upotrebe.",
+        "free": false
+      },
+      {
+        "title": "Checkliste uskladjenosti za vašu industriju",
+        "prompt": "Izgradi checkliste uskladjenosti za vašu industriju. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje]. Napomeni na kraju da je ovo polazna tačka koju bi trebalo da pregleda pravnik pre zvanične upotrebe.",
+        "free": false
+      },
+      {
+        "title": "Stranicu o pristanku za kolačiće i politiku",
+        "prompt": "Napiši stranicu o pristanku za kolačiće i politiku. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni]. Napomeni na kraju da je ovo polazna tačka koju bi trebalo da pregleda pravnik pre zvanične upotrebe.",
+        "free": false
+      },
+      {
+        "title": "Obaveštenja o autorskim pravima i DMCA politike",
+        "prompt": "Napravi obaveštenja o autorskim pravima i DMCA politike. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje]. Napomeni na kraju da je ovo polazna tačka koju bi trebalo da pregleda pravnik pre zvanične upotrebe.",
+        "free": false
+      },
+      {
+        "title": "GDPR-uskladjene sporazume o obradi podataka",
+        "prompt": "Napiši GDPR-uskladjene sporazume o obradi podataka. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni]. Napomeni na kraju da je ovo polazna tačka koju bi trebalo da pregleda pravnik pre zvanične upotrebe.",
+        "free": false
+      },
+      {
+        "title": "Pravne odricanje odgovornosti za sadržaj i proizvode",
+        "prompt": "Generiši pravne odricanje odgovornosti za sadržaj i proizvode. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje]. Napomeni na kraju da je ovo polazna tačka koju bi trebalo da pregleda pravnik pre zvanične upotrebe.",
+        "free": false
+      },
+      {
+        "title": "Politike troškova i refundacije kompanije",
+        "prompt": "Napravi politike troškova i refundacije kompanije. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni]. Napomeni na kraju da je ovo polazna tačka koju bi trebalo da pregleda pravnik pre zvanične upotrebe.",
+        "free": false
+      },
+      {
+        "title": "Checkliste za GDPR audit uskladjenosti",
+        "prompt": "Napravi checkliste za GDPR audit uskladjenosti. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje]. Napomeni na kraju da je ovo polazna tačka koju bi trebalo da pregleda pravnik pre zvanične upotrebe.",
+        "free": false
+      },
+      {
+        "title": "Ugovore sa nezavisnim izvođačima",
+        "prompt": "Napiši ugovore sa nezavisnim izvođačima. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni]. Napomeni na kraju da je ovo polazna tačka koju bi trebalo da pregleda pravnik pre zvanične upotrebe.",
+        "free": false
+      },
+      {
+        "title": "Vaša prava intelektualne svojine i zaštitu",
+        "prompt": "Proveri vaša prava intelektualne svojine i zaštitu. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje]. Napomeni na kraju da je ovo polazna tačka koju bi trebalo da pregleda pravnik pre zvanične upotrebe.",
+        "free": false
+      },
+      {
+        "title": "Pisma o nameri za poslove i partnerstva",
+        "prompt": "Napravi pisma o nameri za poslove i partnerstva. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni]. Napomeni na kraju da je ovo polazna tačka koju bi trebalo da pregleda pravnik pre zvanične upotrebe.",
+        "free": false
+      },
+      {
+        "title": "Šablone ugovora o zabrani konkurencije",
+        "prompt": "Napravi šablone ugovora o zabrani konkurencije. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje]. Napomeni na kraju da je ovo polazna tačka koju bi trebalo da pregleda pravnik pre zvanične upotrebe.",
+        "free": false
+      },
+      {
+        "title": "Šablone ugovora o partnerstvu",
+        "prompt": "Napiši šablone ugovora o partnerstvu. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni]. Napomeni na kraju da je ovo polazna tačka koju bi trebalo da pregleda pravnik pre zvanične upotrebe.",
+        "free": false
+      },
+      {
+        "title": "Politike uslova i odredbi plaćanja",
+        "prompt": "Napravi politike uslova i odredbi plaćanja. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje]. Napomeni na kraju da je ovo polazna tačka koju bi trebalo da pregleda pravnik pre zvanične upotrebe.",
+        "free": false
+      },
+      {
+        "title": "Šablone pretplatničkih ugovora za SaaS",
+        "prompt": "Napiši šablone pretplatničkih ugovora za SaaS. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni]. Napomeni na kraju da je ovo polazna tačka koju bi trebalo da pregleda pravnik pre zvanične upotrebe.",
+        "free": false
+      },
+      {
+        "title": "Uslove korišćenja za mobilne aplikacije",
+        "prompt": "Napravi uslove korišćenja za mobilne aplikacije. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje]. Napomeni na kraju da je ovo polazna tačka koju bi trebalo da pregleda pravnik pre zvanične upotrebe.",
+        "free": false
+      },
+      {
+        "title": "Vas kroz proces prijave žiga",
+        "prompt": "Vodi vas kroz proces prijave žiga. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni]. Napomeni na kraju da je ovo polazna tačka koju bi trebalo da pregleda pravnik pre zvanične upotrebe.",
+        "free": false
+      },
+      {
+        "title": "Formulare za odricanje i oslobađanje od odgovornosti",
+        "prompt": "Napravi formulare za odricanje i oslobađanje od odgovornosti. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje]. Napomeni na kraju da je ovo polazna tačka koju bi trebalo da pregleda pravnik pre zvanične upotrebe.",
+        "free": false
+      },
+      {
+        "title": "Politike i procedure na radnom mestu",
+        "prompt": "Napiši politike i procedure na radnom mestu. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni]. Napomeni na kraju da je ovo polazna tačka koju bi trebalo da pregleda pravnik pre zvanične upotrebe.",
+        "free": false
+      },
+      {
+        "title": "Šablone ugovora o angažmanu za kontinuirane usluge",
+        "prompt": "Napravi šablone ugovora o angažmanu za kontinuirane usluge. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje]. Napomeni na kraju da je ovo polazna tačka koju bi trebalo da pregleda pravnik pre zvanične upotrebe.",
+        "free": false
+      },
+      {
+        "title": "Šablone ugovora sa podizvođačima",
+        "prompt": "Napiši šablone ugovora sa podizvođačima. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni]. Napomeni na kraju da je ovo polazna tačka koju bi trebalo da pregleda pravnik pre zvanične upotrebe.",
+        "free": false
       }
     ]
   },
@@ -179,15 +1509,153 @@
     "items": [
       {
         "title": "Beleške sa sastanka",
-        "prompt": "Na osnovu ovih beležaka/transkripta sa sastanka: [nalepi beleške], napravi organizovan sažetak sa sledećim sekcijama: ključne teme, odluke koje su donete, i zadaci sa nosiocima i rokovima."
+        "prompt": "Na osnovu ovih beležaka/transkripta sa sastanka: [nalepi beleške], napravi organizovan sažetak sa sledećim sekcijama: ključne teme, odluke koje su donete, i zadaci sa nosiocima i rokovima.",
+        "free": true
       },
       {
         "title": "Nedeljni izveštaj",
-        "prompt": "Na osnovu ovih informacija o tome šta sam radio/la ove nedelje: [nabroj aktivnosti/rezultate], napiši kratak, profesionalan nedeljni izveštaj za mog menadžera/tim, sa sekcijama: šta je urađeno, izazovi, i planovi za sledeću nedelju."
+        "prompt": "Na osnovu ovih informacija o tome šta sam radio/la ove nedelje: [nabroj aktivnosti/rezultate], napiši kratak, profesionalan nedeljni izveštaj za mog menadžera/tim, sa sekcijama: šta je urađeno, izazovi, i planovi za sledeću nedelju.",
+        "free": true
       },
       {
         "title": "Standardna operativna procedura (SOP)",
-        "prompt": "Napravi standardnu operativnu proceduru (SOP) korak po korak za proces \"[opiši proces, npr. obrada nove porudžbine]\" u mom biznisu. Format neka bude jasna numerisana lista koraka, tako da bilo ko nov u timu može da je isprati."
+        "prompt": "Napravi standardnu operativnu proceduru (SOP) korak po korak za proces \"[opiši proces, npr. obrada nove porudžbine]\" u mom biznisu. Format neka bude jasna numerisana lista koraka, tako da bilo ko nov u timu može da je isprati.",
+        "free": true
+      },
+      {
+        "title": "Strukturu CRM sistema za upravljanje klijentima",
+        "prompt": "Postavi strukturu CRM sistema za upravljanje klijentima. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Sisteme i šablone za praćenje projekata",
+        "prompt": "Izgradi sisteme i šablone za praćenje projekata. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Okvir delegiranja za upravljanje timom",
+        "prompt": "Napravi okvir delegiranja za upravljanje timom. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Sprint ili projektne retrospektive",
+        "prompt": "Olakšaj sprint ili projektne retrospektive. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Audit vremena radi pronalaženja dobitaka u efikasnosti",
+        "prompt": "Izvrši audit vremena radi pronalaženja dobitaka u efikasnosti. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "I dokumentuje poslovne tokove rada",
+        "prompt": "Mapiraj i dokumentuje poslovne tokove rada. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Okvire za godišnje planiranje poslovanja",
+        "prompt": "Napravi okvire za godišnje planiranje poslovanja. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Sisteme batch obrade za efikasnost",
+        "prompt": "Dizajniraj sisteme batch obrade za efikasnost. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Plan kontinuiteta poslovanja i oporavka od katastrofe",
+        "prompt": "Napravi plan kontinuiteta poslovanja i oporavka od katastrofe. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Upravljanje organizacionim promenama",
+        "prompt": "Isplaniraj upravljanje organizacionim promenama. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Matrice odlučivanja za složene izbore",
+        "prompt": "Izgradi matrice odlučivanja za složene izbore. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Sisteme upravljanja energijom i produktivnošću",
+        "prompt": "Napravi sisteme upravljanja energijom i produktivnošću. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Procedure eskalacije za probleme i pritužbe",
+        "prompt": "Dizajniraj procedure eskalacije za probleme i pritužbe. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Sisteme i SOP-ove za upravljanje zalihama",
+        "prompt": "Napravi sisteme i SOP-ove za upravljanje zalihama. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Internu bazu znanja za vaš tim",
+        "prompt": "Izgradi internu bazu znanja za vaš tim. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Efektivne agende i formate sastanaka",
+        "prompt": "Napravi efektivne agende i formate sastanaka. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Produktivne jutarnje rutine",
+        "prompt": "Dizajniraj produktivne jutarnje rutine. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Procese za mogućnosti automatizacije",
+        "prompt": "Proveri procese za mogućnosti automatizacije. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "QA checkliste za proizvode i usluge",
+        "prompt": "Napravi QA checkliste za proizvode i usluge. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Procenu rizika za poslovne odluke",
+        "prompt": "Izvrši procenu rizika za poslovne odluke. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Šablone status ažuriranja za projekte i timove",
+        "prompt": "Napravi šablone status ažuriranja za projekte i timove. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Okvire za prioritizaciju zadataka",
+        "prompt": "Izgradi okvire za prioritizaciju zadataka. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Kartice ocenjivanja i kriterijume za evaluaciju dobavljača",
+        "prompt": "Napravi kartice ocenjivanja i kriterijume za evaluaciju dobavljača. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Procese i checkliste za uvođenje dobavljača",
+        "prompt": "Napravi procese i checkliste za uvođenje dobavljača. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Automatizovane tokove izveštavanja",
+        "prompt": "Isplaniraj automatizovane tokove izveštavanja. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "SOP-ove za ispunjavanje narudžbina i dostavu",
+        "prompt": "Napravi SOP-ove za ispunjavanje narudžbina i dostavu. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Dokumente obima posla za projekte",
+        "prompt": "Napiši dokumente obima posla za projekte. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
       }
     ]
   },
@@ -197,11 +1665,143 @@
     "items": [
       {
         "title": "Oglas za posao",
-        "prompt": "Napiši privlačan oglas za posao za poziciju \"[naziv pozicije]\" u mojoj firmi \"[naziv]\". Uključi: kratak opis firme, glavne odgovornosti, potrebne kvalifikacije, i šta nudimo kandidatu. Ton neka bude [npr. profesionalan ali topao]."
+        "prompt": "Napiši privlačan oglas za posao za poziciju \"[naziv pozicije]\" u mojoj firmi \"[naziv]\". Uključi: kratak opis firme, glavne odgovornosti, potrebne kvalifikacije, i šta nudimo kandidatu. Ton neka bude [npr. profesionalan ali topao].",
+        "free": true
       },
       {
         "title": "Checklist za uvođenje novog zaposlenog",
-        "prompt": "Napravi checklistu za uvođenje (onboarding) novog zaposlenog na poziciji \"[pozicija]\" u mojoj firmi, za prvih 30 dana. Podeli je po nedeljama, sa konkretnim zadacima i ciljevima za svaku."
+        "prompt": "Napravi checklistu za uvođenje (onboarding) novog zaposlenog na poziciji \"[pozicija]\" u mojoj firmi, za prvih 30 dana. Podeli je po nedeljama, sa konkretnim zadacima i ciljevima za svaku.",
+        "free": true
+      },
+      {
+        "title": "Šablone za godišnju evaluaciju performansi",
+        "prompt": "Napravi šablone za godišnju evaluaciju performansi. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Sekcije i politike priručnika za zaposlene",
+        "prompt": "Napiši sekcije i politike priručnika za zaposlene. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Briefove za angažovanje izvođača i frilenserima",
+        "prompt": "Napravi briefove za angažovanje izvođača i frilenserima. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Dokument kulture i vrednosti kompanije",
+        "prompt": "Napiši dokument kulture i vrednosti kompanije. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Kartice za ocenjivanje kandidata pri zapošljavanju",
+        "prompt": "Napravi kartice za ocenjivanje kandidata pri zapošljavanju. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Banku pitanja za intervjue po ulozi",
+        "prompt": "Izgradi banku pitanja za intervjue po ulozi. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Checkliste za odlazak zaposlenih",
+        "prompt": "Napravi checkliste za odlazak zaposlenih. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Šablone pisma ponude za nove zaposlene",
+        "prompt": "Generiši šablone pisma ponude za nove zaposlene. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "OKR (Ciljevi i Ključni Rezultati) okvire",
+        "prompt": "Napravi OKR (Ciljevi i Ključni Rezultati) okvire. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Šablone za individualne sastanke menadžer-zaposleni",
+        "prompt": "Napravi šablone za individualne sastanke menadžer-zaposleni. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Šablone i vodiče za evaluaciju performansi",
+        "prompt": "Napiši šablone i vodiče za evaluaciju performansi. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Šablone plana poboljšanja performansi",
+        "prompt": "Napravi šablone plana poboljšanja performansi. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Politike rada na daljinu i hibridnog rada",
+        "prompt": "Napiši politike rada na daljinu i hibridnog rada. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Dokumente tima sa ulogama i normama",
+        "prompt": "Napravi dokumente tima sa ulogama i normama. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Vodiče i rezimee beneficija za zaposlene",
+        "prompt": "Napravi vodiče i rezimee beneficija za zaposlene. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Politike raznolikosti, jednakosti i inkluzije",
+        "prompt": "Napiši politike raznolikosti, jednakosti i inkluzije. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Ankete o angažmanu i zadovoljstvu zaposlenih",
+        "prompt": "Napravi ankete o angažmanu i zadovoljstvu zaposlenih. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Šablone pitanja za razlazni intervju",
+        "prompt": "Napravi šablone pitanja za razlazni intervju. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Sisteme za upravljanje frilensers timovima",
+        "prompt": "Napravi sisteme za upravljanje frilensers timovima. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Programe bonusa za preporuke zaposlenih",
+        "prompt": "Dizajniraj programe bonusa za preporuke zaposlenih. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Priručnik za saradnju udaljenih timova",
+        "prompt": "Napiši priručnik za saradnju udaljenih timova. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Okvire za planiranje nasleđivanja",
+        "prompt": "Napravi okvire za planiranje nasleđivanja. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Aktivnosti i događaje za team building",
+        "prompt": "Isplaniraj aktivnosti i događaje za team building. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Planove obuke i razvoja zaposlenih",
+        "prompt": "Napravi planove obuke i razvoja zaposlenih. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Priručnike za obuku za uloge i procese",
+        "prompt": "Napiši priručnike za obuku za uloge i procese. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Strukturu programa mentorstva",
+        "prompt": "Dizajniraj strukturu programa mentorstva. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
       }
     ]
   },
@@ -211,11 +1811,93 @@
     "items": [
       {
         "title": "Formular za prijem klijenata",
-        "prompt": "Napravi listu od 10 pitanja za formular za prijem novih klijenata u mojoj [vrsta biznisa, npr. agenciji / konsultantskoj praksi], koja će mi pomoći da razumem njihove potrebe i ciljeve pre prvog sastanka."
+        "prompt": "Napravi listu od 10 pitanja za formular za prijem novih klijenata u mojoj [vrsta biznisa, npr. agenciji / konsultantskoj praksi], koja će mi pomoći da razumem njihove potrebe i ciljeve pre prvog sastanka.",
+        "free": true
       },
       {
         "title": "Anketa za klijente",
-        "prompt": "Napravi anketu od 8 pitanja za prikupljanje povratnih informacija od mojih klijenata o [proizvod/usluga]. Uključi mešavinu pitanja sa ocenom (1-5) i otvorenih pitanja, tako da dobijem i merljive podatke i konkretne komentare."
+        "prompt": "Napravi anketu od 8 pitanja za prikupljanje povratnih informacija od mojih klijenata o [proizvod/usluga]. Uključi mešavinu pitanja sa ocenom (1-5) i otvorenih pitanja, tako da dobijem i merljive podatke i konkretne komentare.",
+        "free": true
+      },
+      {
+        "title": "Tokove uvođenja klijenata za agencije",
+        "prompt": "Napravi tokove uvođenja klijenata za agencije. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Šablone izveštaja za klijente",
+        "prompt": "Napravi šablone izveštaja za klijente. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Sisteme za prikupljanje povratnih informacija od klijenata",
+        "prompt": "Izgradi sisteme za prikupljanje povratnih informacija od klijenata. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Priče o transformaciji klijenta za marketing",
+        "prompt": "Napiši priče o transformaciji klijenta za marketing. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Okvire za konsultantske angažmane",
+        "prompt": "Dizajniraj okvire za konsultantske angažmane. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Šablone predloga za konsalting",
+        "prompt": "Napravi šablone predloga za konsalting. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Dijagnostičke procene za angažmane klijenata",
+        "prompt": "Napravi dijagnostičke procene za angažmane klijenata. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Politike garancije usluge",
+        "prompt": "Napiši politike garancije usluge. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Prilagođene usluge u produktizovane ponude",
+        "prompt": "Pretvori prilagođene usluge u produktizovane ponude. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Zahtevima za promenu obima i dokumentacijom",
+        "prompt": "Upravljaj zahtevima za promenu obima i dokumentacijom. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Grupni koučing i strukturu programa",
+        "prompt": "Dizajniraj grupni koučing i strukturu programa. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "I strukturira mastermind grupu",
+        "prompt": "Isplaniraj i strukturira mastermind grupu. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Programe i kurseve zasnovane na kohortama",
+        "prompt": "Dizajniraj programe i kurseve zasnovane na kohortama. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Strategiju učešća u industrijskim udruženjima",
+        "prompt": "Isplaniraj strategiju učešća u industrijskim udruženjima. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Alate i okvire za procenu veština",
+        "prompt": "Napravi alate i okvire za procenu veština. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Interaktivne kvizove za generisanje potencijalnih kupaca ili edukaciju",
+        "prompt": "Napravi interaktivne kvizove za generisanje potencijalnih kupaca ili edukaciju. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
       }
     ]
   },
@@ -225,11 +1907,103 @@
     "items": [
       {
         "title": "Struktura online kursa",
-        "prompt": "Predloži mi strukturu online kursa na temu \"[tema]\", namenjenog [ciljna publika, npr. potpunim početnicima]. Podeli ga u module i lekcije, sa kratkim opisom šta se uči u svakoj lekciji, tako da ceo kurs vodi polaznika od osnova do samostalne primene."
+        "prompt": "Predloži mi strukturu online kursa na temu \"[tema]\", namenjenog [ciljna publika, npr. potpunim početnicima]. Podeli ga u module i lekcije, sa kratkim opisom šta se uči u svakoj lekciji, tako da ceo kurs vodi polaznika od osnova do samostalne primene.",
+        "free": true
       },
       {
         "title": "Plan lekcije",
-        "prompt": "Napravi detaljan plan jedne lekcije na temu \"[tema]\", u trajanju od [broj] minuta, za [ciljna publika]. Uključi: cilj lekcije, ključne tačke koje treba objasniti, jedan praktičan primer, i vežbu na kraju."
+        "prompt": "Napravi detaljan plan jedne lekcije na temu \"[tema]\", u trajanju od [broj] minuta, za [ciljna publika]. Uključi: cilj lekcije, ključne tačke koje treba objasniti, jedan praktičan primer, i vežbu na kraju.",
+        "free": true
+      },
+      {
+        "title": "Agende i materijale za radionice",
+        "prompt": "Dizajniraj agende i materijale za radionice. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Strukture programa sertifikacije",
+        "prompt": "Dizajniraj strukture programa sertifikacije. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Puteve učenja za studente ili kupce",
+        "prompt": "Napravi puteve učenja za studente ili kupce. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Mikro-kurseve i mini-treninge",
+        "prompt": "Dizajniraj mikro-kurseve i mini-treninge. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Programe kontinuiranog obrazovanja i sadržaj",
+        "prompt": "Isplaniraj programe kontinuiranog obrazovanja i sadržaj. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "I poboljšava nastavne planove kurseva",
+        "prompt": "Pregledaj i poboljšava nastavne planove kurseva. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Domaće zadatke i vežbe za praksu",
+        "prompt": "Napravi domaće zadatke i vežbe za praksu. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Formulare za povratne informacije i evaluaciju studenata",
+        "prompt": "Napravi formulare za povratne informacije i evaluaciju studenata. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Vodiče za učenje za obrazovni sadržaj",
+        "prompt": "Napravi vodiče za učenje za obrazovni sadržaj. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Handoutove i radne listove za radionice",
+        "prompt": "Napravi handoutove i radne listove za radionice. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Webinare od teme do praćenja",
+        "prompt": "Isplaniraj webinare od teme do praćenja. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Lansiranje podcasta od koncepta do prvih epizoda",
+        "prompt": "Isplaniraj lansiranje podcasta od koncepta do prvih epizoda. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Rasporede nastave i sesija",
+        "prompt": "Isplaniraj rasporede nastave i sesija. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Wellness radionice i programe",
+        "prompt": "Isplaniraj wellness radionice i programe. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Sadržaj i programe vezane za ishranu",
+        "prompt": "Isplaniraj sadržaj i programe vezane za ishranu. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Outline fitnes programa i planova",
+        "prompt": "Napravi outline fitnes programa i planova. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Alate za procenu wellness stanja",
+        "prompt": "Napravi alate za procenu wellness stanja. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Outline i strukturu TED-stilskog predavanja",
+        "prompt": "Napravi outline i strukturu TED-stilskog predavanja. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
       }
     ]
   },
@@ -239,11 +2013,123 @@
     "items": [
       {
         "title": "Plan događaja",
-        "prompt": "Pomozi mi da isplaniram [vrsta događaja, npr. radionicu/konferenciju] za [broj] ljudi, na temu \"[tema]\". Napravi listu svega što treba da organizujem, podeljenu po kategorijama: lokacija, logistika, promocija, i dan događaja."
+        "prompt": "Pomozi mi da isplaniram [vrsta događaja, npr. radionicu/konferenciju] za [broj] ljudi, na temu \"[tema]\". Napravi listu svega što treba da organizujem, podeljenu po kategorijama: lokacija, logistika, promocija, i dan događaja.",
+        "free": true
       },
       {
         "title": "Tekst za stranicu registracije na događaj",
-        "prompt": "Napiši tekst za stranicu za registraciju na događaj \"[naziv događaja]\", koji se održava [datum/mesto] na temu \"[tema]\". Uključi ubedljiv opis događaja, ko treba da dođe, šta će dobiti učešćem, i jasan poziv na akciju za registraciju."
+        "prompt": "Napiši tekst za stranicu za registraciju na događaj \"[naziv događaja]\", koji se održava [datum/mesto] na temu \"[tema]\". Uključi ubedljiv opis događaja, ko treba da dođe, šta će dobiti učešćem, i jasan poziv na akciju za registraciju.",
+        "free": true
+      },
+      {
+        "title": "Višednevne konferencije i samite",
+        "prompt": "Isplaniraj višednevne konferencije i samite. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Budžete događaja i razradu troškova",
+        "prompt": "Napravi budžete događaja i razradu troškova. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Sekvence emailova i sadržaja za praćenje nakon događaja",
+        "prompt": "Napravi sekvence emailova i sadržaja za praćenje nakon događaja. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Marketinške planove za događaje",
+        "prompt": "Razvij marketinške planove za događaje. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Run-of-show dokumente za događaje",
+        "prompt": "Napravi run-of-show dokumente za događaje. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Predloge sponzorstva za događaje",
+        "prompt": "Napiši predloge sponzorstva za događaje. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Hibridne fizičke i virtuelne događaje",
+        "prompt": "Isplaniraj hibridne fizičke i virtuelne događaje. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Profesionalne networking događaje",
+        "prompt": "Isplaniraj profesionalne networking događaje. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Retreate za timove ili klijente",
+        "prompt": "Isplaniraj retreate za timove ili klijente. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Postavku i izvođenje virtuelnih događaja",
+        "prompt": "Isplaniraj postavku i izvođenje virtuelnih događaja. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Kampanje za regrutovanje i kontaktiranje predavača",
+        "prompt": "Napravi kampanje za regrutovanje i kontaktiranje predavača. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Predloge za govornička angažmana",
+        "prompt": "Napiši predloge za govornička angažmana. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Pakete i komunikaciju zahvalnosti sponzorima",
+        "prompt": "Napravi pakete i komunikaciju zahvalnosti sponzorima. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Aplikacije za nagrade i uznanja",
+        "prompt": "Napiši aplikacije za nagrade i uznanja. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Predloge keteringa za događaje",
+        "prompt": "Napravi predloge keteringa za događaje. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Sve marketinške materijale za lansiranje proizvoda",
+        "prompt": "Napravi sve marketinške materijale za lansiranje proizvoda. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Sveobuhvatnu checkliste za lansiranje",
+        "prompt": "Izgradi sveobuhvatnu checkliste za lansiranje. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Kompletan plan lansiranja proizvoda i vremenski okvir",
+        "prompt": "Napravi kompletan plan lansiranja proizvoda i vremenski okvir. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Beta lansiranja sa petljama testiranja i povratnih informacija",
+        "prompt": "Isplaniraj beta lansiranja sa petljama testiranja i povratnih informacija. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Strategiju lansiranja na Product Huntu",
+        "prompt": "Isplaniraj strategiju lansiranja na Product Huntu. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Kreiranje i lansiranje digitalnog proizvoda",
+        "prompt": "Isplaniraj kreiranje i lansiranje digitalnog proizvoda. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Lansiranje nove tržišne platforme",
+        "prompt": "Isplaniraj lansiranje nove tržišne platforme. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
       }
     ]
   },
@@ -253,11 +2139,123 @@
     "items": [
       {
         "title": "Tok uvođenja korisnika (onboarding)",
-        "prompt": "Predloži mi tok uvođenja (onboarding) novih korisnika za moj proizvod/aplikaciju \"[naziv]\", čija je glavna funkcija [opis]. Cilj je da korisnik što pre doživi \"aha trenutak\" i shvati vrednost proizvoda. Predloži korake i poruke za svaki korak."
+        "prompt": "Predloži mi tok uvođenja (onboarding) novih korisnika za moj proizvod/aplikaciju \"[naziv]\", čija je glavna funkcija [opis]. Cilj je da korisnik što pre doživi \"aha trenutak\" i shvati vrednost proizvoda. Predloži korake i poruke za svaki korak.",
+        "free": true
       },
       {
         "title": "NPS anketa",
-        "prompt": "Napravi kratku NPS (Net Promoter Score) anketu za moje kupce, sa glavnim pitanjem o preporuci i 2 dodatna pitanja za praćenje (zašto su dali tu ocenu, i šta bismo mogli da poboljšamo)."
+        "prompt": "Napravi kratku NPS (Net Promoter Score) anketu za moje kupce, sa glavnim pitanjem o preporuci i 2 dodatna pitanja za praćenje (zašto su dali tu ocenu, i šta bismo mogli da poboljšamo).",
+        "free": true
+      },
+      {
+        "title": "Godišnje poslovne izveštaje",
+        "prompt": "Napiši godišnje poslovne izveštaje. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Program savetodavnog odbora kupaca",
+        "prompt": "Napravi program savetodavnog odbora kupaca. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Playbook za uspeh kupaca radi zadržavanja",
+        "prompt": "Izgradi playbook za uspeh kupaca radi zadržavanja. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Priče o pobedi kupaca za internu motivaciju",
+        "prompt": "Napravi priče o pobedi kupaca za internu motivaciju. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Profesionalne odgovore na recenzije kupaca",
+        "prompt": "Napiši profesionalne odgovore na recenzije kupaca. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Ankete o zadovoljstvu kupaca",
+        "prompt": "Napravi ankete o zadovoljstvu kupaca. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Samoposluživne portale za kupce",
+        "prompt": "Dizajniraj samoposluživne portale za kupce. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "SLA ugovore za odnose sa klijentima i dobavljačima",
+        "prompt": "Napravi SLA ugovore za odnose sa klijentima i dobavljačima. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Oporavak usluge za probleme kupaca",
+        "prompt": "Isplaniraj oporavak usluge za probleme kupaca. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Skripte za chatbot konverzacije",
+        "prompt": "Napiši skripte za chatbot konverzacije. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Procedure rešavanja pritužbi",
+        "prompt": "Napravi procedure rešavanja pritužbi. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Sisteme ocenjivanja zdravlja kupaca",
+        "prompt": "Dizajniraj sisteme ocenjivanja zdravlja kupaca. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Šablone odgovora korisničke podrške",
+        "prompt": "Napravi šablone odgovora korisničke podrške. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Programe istraživanja glasa kupca",
+        "prompt": "Izgradi programe istraživanja glasa kupca. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Bazu znanja za korisničku podršku",
+        "prompt": "Napravi bazu znanja za korisničku podršku. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "I smanjuje odliv kupaca",
+        "prompt": "Analiziraj i smanjuje odliv kupaca. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Playbooke za sprečavanje odliva kupaca",
+        "prompt": "Napravi playbooke za sprečavanje odliva kupaca. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "SaaS tokove otkazivanja koji zadržavaju kupce",
+        "prompt": "Dizajniraj SaaS tokove otkazivanja koji zadržavaju kupce. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "SaaS sekvence uvođenja korisnika",
+        "prompt": "Napravi SaaS sekvence uvođenja korisnika. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Sisteme za prikupljanje i delovanje na povratne informacije o proizvodu",
+        "prompt": "Izgradi sisteme za prikupljanje i delovanje na povratne informacije o proizvodu. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Sisteme za praćenje i prioritizaciju zahteva za funkcionalnostima",
+        "prompt": "Napravi sisteme za praćenje i prioritizaciju zahteva za funkcionalnostima. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Studije korisničkog istraživanja i intervjue",
+        "prompt": "Isplaniraj studije korisničkog istraživanja i intervjue. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
       }
     ]
   },
@@ -267,11 +2265,113 @@
     "items": [
       {
         "title": "KPI dashboard",
-        "prompt": "Predloži mi koje ključne pokazatelje uspešnosti (KPI) treba da pratim za moj biznis u oblasti [oblast], i kako da ih organizujem u jednostavan mesečni dashboard/izveštaj. Objasni zašto je svaki pokazatelj bitan."
+        "prompt": "Predloži mi koje ključne pokazatelje uspešnosti (KPI) treba da pratim za moj biznis u oblasti [oblast], i kako da ih organizujem u jednostavan mesečni dashboard/izveštaj. Objasni zašto je svaki pokazatelj bitan.",
+        "free": true
       },
       {
         "title": "Analiza ankete",
-        "prompt": "Ovo su odgovori sa moje ankete za kupce: [nalepi odgovore/podatke]. Analiziraj ih i izdvoji: glavne teme/obrasce koji se ponavljaju, najvažnije uvide, i 3 konkretna predloga šta bih trebalo da uradim na osnovu ovih rezultata."
+        "prompt": "Ovo su odgovori sa moje ankete za kupce: [nalepi odgovore/podatke]. Analiziraj ih i izdvoji: glavne teme/obrasce koji se ponavljaju, najvažnije uvide, i 3 konkretna predloga šta bih trebalo da uradim na osnovu ovih rezultata.",
+        "free": true
+      },
+      {
+        "title": "A/B testove za sajtove i kampanje",
+        "prompt": "Isplaniraj A/B testove za sajtove i kampanje. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Vodiče za implementaciju analitike",
+        "prompt": "Napravi vodiče za implementaciju analitike. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Modele atribucije marketinga",
+        "prompt": "Dizajniraj modele atribucije marketinga. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Izveštaje o industrijskim poređenjima",
+        "prompt": "Napravi izveštaje o industrijskim poređenjima. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Analizu kohorti za zadržavanje i prihod",
+        "prompt": "Izvrši analizu kohorti za zadržavanje i prihod. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Levke konverzije za tačke pada",
+        "prompt": "Analiziraj levke konverzije za tačke pada. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "I optimizuje životnu vrednost kupca",
+        "prompt": "Izračunaj i optimizuje životnu vrednost kupca. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Strategije i sisteme prikupljanja podataka",
+        "prompt": "Isplaniraj strategije i sisteme prikupljanja podataka. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Layoute dashboarda i vizualizacije podataka",
+        "prompt": "Dizajniraj layoute dashboarda i vizualizacije podataka. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Povratne informacije kupaca radi korisnih uvida",
+        "prompt": "Analiziraj povratne informacije kupaca radi korisnih uvida. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "I dokumentuje ključne poslovne metrike",
+        "prompt": "Definiši i dokumentuje ključne poslovne metrike. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Okvire analize sentimenta za povratne informacije",
+        "prompt": "Napravi okvire analize sentimenta za povratne informacije. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "I analizira metrike performansi tržišne platforme",
+        "prompt": "Prati i analizira metrike performansi tržišne platforme. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "SaaS metrike dashboardove i praćenje",
+        "prompt": "Napravi SaaS metrike dashboardove i praćenje. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Strukture naknada i cena tržišne platforme",
+        "prompt": "Dizajniraj strukture naknada i cena tržišne platforme. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "I izveštava o metrikama društvenog uticaja",
+        "prompt": "Izmeri i izveštava o metrikama društvenog uticaja. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Dokumenta izveštaja o grantu za finansijere",
+        "prompt": "Napravi dokumenta izveštaja o grantu za finansijere. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Izveštaje o uticaju za zainteresovane strane",
+        "prompt": "Napiši izveštaje o uticaju za zainteresovane strane. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Pakete za sednice odbora neprofitnih organizacija",
+        "prompt": "Napravi pakete za sednice odbora neprofitnih organizacija. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "I organizuje biblioteku promptova koji se mogu ponovo koristiti",
+        "prompt": "Izgradi i organizuje biblioteku promptova koji se mogu ponovo koristiti. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
       }
     ]
   },
@@ -281,11 +2381,123 @@
     "items": [
       {
         "title": "Opis za tržišnu platformu",
-        "prompt": "Napiši optimizovan opis proizvoda \"[naziv proizvoda]\" za [platforma, npr. Etsy / Amazon]. Uključi ključne reči koje kupci verovatno pretražuju, jasnu listu karakteristika i koristi, i ubedljiv, prirodan ton."
+        "prompt": "Napiši optimizovan opis proizvoda \"[naziv proizvoda]\" za [platforma, npr. Etsy / Amazon]. Uključi ključne reči koje kupci verovatno pretražuju, jasnu listu karakteristika i koristi, i ubedljiv, prirodan ton.",
+        "free": true
       },
       {
         "title": "Vodič za poklone",
-        "prompt": "Napravi vodič za poklone na temu \"[tema/prilika, npr. pokloni za mame]\" koristeći moje proizvode: [nabroj proizvode]. Organizuj ih po cenovnim kategorijama ili tipovima primalaca, sa kratkim opisom zašto je svaki dobar izbor."
+        "prompt": "Napravi vodič za poklone na temu \"[tema/prilika, npr. pokloni za mame]\" koristeći moje proizvode: [nabroj proizvode]. Organizuj ih po cenovnim kategorijama ili tipovima primalaca, sa kratkim opisom zašto je svaki dobar izbor.",
+        "free": true
+      },
+      {
+        "title": "Lansiranje e-commerce prodavnice",
+        "prompt": "Isplaniraj lansiranje e-commerce prodavnice. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Briefove za pronalaženje dropshipping dobavljača",
+        "prompt": "Napravi briefove za pronalaženje dropshipping dobavljača. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Politike zamene za e-commerce",
+        "prompt": "Napiši politike zamene za e-commerce. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Briefove za nabavku proizvoda i dobavljače",
+        "prompt": "Napravi briefove za nabavku proizvoda i dobavljače. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Vodiče veličina za odeću i proizvode",
+        "prompt": "Napravi vodiče veličina za odeću i proizvode. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Strategije e-commerce prodaje u inostranstvo",
+        "prompt": "Isplaniraj strategije e-commerce prodaje u inostranstvo. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Sezonske zalihe i nivoe stoka",
+        "prompt": "Isplaniraj sezonske zalihe i nivoe stoka. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Poslovni model pretplatničke kutije",
+        "prompt": "Isplaniraj poslovni model pretplatničke kutije. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Kataloge veleprodajnih proizvoda i cenovnike",
+        "prompt": "Napravi kataloge veleprodajnih proizvoda i cenovnike. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Tokove uvođenja prodavaca za tržišne platforme",
+        "prompt": "Napravi tokove uvođenja prodavaca za tržišne platforme. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Procedure i komunikaciju za povlačenje proizvoda",
+        "prompt": "Napravi procedure i komunikaciju za povlačenje proizvoda. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Operacije i strategiju dostave hrane",
+        "prompt": "Isplaniraj operacije i strategiju dostave hrane. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Poslovni plan za food truck",
+        "prompt": "Napravi poslovni plan za food truck. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Checkliste za pregled ugovora o zakupu",
+        "prompt": "Napravi checkliste za pregled ugovora o zakupu. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Privlačne opise listinga nekretnina",
+        "prompt": "Napiši privlačne opise listinga nekretnina. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "SOP-ove za upravljanje nekretninama",
+        "prompt": "Napravi SOP-ove za upravljanje nekretninama. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Tekst listinga za iznajmljivanje nekretnina",
+        "prompt": "Napiši tekst listinga za iznajmljivanje nekretnina. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Vodiče po kvartu za nekretnine",
+        "prompt": "Napravi vodiče po kvartu za nekretnine. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "CRM sisteme za stručnjake za nekretnine",
+        "prompt": "Postavi CRM sisteme za stručnjake za nekretnine. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Sadržaj newslettera za nekretnine",
+        "prompt": "Napravi sadržaj newslettera za nekretnine. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Open house događaje za marketing nekretnina",
+        "prompt": "Isplaniraj open house događaje za marketing nekretnina. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Prilike za investicione nekretnine",
+        "prompt": "Analiziraj prilike za investicione nekretnine. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
       }
     ]
   },
@@ -295,7 +2507,78 @@
     "items": [
       {
         "title": "Marketinški plan za restoran",
-        "prompt": "Napravi jednostavan mesečni marketinški plan za moj restoran \"[naziv]\", koji se nalazi u [lokacija] i nudi [vrsta kuhinje]. Uključi ideje za društvene mreže, lokalni marketing, i po jednu promociju/akciju za mesec."
+        "prompt": "Napravi jednostavan mesečni marketinški plan za moj restoran \"[naziv]\", koji se nalazi u [lokacija] i nudi [vrsta kuhinje]. Uključi ideje za društvene mreže, lokalni marketing, i po jednu promociju/akciju za mesec.",
+        "free": true
+      },
+      {
+        "title": "Odgovore na recenzije restorana",
+        "prompt": "Napiši odgovore na recenzije restorana. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "SOP-ove za operacije restorana",
+        "prompt": "Napravi SOP-ove za operacije restorana. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Sezonske menije za restorane",
+        "prompt": "Isplaniraj sezonske menije za restorane. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Checkliste za proveru stanara za vlasnike nekretnina",
+        "prompt": "Napravi checkliste za proveru stanara za vlasnike nekretnina. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Zdravstvena i fitnes odricanja odgovornosti",
+        "prompt": "Napravi zdravstvena i fitnes odricanja odgovornosti. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Odricanja odgovornosti za suplemente i wellness",
+        "prompt": "Napiši odricanja odgovornosti za suplemente i wellness. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Šablone API dokumentacije",
+        "prompt": "Napravi šablone API dokumentacije. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Projekte razvoja no-code aplikacija",
+        "prompt": "Isplaniraj projekte razvoja no-code aplikacija. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Preporuke tech stacka za firme",
+        "prompt": "Napravi preporuke tech stacka za firme. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Vaš trenutni tool stack za efikasnost i troškove",
+        "prompt": "Proveri vaš trenutni tool stack za efikasnost i troškove. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Okvire i kartice ocenjivanja za evaluaciju SaaS alata",
+        "prompt": "Napravi okvire i kartice ocenjivanja za evaluaciju SaaS alata. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Strategije partnerstva za platforme",
+        "prompt": "Isplaniraj strategije partnerstva za platforme. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Sisteme poverenja i bezbednosti za platforme",
+        "prompt": "Dizajniraj sisteme poverenja i bezbednosti za platforme. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Strukture help centra za platforme",
+        "prompt": "Napravi strukture help centra za platforme. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
       }
     ]
   },
@@ -305,7 +2588,23 @@
     "items": [
       {
         "title": "Pronalaženje AI slučajeva upotrebe",
-        "prompt": "Na osnovu opisa mog biznisa: \"[opiši svoj biznis i svakodnevne zadatke]\", predloži mi 10 konkretnih načina na koje bih mogao/la da koristim AI (poput Claude-a) da uštedim vreme ili poboljšam poslovanje, poređanih od najlakših za odmah primeniti do naprednijih."
+        "prompt": "Na osnovu opisa mog biznisa: \"[opiši svoj biznis i svakodnevne zadatke]\", predloži mi 10 konkretnih načina na koje bih mogao/la da koristim AI (poput Claude-a) da uštedim vreme ili poboljšam poslovanje, poređanih od najlakših za odmah primeniti do naprednijih.",
+        "free": true
+      },
+      {
+        "title": "Politike za korišćenje AI-generisanog sadržaja",
+        "prompt": "Napravi politike za korišćenje AI-generisanog sadržaja. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
+      },
+      {
+        "title": "Politike AI etike za organizacije",
+        "prompt": "Napiši politike AI etike za organizacije. Dopuni ovo svojim kontekstom: [ukratko opiši o čemu se radi, za koga je namenjeno, i sve druge bitne detalje].",
+        "free": false
+      },
+      {
+        "title": "Tokove automatizacije za poslovne procese",
+        "prompt": "Dizajniraj tokove automatizacije za poslovne procese. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
       }
     ]
   },
@@ -315,7 +2614,13 @@
     "items": [
       {
         "title": "Regrutovanje volontera",
-        "prompt": "Napiši poziv za regrutovanje volontera za \"[naziv organizacije/akcije]\", koji se bavi [misija/aktivnost]. Objasni šta volonteri rade, koliko vremena je potrebno, i zašto je ovo smisleno iskustvo, sa jasnim pozivom da se prijave."
+        "prompt": "Napiši poziv za regrutovanje volontera za \"[naziv organizacije/akcije]\", koji se bavi [misija/aktivnost]. Objasni šta volonteri rade, koliko vremena je potrebno, i zašto je ovo smisleno iskustvo, sa jasnim pozivom da se prijave.",
+        "free": true
+      },
+      {
+        "title": "Pisma za prikupljanje sredstava za neprofitne organizacije",
+        "prompt": "Napiši pisma za prikupljanje sredstava za neprofitne organizacije. Evo konteksta koji treba da iskoristiš: [ukratko opiši svoj biznis, proizvod ili situaciju, i dodaj sve detalje koji su bitni].",
+        "free": false
       }
     ]
   }
